@@ -1,0 +1,17 @@
+---
+title: "Introduction"
+date: 2019-10-08T14:53:23+02:00
+tags: ["research", "concept"]
+categories: ["fablab", "textilelab", "research"]
+layout: post
+---
+### Research
+![concept description](../../../../images/book1.jpg)
+![concept description](../../../../images/book2.jpg)
+![concept description](../../../../images/book3.jpg)
+
+
+##### Links
+
+- [Fablab project Are.na board](https://www.are.na/michelle-vossen/fablab-project)
+- [Future fashion systems Are.na board](https://www.are.na/michelle-vossen/future-fashion-systems)
