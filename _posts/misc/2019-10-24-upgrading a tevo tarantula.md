@@ -59,7 +59,14 @@ As the bed apparently already moved around too much and I cannot level the bed w
 
 I used this tutorial: <https://www.youtube.com/watch?v=-sQ8p00pG5E> and downloaded the firmware from <https://github.com/JimBrown/MarlinTarantula>.
 
-However this had no influence on the bed leveling function working again and after testing the X-axis endstop with a multimeter we determined it was broken and had to be replaced.
+However this had no influence on the bed leveling function working again and after testing the X-axis endstop with a multimeter we determined it was not soldered properly and had to be resoldered.
+
+## Bed leveling
+After this we could level the bed (using this tutorial <https://www.youtube.com/watch?v=RZRY6kunAvs>) with a piece of paper and manually moving the screws keeping the bed in place. Apparently I moved the bed too close to the extruder because there seemed to be no space for the filament and the layer printed was very thin.
+
+- preheat the bed to 60 degrees celsius (for PLA) because the bed expands with heat
+- counterclockwise: lowers the bed
+- clockwise: heightens the bed 
 
 ## Y-axis
 Using the Tarantula - MGN12 Dual Y Rails mod, the amount of each part needed:
@@ -76,6 +83,21 @@ Recommended print settings:
 - at least 1.6mm Shell to increase overall strength of your machine
 - at least 40% infill
 - no raft
+
+## Continuing after a failed print
+Since I had to leave before my print was finished, I unplugged the machine hoping it would continue the next day where it left of, just like the Prusa i3 does. Unfortunately that did not work, so I tried to figure out a way to continue the print manually. I found multiple tutorials and I decided to combine the following comment with the second method from [this website](https://community.ultimaker.com/topic/6219-2-ways-to-resume-print-from-last-layer/). 
+
+>What I do is measure the height of the print using digital calipers. Open your slicing software and offset the Z on the print that amount. The idea is that the bottom of the print is below the bed surface and the resume point is where your print starts. Be sure to disable your start up script (bed level, purge nozzle, etc), skirts, and rafts. I also start the first couple of layers a little hotter too. This will help it bond better to the cold print. If your bed isn't to far out of level and your measurement is good, it'll work. Good luck. [via](https://www.thingiverse.com/groups/tevo-tarantula-owners/forums/general/topic:30667)
+
+<https://www.youtube.com/watch?time_continue=9&v=PVtLCwXjEXE>
+
+![](/images/fablab/gcode.png)
+
+The offset I measured was 13.18mm and using [GCode viewer](http://gcode.ws/) I found the closest layer (13.20mm) then I deleted all of the already printed layers in the gcode. I also added a line in the setup hoping it would let the extruder approach the model from the correct height (at least, I hoped it would do that. I added "G1 Z15.0 F13200 ;"). According to the tutorials it should have been there already but since I use PrusaSlicer my gcode is a bit different. 
+
+
+When I finally thought the file should be OK I started the print - and the extruder immediately bumped into my print and knocked it from the glass plate. So that did not work in the end but I will try again in the future.
+
 
 ##### Links
 

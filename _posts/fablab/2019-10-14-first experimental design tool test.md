@@ -82,7 +82,7 @@ However these values are not the kind of x, y and z data that I need; apparently
 To accomplish this, I used the provided example code for the accelerometer provided by Sparkfun. I added some more comments for clarity. <https://github.com/sparkfun/SparkFun_MMA8452Q_Arduino_Library/tree/master/examples/Example2_RawDataReading>
 
 #### Arduino code
-```arduino
+{% highlight cpp %}
 /*
   Library for the MMA8452Q
   By: Jim Lindblom and Andrea DeVore
@@ -141,11 +141,12 @@ void loop() {
     Serial.println();           // New line
   }
 }
-```
+{% endhighlight %}
 
 ### Processing code
 This was based on the final answer on this forum: <https://processing.org/discourse/beta/num_1254511350.html>. The next step would be to figure out how to separate the raw data into separate arrays.
-```processing
+
+{% highlight java %}
 //import Serial communication library
 import processing.serial.*;
 
@@ -170,7 +171,8 @@ void draw() {
     }                    // it's not a number (NaN)
   }
 }
-```
+{% endhighlight %}
+
 The standard mode is 2g mode, so the sensitivity is 1024 counts/g.
 ![](/images\fablab\accelerometer_sensitivity.png)
 
@@ -182,7 +184,7 @@ To use the data in Processing, you have to read the entire input line from the A
 
 #### Arduino code
 
-```arduino
+{% highlight cpp %}
 
 #include <Wire.h>                 // Must include Wire library for I2C
 #include "SparkFun_MMA8452Q.h"    // Click here to get the library: http://librarymanager/All#SparkFun_MMA8452Q
@@ -212,11 +214,11 @@ void loop() {
     delay(50);                  // This delay is neccessary because Processing can't handle the speed (after a few moments it tries to combine two values into one int and that gives an error) 
   }
 }
-``` 
+{% endhighlight %}
 
 #### Processing code
 
-```processing
+{% highlight java %}
 //import Serial communication library
 import processing.serial.*;
 
@@ -248,10 +250,28 @@ void draw() {
     }
   }
 }
-```
+{% endhighlight %}
 
 ### Step 6: Use array data to generate art
+To draw with the accelerometer, I wrote the following code underneath println() in the code above. 
 
+{% highlight java %}
+      pushMatrix();
+      translate(300, 400);
+      ellipse(intList[0], intList[1], 5, 5);  
+      popMatrix();
+      int strokeInput = abs(intList[2]/8);
+      fill(strokeInput, strokeInput, strokeInput);
+{% endhighlight %}
+
+## Add soft sensor
+steps:
+- first test the wire and the fabric (conductivity) by trying to light an LED with them
+- then make a kind of pressure sensor and see what the output values look like (can I use the pressure to change the color of the illustration? or should I use it as a soft on/off button?)
+
+
+
+I would rather save the digital drawings on a sd every time I press a button but for now being able to attach it to Processing should be fine.
 
 #### Sources
 <https://learn.sparkfun.com/tutorials/connecting-arduino-to-processing/all>

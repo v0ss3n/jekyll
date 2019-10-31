@@ -47,7 +47,7 @@ I decided I wanted to go for a bust (so I could go as detailed as I wanted it to
 ![process picture of using Slicer](/images/fabricademy/slicer7.png)
 ![process picture of using Slicer](/images/fabricademy/slicer8.png)
 I finally went for a model using curves. With every setting I tried I would lose a few fingers or limbs, so I finally went for 37 layers on the 1st axis and 39 curve layers, as this gave me the most optimal shape and the hands would still be quite visible. Final assembly steps:
-<video width="480" height="360" controls>
+<video width="480" height="360" controls muted>
   <source src="/images\fabricademy\assembly.mp4" type="video/mp4">
 </video>
 
