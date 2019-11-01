@@ -17,7 +17,7 @@ title: Documentation
 email: studio@michellevossen.com
 description: >- # this means to ignore newlines until "baseurl:"
   This is the documentation site by Michelle Vossen.
-baseurl: "/documentation" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://michellevossen.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: v0ss3n
 
