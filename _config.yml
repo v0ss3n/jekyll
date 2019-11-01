@@ -22,7 +22,6 @@ url: "http://michellevossen.com" # the base hostname & protocol for your site, e
 github_username: v0ss3n
 
 # Build settings
-theme: jekyll-theme-console
 plugins:
   - jekyll-feed
 # Exclude from processing.
