@@ -6,9 +6,9 @@ categories: ["fablab", "textilelab", "research"]
 layout: post
 ---
 ### Research
-![concept description]({{ site.baseurl }}/images/book1.jpg)
-![concept description]({{ site.baseurl }}/images/book2.jpg)
-![concept description]({{ site.baseurl }}/images/book3.jpg)
+![concept description]({{ site.baseurl }}/images/research/book1.jpg)
+![concept description]({{ site.baseurl }}/images/research/book2.jpg)
+![concept description]({{ site.baseurl }}/images/research/book3.jpg)
 
 
 ##### Links

@@ -7,7 +7,7 @@ layout: post
 ---
 
 ### Concept
-![concept description]({{ site.baseurl }}/images/book4.jpg)
+![concept description]({{ site.baseurl }}/images/research/book4.jpg)
 
 ##### Exploration of sensors and software as cocreators in a design process
 

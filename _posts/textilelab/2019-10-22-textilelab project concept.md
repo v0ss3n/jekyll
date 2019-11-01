@@ -8,7 +8,7 @@ layout: post
 # Final concept summary
 
 ## Concept research
-![concept description]({{ site.baseurl }}/images/book5.jpg)
+![concept description]({{ site.baseurl }}/images/research/book5.jpg)
 
 I started my research with a dive into chaotic patterns, chimeras and intertextuality. Looking into chaotic patterns in nature and code, I encountered cellular automata.
 
@@ -30,7 +30,7 @@ A cellular automaton consists of a regular grid of cells, each in one of a finit
 
 The primary classifications of cellular automata, as outlined by Wolfram, are numbered one to four. They are, in order, automata in which patterns generally stabilize into homogeneity, automata in which patterns evolve into mostly stable or oscillating structures, automata in which patterns evolve in a seemingly chaotic fashion, and automata in which patterns become extremely complex and may last for a long time, with stable local structures. This last class are thought to be computationally universal, or capable of simulating a Turing machine. Special types of cellular automata are reversible, where only a single configuration leads directly to a subsequent one, and totalistic, in which the future value of individual cells only depends on the total value of a group of neighboring cells. Cellular automata can simulate a variety of real-world systems, including biological and chemical ones. [Via wikipedia](https://en.wikipedia.org/wiki/Cellular_automaton)
 
-![]({{ site.baseurl }}https://upload.wikimedia.org/wikipedia/commons/e/e5/Gospers_glider_gun.gif)
+![](https://upload.wikimedia.org/wikipedia/commons/e/e5/Gospers_glider_gun.gif)
 
 ##### Links
 [Textilelab research Are.na board](https://www.are.na/michelle-vossen/textiles-research-9ixtq9yvsrm)
