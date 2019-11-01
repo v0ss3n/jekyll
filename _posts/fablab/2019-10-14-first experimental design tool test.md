@@ -174,10 +174,10 @@ void draw() {
 {% endhighlight %}
 
 The standard mode is 2g mode, so the sensitivity is 1024 counts/g.
-![](/images\fablab\accelerometer_sensitivity.png)
+![]({{ site.baseurl }}/images\fablab\accelerometer_sensitivity.png)
 
 When placed flat on the floor, these are the measured values:
-![](/images\fablab\accelerometer_level.png)
+![]({{ site.baseurl }}/images\fablab\accelerometer_level.png)
 
 ### Step 5: Sensor data into arrays
 To use the data in Processing, you have to read the entire input line from the Arduino, then split the line with a comma (then you have a String[]) and parse each number into int[] with index one to one matching.
