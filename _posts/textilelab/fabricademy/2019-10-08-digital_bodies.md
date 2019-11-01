@@ -25,33 +25,33 @@ Their brains would struggle in vain to process all the information presented by 
 
 #### Process
 ##### Step 1: MakeHuman
-![process picture of making a human with makeHuman](/images/fabricademy/process1.png)
+![process picture of making a human with makeHuman]({{ site.baseurl }}/images/fabricademy/process1.png)
 
 When moving the sliders, interesting things happen sometimes.
-![glitch picture of making a human with makeHuman](/images/fabricademy/process2.png)
+![glitch picture of making a human with makeHuman]({{ site.baseurl }}/images/fabricademy/process2.png)
 
 ##### Step 2: Slicer
 After creating and exporting the body I first put the .stl file straight into Slicer for Autodesk, but I noticed the shape was not fully closed near the shoulder which caused some glitches. When using an .obj file this was not an issue so I continued with that. I tried some of the settings in Slicer to generate different kinds of mannequins (see below).
 
-![process pictures of using Slicer](/images/fabricademy/digitalbodies.png)
+![process pictures of using Slicer]({{ site.baseurl }}/images/fabricademy/digitalbodies.png)
 
 ##### Step 3: PrusaSlicer
 Since I had to learn how to use the 3D printer, I wanted to make a miniature 3D model of my mannequin as well. For this I used PrusaSlicer.
-![process picture of using PrusaSlicer](/images/fabricademy/prusa1.png)
+![process picture of using PrusaSlicer]({{ site.baseurl }}/images/fabricademy/prusa1.png)
 
 
 ##### Step 2.5 Fusion360
 I decided I wanted to go for a bust (so I could go as detailed as I wanted it to be without needing hundreds of parts) so I first had to cut off the legs before I could go any further. For this I used Fusion360 as I want to learn using this software anyway and Meshmixer did not seem to work the way I wanted it to work (A simple plane cut would not suffice as I wanted to keep both hands, the plane cut would go through one of the hands).
 
 ##### Step 3 Slicer (again)
-![process picture of using Slicer](/images/fabricademy/slicer7.png)
-![process picture of using Slicer](/images/fabricademy/slicer8.png)
+![process picture of using Slicer]({{ site.baseurl }}/images/fabricademy/slicer7.png)
+![process picture of using Slicer]({{ site.baseurl }}/images/fabricademy/slicer8.png)
 I finally went for a model using curves. With every setting I tried I would lose a few fingers or limbs, so I finally went for 37 layers on the 1st axis and 39 curve layers, as this gave me the most optimal shape and the hands would still be quite visible. Final assembly steps:
 <video width="480" height="360" controls muted>
-  <source src="/images\fabricademy\assembly.mp4" type="video/mp4">
+  <source src="{{ site.baseurl }}/images\fabricademy\assembly.mp4" type="video/mp4">
 </video>
 
 ##### Step 4 Lasercutting
-![process picture of using the lasercutter](/images/fabricademy/lasercut.png)
+![process picture of using the lasercutter]({{ site.baseurl }}/images/fabricademy/lasercut.png)
 
 

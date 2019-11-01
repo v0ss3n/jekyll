@@ -7,7 +7,7 @@ layout: post
 ---
 
 ### Introduction
-![concept description](../../../../images/book4.jpg)
+![concept description]({{ site.baseurl }}/images/book4.jpg)
 
 ##### Creating a system with open source textures
 

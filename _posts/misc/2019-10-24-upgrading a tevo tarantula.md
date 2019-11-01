@@ -29,7 +29,7 @@ First I made the hole for the screw bigger, because I thought the measurement wa
 
 The result of the second test was much better so the issue with the first print was definitely the temperature.
 
-![process fusion360 reset button](/images/fablab/fusion360-subtract-bodies.jpg)
+![process fusion360 reset button]({{ site.baseurl }}/images/fablab/fusion360-subtract-bodies.jpg)
 
 ## Upgrading axes
 The biggest problem with this machine is that it is very shaky, which causes the bed to be unstable and the prints to be of lower resolution when used for a while without levelling the bed. I will work on upgrading the bed to make it more stable. For this I will use these mods:
@@ -91,7 +91,7 @@ Since I had to leave before my print was finished, I unplugged the machine hopin
 
 <https://www.youtube.com/watch?time_continue=9&v=PVtLCwXjEXE>
 
-![](/images/fablab/gcode.png)
+![]({{ site.baseurl }}/images/fablab/gcode.png)
 
 The offset I measured was 13.18mm and using [GCode viewer](http://gcode.ws/) I found the closest layer (13.20mm) then I deleted all of the already printed layers in the gcode. I also added a line in the setup hoping it would let the extruder approach the model from the correct height (at least, I hoped it would do that. I added "G1 Z15.0 F13200 ;"). According to the tutorials it should have been there already but since I use PrusaSlicer my gcode is a bit different. 
 

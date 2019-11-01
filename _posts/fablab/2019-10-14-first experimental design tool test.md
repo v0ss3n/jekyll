@@ -68,12 +68,12 @@ In the example hookup above, we used a pair of series resistors on the SDA and S
 
 #### Calculated acceleration values
 <video width="480" height="300" controls>
-  <source src="/images/fablab/serial_monitor.mp4" type="video/mp4">
+  <source src="{{ site.baseurl }}/images/fablab/serial_monitor.mp4" type="video/mp4">
 </video>
 
 #### Raw data:
 <video width="480" height="300" controls>
-  <source src="/images/fablab/serial_monitor_raw.mp4" type="video/mp4">
+  <source src="{{ site.baseurl }}/images/fablab/serial_monitor_raw.mp4" type="video/mp4">
 </video>
 
 However these values are not the kind of x, y and z data that I need; apparently it is very hard to determine position using sensors. What I can do is use this data for other purposes in my tools (or to figure out a new way of illustrating using these values) but that will not fix my current problem.
