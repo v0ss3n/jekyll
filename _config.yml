@@ -11,7 +11,7 @@ header_pages:
 style: dark # dark (default) or light
 # listen_for_clients_preferred_style: true # true or false (default)
 
-footer: 'back to <a href="/">index</a>'
+footer: 'back to <a href="/documentation">index</a>'
 
 title: Documentation
 email: studio@michellevossen.com
