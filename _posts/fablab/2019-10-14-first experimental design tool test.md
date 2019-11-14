@@ -253,7 +253,10 @@ void draw() {
 {% endhighlight %}
 
 ### Step 6: Use array data to generate art
-To draw with the accelerometer, I wrote the following code underneath println() in the code above. 
+<video width="480" height="300" controls>
+  <source src="{{ site.baseurl }}/images/fablab/acctest1.mp4" type="video/mp4">
+</video>
+The video above was my first try at using the accelerometer values. To draw with the accelerometer, I wrote the following code underneath println() in the code above. 
 
 {% highlight java %}
       pushMatrix();
@@ -264,10 +267,20 @@ To draw with the accelerometer, I wrote the following code underneath println() 
       fill(strokeInput, strokeInput, strokeInput);
 {% endhighlight %}
 
+This is the result after a bit of trying out:
+![]({{ site.baseurl }}/images/fablab/designtool1.png)
+
+After this I worked on modifying the Processing code to make the illustration better. I also used a higher baud rate to receive more data so I would be able to make smoother lines. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GIdxBrYx-t8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Add soft sensor
 steps:
 - first test the wire and the fabric (conductivity) by trying to light an LED with them
 - then make a kind of pressure sensor and see what the output values look like (can I use the pressure to change the color of the illustration? or should I use it as a soft on/off button?)
+
+I made a soft sensor attached to a pen to turn an LED on and off for now, to test it out. 
+fjiaofjiaojdij
 
 
 
