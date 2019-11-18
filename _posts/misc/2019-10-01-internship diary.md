@@ -1,6 +1,6 @@
 ---
 title: "Internship diary"
-date: 2019-11-01T13:14:01+02:00
+date: 2019-10-01T13:14:01+02:00
 tags: ["documentation"]
 categories: ["other"]
 layout: post
@@ -51,3 +51,8 @@ fr  working on lasercut files for the print stamping tool, went to media technol
 mo  sick
 tu  sick
 we  printing tevo parts, working on nonplanar slicing
+th  open day tours, giving a 3D printing class to Fabricademy students, doing a nonplanar slicing test on the tevo
+fr  steganography tests on fabric, nonplanar slicing on fabric
+
+## WEEK 8
+mo  steganography tests on fabric, 3d printing part for the tevo upgrade, helping Bea with 3d printing, adding lots of images to documentation website

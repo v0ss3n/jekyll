@@ -29,7 +29,6 @@ more generally I use all kinds of software in different orders and manner to cre
 - Using the handbook of designs and devices by Clarence P. Hornung as a basis for all of the patterns —> distort/repeat/modify to generate meaningful patterns (or the idea of meaning)
 - Using cellular automata software (Golly) to create patterns to 3d print on fabric
 
-
 ## IT'S ABOUT CREATING NEW SYMBOLISM IN RESTRUCTURED DIGITAL CHAOS
 geometry into chaos into pattern into new symbolism
 a modern chimera in textile design
@@ -51,12 +50,12 @@ USE PROCESSING TO GENERATE THE PRINTS INSTEAD
 !!! starting point should not be chaos because chaos is always just under the surface
 
 ENCRYPTION METHODS
-cesar encryption
-2 layer encryption (dead messengers)
-steganografie
-can I make a gif on a dress? seemingly moving images 
->>> making it more about hiding messages and encryption in the textiles
+- cesar encryption
+- 2 layer encryption (dead messengers)
+- steganography
 
+can I make a gif on a dress? seemingly moving images 
+>making it more about hiding messages and encryption in the textiles
 
 The problem is that I am still creating the prints myself with the symbols and I want the computer to do this. I also cannot properly explain what I am doing, it doesn't really make sense. There is also a gap between the prints I am generating and the methods I am using, the methods are not really adding another dimension to the project. So my methods and concept are not strong enough yet.
 
@@ -67,7 +66,7 @@ https://talktotransformer.com/
 - using neural networks to write the poetry of the machine and then use that as an inspiration for the prints??? or using it as an oracle >>> creating a fake culture and fake symbols and fake stories (nonsensical stories about archetypes?)
 - using data???
 
-symbols to start with
+<!-- symbols to start with
 - 118
 - 62
 - 35
@@ -89,16 +88,12 @@ symbols to start with
 - 970
 - 1170
 - 1579
-- 1663
+- 1663 -->
 
 ## Concept research
 ![concept description]({{ site.baseurl }}/images/research/book5.jpg)
 
-I started my research with a dive into chaotic patterns, chimeras and intertextuality. Looking into chaotic patterns in nature and code, I encountered cellular automata.
-
-I am fascinated by how seemingly unlikely subjects can be linked, seeing patterns in chaos and the concept of the chimera. 
-
-Looking into how cellular automata can be used in image processing, I came across visual cryptography.
+I started my research with a dive into chaotic patterns, chimeras and intertextuality. Looking into chaotic patterns in nature and code, I encountered cellular automata and cryptography. I am fascinated by how seemingly unlikely subjects can be linked, seeing patterns in chaos and the concept of the chimera. 
 
 ##### Chimera
 The Chimera fascinates me on both a mythological and a genetic level.

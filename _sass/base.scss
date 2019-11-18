@@ -140,9 +140,13 @@ pre { background-color: var(--background-color);  border: none;  padding: 0px;  
 
 // Own changes
 
-img,
+img {
+    width: 100%;
+}
+
 iframe {
     width: 100%;
+    margin-bottom: 2%;
 }
 
 // p {
@@ -158,4 +162,5 @@ iframe {
 video {
     width: 100%    !important;
     height: auto   !important;
+    margin-bottom: 2%;
   }

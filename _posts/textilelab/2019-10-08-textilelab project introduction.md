@@ -10,7 +10,6 @@ layout: post
 ![concept description]({{ site.baseurl }}/images/research/book3.jpg)
 
 ##### Creating a system with open source textures
-
 To 3D-print on and lasercut or press directly into garments (with vinyl-cut patterns or frased molds), to:
 
 - mend 
@@ -26,11 +25,9 @@ I could create an open source capsule collection out of existing vintage garment
 Another idea could be to have this system and a system of one size fits all garments that you can hyperpersonalize using above methods (but using existing garments is definitely more sustainable; also I found out that a similar concept already exists).
 
 ##### Output
-
 For now, this project has two main goals. The first is developing an open source library with files and instructions on how to use a fablab to alter clothing. The library could be used in maker education (workshops etc.) and by other designers or whoever who wants to alter their clothes. The second is creating a capsule collection using the methods researched with secondhand garments, to demonstrate what is possible (and to display my fashion design skills). I would also like to do a photoshoot or video.
 
 ##### Categories
-
 - Mend
 - Change size: larger, smaller, longer, shorter
 - Decorate
@@ -40,7 +37,5 @@ For now, this project has two main goals. The first is developing an open source
 - Support: bra, corset
 - Enhance: add pocket
 
-##### Inspiration
-- Kintsugi (Japanese principle of repairing with gold, making a crack a beautiful part of an object)
-
-##### Links
+<!-- ##### Inspiration
+- Kintsugi (Japanese principle of repairing with gold, making a crack a beautiful part of an object) -->

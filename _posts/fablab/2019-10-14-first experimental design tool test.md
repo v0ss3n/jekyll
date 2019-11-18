@@ -1,8 +1,8 @@
 ---
-title: "Fablab experiment 1"
+title: "Experimental design tool 1"
 date: 2019-10-14T13:28:15+02:00
 tags: ["research", "sensors", "accelerometer"]
-categories: ["fablab", "experiment"]
+categories: ["fablab"]
 layout: post
 ---
 # Experiment 1

@@ -1,7 +1,7 @@
 ---
-title: "Textilelab project research 2"
+title: "Textilelab project research: cryptography"
 date: 2019-11-07T10:31:30+02:00
-tags: ["concept", "fashion", "textiles"]
+tags: ["concept", "fashion", "textiles", "cryptography"]
 categories: ["textilelab", "research"]
 layout: post
 ---
