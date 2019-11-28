@@ -1,7 +1,7 @@
 ---
-title: "Continuing a print on a Tevo Tarantula"
+title: "Continuing a failed 3D print on a Tevo Tarantula"
 date: 2019-10-30T11:10:23+02:00
-tags: ["3d printing", "documentation"]
+tags: ["3d printing", "documentation", "tips and tricks"]
 categories: ["other"]
 layout: post
 ---
@@ -68,7 +68,15 @@ G1 X95.649 Y85.069 E0.03404
 ;and continue like this
 {% endhighlight %}
 
+## Third try
+For my third encounter with continuing a print, I wanted to solve the issue that the print seemed to start with the wrong layer. Using gcode analyser I found that the layer height specified on the left actually was the height of the nozzle when 'hovering' over the model to the next point to print. This can be seen in the gcode on the right: the first Z value corresponds to the layer height on the left. The second value however is the actual layer height that is being printed. The values correspond to the Z values on the screen when I stopped the print, and when I modified the gcode to continue from layer 55, it worked as intended. 
+
+![]({{ site.baseurl }}/images/misc/gcode.jpg)
+
+
+
 ## References: 
+- <http://gcode.ws/>
 - <https://www.simplify3d.com/support/articles/3d-printing-gcode-tutorial/>
 - <https://reprap.org/wiki/G-code#M0:_Stop_or_Unconditional_stop>
 - <http://marlinfw.org/docs/gcode/G000-G001.html>

@@ -1,14 +1,19 @@
 ---
-title: "Digital Bodies"
-date: 2019-10-08T22:47:46+02:00
-tags: ["fabricademy", "assignment"]
+title: "Digital bodies"
+date: 2019-10-01T22:47:46+02:00
+tags: ["fabricademy", "assignment", "lasercutting"]
 categories: ["textilelab", "fabricademy"]
 layout: post
 ---
 
-#### Files
+# Digital bodies
+October 1st, 2019
 
-### Concept
+Anastasia Pistofidou
+
+This class introduces new digital tools that complement hand tools in order to design, represent, make and modify the human figure that can then be used as a canvas for creation.
+
+## Concept
 
 I was inspired by exaggerated shapes of the body displayed in comics. Absurdly unrealistic body types are seen as normal. This reminded me of unrealistic ideals in the fashion industry, so I decided to keep this in mind while designing my human in Blender makeHuman.
 
@@ -54,4 +59,5 @@ I finally went for a model using curves. With every setting I tried I would lose
 ##### Step 4 Lasercutting
 ![process picture of using the lasercutter]({{ site.baseurl }}/images/fabricademy/lasercut.png)
 
-
+## Notes
+<a href="{{ site.baseurl }}/files/fabricademy_digital-bodies.txt" download="{{ site.baseurl }}/files/fabricademy_digital-bodies.txt">fabricademy_digital-bodies.txt</a>

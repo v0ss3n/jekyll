@@ -1,5 +1,5 @@
 ---
-title: "Cryptography 3D printing experiments"
+title: "3D printing experiments (cryptography)"
 date: 2019-10-22T10:31:30+02:00
 tags: ["experiment", "fashion", "textiles", "3d printing", "cryptography"]
 categories: ["textilelab"]
@@ -12,6 +12,7 @@ For these experiments I am hiding messages in the 3d prints.
 ## Steganography
 
 ## Visual cryptography
+
 ### Python script
 I am using a python script by LessonStudio (<https://github.com/LessonStudio/VisualCryptography>) to create two separate images that form the original image when placed on top of each other.
 
@@ -42,8 +43,9 @@ First I used the Fusion360 plugin Image2Surface to generate a 3D surface out of 
 # 2D image to 3d file
 Methods:
 - [3D Builder (Windows)](https://www.microsoft.com/en-us/p/3d-builder/9wzdncrfj3t6?source=lp&activetab=pivot:overviewtab): especially the stamp setting works great with black and white images
-- <https://imagetostl.com/>
+- <https://imagetostl.com/>: not that great but if you have no other software available to use, a quick and easy method (although the stl files had to be converted for me to be able to use them, not sure if that is an issue for everyone)
 - [Fusion360 Plugin](https://github.com/hanskellner/Fusion360Image2Surface): Not very usable if you want to use a black and white image to create a stamp, better suited for grayscale images (think landscapes, heightmaps)
+- [Cinema4D image extrusion](https://www.motiontutorials.net/blog-tutorials/cinema4d-logo-extrusion-from-photo): I have not used this method as C4D was not working on my laptop but the method seems very straightforward and easy to use.
 
 ## Links
 - <https://www.instructables.com/id/How-to-3D-Print-Onto-Fabric/>

@@ -1,0 +1,47 @@
+# Open source hardware: from fibers to fabric
+November 5th, 2019
+
+Mar Canet & Varvara Guljajeva
+
+The class explores the open source hardware field in general and focuses on its potential in the area of textile. How to update obsolete machines for producing textile? How to take advantage of digital fabrication and open source technology to come up with an open source machine for knitting, weaving and invent new techniques.
+
+NOTES
+
+## Knitting
+400-500 BC
+
+- Stocking frame knitting machine (1589) by William Lee > first knitting machine. Queen Elizabeth I did not give him patterns because she was afraid of unemployment and was pressured by guilds not to give them.
+- Circular knitting machines > became very popular durings the world wars, still used
+- Hand-powered flat-bed machines end of 19th century
+
+Brother:
+- Non punch-card machines
+- Punch-card machines
+- Electronic knitting machines
+
+Yarn spinning machines, drawing frame machines, sewing machines
+> Haven't really changed
+
+You can't really come up with new ways of knitting and stitching, make use of what exists already
+
+https://hackaday.com/2010/11/08/make-a-knitting-machine-print-pixel-art/ 
+knitic: replacing the brain of the knitting machine
+
+
+http://var-mar.info/spampoetry/
+http://varvarag.info/neuroknitting/
+http://glitchknit.jp/
+http://openknit.org/
+https://github.com/var-mar/circular_knitic
+https://github.com/jonnor/idda-knitting-machine
+wind knitting factory
+knitting clock
+dave cole knitting machine huge american flag
+
+craft X high tech
+
+## Weaving
+look at the videos
+
+
+

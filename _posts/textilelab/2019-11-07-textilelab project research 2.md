@@ -15,7 +15,6 @@ Cryptography prior to the modern age was effectively synonymous with encryption,
 In cryptography, plaintext usually means unencrypted information pending input into cryptographic algorithms, usually encryption algorithms. Cleartext usually refers to data that is transmitted or stored unencrypted ('in the clear').
 
 ## [Adversary](https://en.wikipedia.org/wiki/Adversary_(cryptography))
-
 In cryptography, an adversary (rarely opponent, enemy) is a malicious entity whose aim is to prevent the users of the cryptosystem from achieving their goal (primarily privacy, integrity, and availability of data). An adversary's efforts might take the form of attempting to discover secret data, corrupting some of the data in the system, spoofing the identity of a message sender or receiver, or forcing system downtime.
 
 Actual adversaries, as opposed to idealized ones, are referred to as attackers. The former term predominates in the cryptographic and the latter in the computer security literature. Eve, Mallory, Oscar and Trudy are all adversarial characters widely used in both types of texts.
@@ -92,7 +91,6 @@ In the history of cryptography, a grille cipher was a technique for encrypting a
 https://home.bt.com/news/science-news/can-you-spot-these-hidden-images-in-magic-eye-illusions-11364107993380
 
 ## From Code book
-
 >The urge to discover secrets is deeply ingrained in human nature; even the least curious mind is roused by the promise of sharing knowledge withheld from others. Some are fortunate enough to find a job which consists in the solution of mysteries, but most of us are driven to sublimate this urge by the solving of artificial puzzles devised for our entertainment. Detective stories or crossword puzzles cater for the majority; the solution of secret codes may be the pursuit of a few.
 John Chadwick (The Decipherment of Linear B)
 

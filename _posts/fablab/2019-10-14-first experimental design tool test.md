@@ -1,7 +1,7 @@
 ---
 title: "Experimental design tool 1"
 date: 2019-10-14T13:28:15+02:00
-tags: ["research", "sensors", "accelerometer"]
+tags: ["research", "sensors", "electronics"]
 categories: ["fablab"]
 layout: post
 ---

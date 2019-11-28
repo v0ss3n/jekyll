@@ -1,0 +1,100 @@
+Textile as Scaffold
+November 19th, 2019
+
+Anastasia Pistofidou
+
+Technical textiles have various applications, among which agrotech, building, clothes, geotech, sports. In this class we will use textiles for composites, polymerisation, solidification, fabric formwork, crystallization, composites and biocomposites, agglomerates, etc.
+
+https://class.textile-academy.org/classes/week088/
+
+NOTES
+
+## Technical textiles
+Not just for fashion, lots of applications (think sport, home, medical, agricultural, building, mobility, packaging, protection etc)
+
+## Biocomposites
+- adobe: mixture of fibers, one of the earliest building materials 
+- derived from natural resources, biodegradable, fibers used for reinforcement
+
+Types: 
+- continuous fibers
+- discontinuous fibers
+- particles (very fine)
+- fabrics (woven, braided)
+
+## Lightweight bio composites
+
+## Bio based materials
+Material derived living or once-living materials: like cellulose (plants, wood, nettle etc, see slides), collagen, chitin (shells from shrimps, crabs etc) and silk
+
+## Thermoformable matrix
+- PLA (biobased: corn, 180 degrees celsius melting point)
+- PCL (synthetic but biodegradable, 60 degrees celsius melting point)
+- Animal glue or bees wax (40-50 degrees celsius melting point)
+
+## Setting matrix
+- Epoxy 
+- Gelatine/starch based bioplastic
+- Kombucha/mycelium
+
+## Creating 3d shapes with fabric
+- Combining fabrics/soft materials with resin to solidify
+- Vacuum bagging system and a mold
+- Use CNC milling machine to make a mold
+- You can also make a block of thin fabrics and resin to make a composite to mill it
+
+<https://netcomposites.com/guide-tools/guide/repair/vacuum-bag-terms/>
+- Bleeder: A nonstructural layer of material used in the manufacturing of composite parts to allow the escape of excess gas and resin during cure. The bleeder material is removed after the curing process is completed and the excess resin taken with it.
+- Breather: A loosely woven or nonwoven material that acts as a continuous vacuum path over a part but does not come in contact with the resin.
+- Mold Release Agent: A material applied to mold surfaces to facilitate the release of the molded article. Liquid, paste, spray and solid release materials are all common in composite fabrication.
+- Peel Ply or Release Fabric: A sacrificial nylon, polyester or non-porous Teflon ply that is placed over the outer plies of a laminate during lay-up. When the resin has cured the peel ply is removed. The results are a smooth surface that is easily prepared for subsequent bonding or painting.
+- Perforated Release Film: A solid release film that has been perforated with a uniform hole pattern comprised of usually 0.015” or 0.045”. Hole spacing ranges from 0.25” to 8” spacing. The effect is to restrict the amount of resin bleed that is able to pass through the film.
+- Solid Film: A barrier between the bleeder and breather layer to prevent the excess resin absorbed into the bleeder from soaking into the breather. The solid film is sized smaller than the bleeder and breather to allow an air path connecting both.
+- Tool: A structure, also referred to as a mold, that provides a specific size and shape in or over which a lay-up is formed, shaped and cured.
+- Vacuum Bagging Film: An airtight flexible sheet placed over a lay-up and sealed along its edges. The bag is fitted with vacuum ports and connected to a vacuum source. During the cure the bag is evacuated and the lay-up is compacted under atmospheric or autoclave pressure. Vacuum is applied to the bag during the entire cure cycle.
+- Vacuum Port: A machined or cast metal fitting that connects the vacuum bag to the vacuum source. The vacuum source can be a vacuum pump or a compressed air venturi. The port is connected to the vacuum source with a reinforced hose. Both the hoses and ports typically incorporate fittings that allow the hoses to be removed without losing the vacuum.
+- Vacuum Sealant Tape: A thick rubber based adhesive tape that is sticky on sides and used to form a seal between the vacuum bag and the tool surface. It has the ability to remain soft and pliable at temperatures in excess of 350ºF.
+
+## Natural materials in the industry
+<https://www.ufpt.com/materials/natural-fibers.html>
+
+> As much as we like to think biodiesel is a modern breakthroughs, biofuel really isn’t a new development at all. In the 1941 the first prototype car made from and fueled by hemp was constructed by Henry Ford. 70% of the cars body was made of industrial hemp and resin binder along with other cellulose fibres.
+
+## Leather molding (cuir bouilli)
+- very old technique (from 15th century), stiffening leather (think armor, suitcases, cases) (armor: cheaper and lighter but would not withstand a gunshot or a knife)
+- traditional craft and digital craft: bring new aesthetic
+- trial and error, there are tutorials online
+https://vimeo.com/119477990 very nice examples (you need raw and thick leather)
+
+## References:
+- http://www.sicomin.com/products/epoxy-systems/bio-based-epoxy
+- https://www.wikihow.com/Stiffen-Leather
+- http://www.fao.org/docrep/004/Y1873E/y1873e0a.htm
+- http://cstsales.com/
+- http://www.easycomposites.co.uk/
+- https://www.pinterest.es/fabtextiles/biocomposites/
+
+---------------
+
+## MOLDING
+- make holes in mold!!!
+- measure!!!
+- 3 axis machine: you cannot mill an undercut (angled surface, more than 90 degrees; on the bottom you can flip the material)
+- CAM programs in 3D software: horizontal roughing, horizontal finishing, parallel finishing, profiling. CAM program will run the simulation
+- extend the material if you don't want to waste material or if your material is not large enough
+- no liquids in the vacuum machine
+
+!!! You can make your own DIY vacuum machine !!!
+otherwise make a mold with a positive and a negative shape and use clams to press it
+> you can use a vacuum bag for travelling as well
+
+Concrete casting
+- creating formworks
+- fabric-formed concrete
+- test with viscose liquid
+- knitcandela
+- zaha hadid
+- contrast of expectations
+
+You can also reinforce the material with a reinforcement mesh (chicken wire, fibreglass)
+

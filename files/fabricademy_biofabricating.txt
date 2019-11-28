@@ -1,0 +1,112 @@
+# Biofabricating materials
+October 29th, 2019
+
+Cecilia Raspanti
+
+NOTES
+
+## What are biomaterials?
+
+three categories
+- bio-based: what are they made of? the raw material: biological
+- bio-degradable: possibly broken down by microbes under certain conditions
+- bio-compostable: complete microbial breakdown in 180 days or less (!!!!!!!!!!!!!)
+
+crafted and grown materials; plastics, bricks, yarns, leathers; raw ingredients and made materials
+
+not everything about plastic is bad: good to use for long term use, bad for disposable products
+(introduce slide with 8 issues of plastic)
+use and produce it ethically!!!
+<plasticpollutioncoalition.org>
+
+## What are plastics?
+polymers combines with plasticizer/filler(to avoid shrinkage)/stiffening agent/expanding agent (rubbers, air filled materials) and color/pigment
+
+Processes plastic
+many possibilities such as:
+assembling
+glueing
+stitching
+cutting
+milling
+heat shaping
+impressing 3d patterns
+extruding
+
+## Bioplastics 
+(that are bio-compostable) (look at slides for recipes)
+- gelatine: very pliable (not very water resistant and heat resistant)
+- agar: a jelly-like substance from red algae. made by mixing water, glycerine and agar-agar powder. not very waterproof or heat resistant)
+- alginate: mix alginate with water and glycerine (waterproof if the water is not alkaline and heat resistant until 150 degrees celsius)
+- casein
+- cellulose
+- chitine
+- starch
+
+you are never the inventor of these materials, we are creating one big library of variations but all of these recipes have been used since forever until we switched to oil based plastics. a lot are heritage techniques
+
+do a project with biomaterials!!! 
+
+eric klarenbeek and maartje dros: algae 3d print filament
+amam: packaging
+carolyn raff; jasmine linington: beads/sequins
+glueing with bioplastics
+clara davis fabtextiles modular bags
+
+https://issuu.com/miriamribul/docs/miriam_ribul_recipes_for_material_a
+https://issuu.com/juliettepepin/docs/bookletbioplastic
+
+## New leathers
+- microbial: kombucha (scoby) you can dry it in full 3d shapes
+- fish: inuit suits (natural tanning is way better than chemical tanning), very durable and strong (esp. salmon skin). you can also make jellyfish leather
+- fruit: fruitleather rotterdam
+- algae
+- tempeh
+- fungii
+- lab grown
+- mycelium (vegan leather; gradozero's muskin)
+
+suzanne lee: kombucha master
+kawasaki kazuya!!!!!! look at video (digital fabrication methods and kombucha)
+moya hoke: growing in shape (welded coated metal) so no waste materials
+emma van der leest (biocouture london)
+emma sicher
+barbara arteaga kombucher https://class.textile-academy.org/2019/barbara.arteaga/projects/final-project/
+
+mycelium resources mycoworks https://www.mycoworks.com/
+barbara sanchez booklet
+violaine buet algae yarn
+julia lohmann
+tina gorjanc human leather lab grown skin
+spider silk adidas; bolt threads (industrially engineered)
+
+## Cooperation with nature
+immaters edible textiles
+diana scherer (plant roots behaviour)
+
+## Mixed 
+forest wool pine tree fibers
+bark fabric (studiosarmite.com) (leather like material)
+cow stomach leather (billievankatwijk.com)
+pine tree resin composite (austeja platukyte) > heritage technique
+
+THESHELLWORKS.COM
+
+## Material archives
+(look at slides)
+material archive
+fabtextiles
+material experience
+fabmaterials
+materiability
+open materials
+materio
+materfad
+material connexion
+surfacematter
+sitterwerk
+zhdk material
+
+document very well so you can always get back to a material!!! otherwise you can never reproduce something
+even all of your mistakes, document everything, you can encounter a lot of cool stuff
+

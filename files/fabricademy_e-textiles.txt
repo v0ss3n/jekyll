@@ -1,0 +1,130 @@
+# E-Textiles
+October 22nd, 2019
+
+Liza Stark
+
+During this week students will be introduced to an overview of the field of electronic textiles, example works in the field as well as materials and technical developments that have made these projects possible. We will go into details on different techniques for making soft/flexible/fabric circuits.
+
+https://class.textile-academy.org/classes/week05/
+
+NOTES
+
+MIT wearable computing group
+Steve Mann Wearable Computer vs Maggie Orth and Rehmi Post Musical Jacket
+
+Circuit: a path for electricity flow
+a stream of electrons creates an electrical current, moving from greater to lesser energy (E)
+power: positive connection + anode
+ground: negative connection - cathode
+diode: can only flow through it in one direction
+
+voltage: electrical pressure/force between 2 points
+current: rate at which electrical charge flows
+resistance: the amount of material that resists the flow of the current
+
+## Ohm's law
+V = I*R
+voltage(volt)=current(ampere)*resistance(ohm)
+
+1. electrical flow always follows the path of least resistance
+2. all electrical energy has to be used!! otherwise it will dissipate as heat and can damage your circuit
+3. circuits are a system
+
+consider the properties of the materials and the threads, look at slides
+inks and tapes can also be very useful for e-textiles
+copper tape is great for prototypes (after you made a breadboard prototype)
+
+tools:
+pliers,
+felting needles,
+beeswax,
+snap press to make connections
+etc
+
+multimeter,
+soldering iron,
+alligator clips
+
+cameo vinyl cutter (for fabric as well!)
+https://www.silhouetteamerica.com/shop/SILH-CAMEO-4-WHT-W
+
+## Traces
+We don't need the same precision in the traces as in normal circuits so we can be more creative
+- iron or sewn on conductive fabrics
+- use conductive threads (machine or handstitched)
+- tape and ink
+
+second skin (rachel freire)
+fractal antennae (afroditi psarra)
+the embroidered computer
+
+hard to soft: connections
+you can make really pretty connectors, decorate them etc
+
+permanent or temporary connectors
+ALWAYS cover knots and joints with fabric or hot glue
+solder onto the fabric if you can
+
+snaps are great as an on and off button
+
+don't forget to isolate the traces!! all of the problems you encounter are opportunities to make it beautiful
+
+## how to make sensors
+
+## SWITCHES
+input: information or data that enters a system (like a button press)
+switch: a break in a circuit
+momentary switch: stay open as long as you hold them by pressing conductive materials into contact (press buttons)
+toggle switch: press/zip/slide/etc
+tilt switch: a conductive whatever makes contact with the circuit based on its orientation/position
+stroke switch: close circuit by pressing conductive materials into contact
+
+## SENSORS
+making use of resistance of materials
+(make use of materials like velostat and eeontex)
+
+HOW TO CHANGE RESISTANCE
+distance: resistance increases over distance
+contact: some materials are pressure sensitive will decrease in resistance when pressure is applied to them
+surface area: increasing the size of the are for electricity to flow will descrease resistance
+
+pressure sensors: resistance decreases when pressed, so more electricity will flow through circuit
+bend sensor: resistance decreases when bent and more contact is made (great for joints)
+potentiometer: adjust resistance by using a wiper (the farther the more resistance)
+stretch sensor: the more stretched the more resistance (knits!!)
+accelerometer: using a weight to increase resistance using acceleration of for example swinging the weight (look at mika satomi's crochet accelerometer)
+
+## microcontrollers
+
+input>process>output>feedback>repeat
+
+arduino
+lilypad
+
+a pin is how inputs and outputs communicate with arduino
+serial pins: transmit and receive data
+3 ground pins
+3 power pins
+14 digital I/O pins (input/output)
+6 PWM pins ~ output range 0-255 (pulse width modulation, to fade, rotate, range whatever)
+6 analog input pins (0-1023)
+
+arduino IDE
+- top to bottom
+- everything in setup happens once
+- everything in loop happens forever
+- baud rate!!! 9600
+
+
+## ELECTRICITY
+mechanical, thermal, sonic, electrical
+
+where does it come from? electrons
+
+atom=group of particles that stay together
+
+https://www.electronics-tutorials.ws/logic/pull-up-resistor.html 
+http://www.kobakant.at/DIY/?cat=26
+http://www.ohmslawcalculator.com/voltage-divider-calculator
+
+use different knives for different materials (copper tape) because it will go blunt much slower

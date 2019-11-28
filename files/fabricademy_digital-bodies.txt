@@ -1,0 +1,181 @@
+# Digital Bodies
+October 1st, 2019
+
+Anastasia Pistofidou
+
+This class introduces new digital tools that complement hand tools in order to design, represent, make and modify the human figure that can then be used as a canvas for creation.
+
+NOTES
+
+antony gormley artist/sculptor
+anders krisar
+gerard and aron demetz (advanced minorities)
+katie grinnan (accordion thoughts and everyday superposition 2011) BEAUTIFUL
+matteo pugliese
+bart hess !!!!, lucy mcrae
+
+egyptian grid system > greek kouros 7th century proportions > da vinci vitruvian man > le corbusier Modulor II 1943-55 (based on fibonacci, golden ratio). if all parts are related to each other there is harmony. michaelangelo's david is an expression, it is distorted (big hands and feet), they take this freedom to point out things in the human figure. 
+
+durer 5 principles
+- balance
+- proportion
+- rhythm
+- emphasis
+- unity
+
+fashion uses the body like the urban planner uses the map
+
+_what if we change the base and we have another medium to create upon?_
+
+fashion has many conventions, many standards (S/M/L)
+
+# the digital tailor
+
+made to measure > bespoke > mass production (Levi's first brand to do this) > heading towards an era of mass customization
+
+(extra reading on the wiki)
+read: old media, digitized, make new forms (martin gayford)
+
+art is pushing for new technologies, to carry out certain projects that otherwise would have been impossible, artists want to liberate their ideas, needs scientists for this
+
+- collaboration between what art wants, and what science can
+
+er is meer dan alleen de mannequins van school, de standaardmaten zonder benen en armen en hoofd, wat als je die basis verandert? hoe is dat van invloed op je werkproces en eindresultaten?
+
+how are mannequins made? respond to current body type preferences and ideals
+ralph pucci - the art of the mannequin
+tokujin yoshioka for issey miyake 
+gruppocorso.nl 
+
+fab textiles:
+- rig mannequin, waffle structure, lasercut
+- ada mannequin, stack slices, lasercut
+- rena mannequin, vacuum formed on cnc milled molds (not a succes)
+- mina mannequin, cnc milled
+- mannequin, 3d printed (wasp, 1m x 1m x 1m) 1,5h to produce, extrusion very big, not really usable
+
+- the ultimate flat pack mannequino
+- open source 3d printed torso (thingiverse)
+- euveka.com adjustable (inflatable) mannequin
+
+the mannequin is the language of communication of the body
+
+# functional body parts and inclusive design
+
+- victoria modesta
+- prosthetics (for example alt limb pro)
+- exoskeletons
+
+# software
+  (see documentation)
+1. modeling
+2. scanning
+3. downloading
+(4. remixing)
+
+3d scanning:
+- computer vision
+- interaction
+- medical
+
+technologies:
+- photogrammetry
+- laser-scanning (laser triangulation, laser pulse)
+- contact-based
+- structured light
+
+using a kinect is a low cost alternative to 3d scanners, based on triangulation
+working with infrared light, limiting technology works better in lower light
+(webcam is also possible, facial recognition)
+phone apps are also developed now, may be better in the future (trnio, qlone, Regard3D)
+bodi.me
+
+- milkscanner, fluid scanning
+
+body visualizer https://bodyvisualizer.com/
+
+make a tolerance test first before making a sliced mannequin
+
+eva wohlgemuth databody (1997)
+
+
+# Workshop
+examples pinterest
+glitched shapes, futurist humans / cyborg
+look for inspiration, sends a message about who you are and what your vision is
+
+add layer on top? sci fi feel light emitting shimmering shell
+
+https://www.boredpanda.com/metal-statue-love-story-ali-nino-tamara-kvesitadze-georgia/?utm_source=duckduckgo&utm_medium=referral&utm_campaign=organic
+
+## MakeHuman Blender
+Modelling section to shape the body
+Geometries has clothes and they are terrible
+Materials is for skin colors, eyes, hair etc
+Pose speaks for itself (set options of poses, you can download poses google this)
+Expressions idem dito
+
+Bottom menu
+Gender for breasts etc. subtler differences
+Face, Torso, Arms and Legs same, check Category menu on the right
+You can also work with Measure (first create the body roughly that you want) and then insert the measurements
+there is also a button to make left and right the same (top bar)
+With Rhino you can then add elements (probably also with C4D like I did before)
+You cannot just set the height you have to 'build' this (because of proportions)
+!!!!!! finished: save first, then export as .obj or .stl !!!!!!
+you can also add textures
+export as lightmap or uv map (first one with gradients and shadows)
+biodivision hierarchy is ...
+
+## Slicer for Fusion 360
+is amazing and easy to use
+modify form is useful to make it hollow (and to thicken and shrinkwrap it, both thicken it but differently)
+
+## Ideas:
+Modular mannequin? for gender non-conforming people, men and women and everything in between
+or a caricature mannequin like victorian cartoon shapes
+or moving/movable mannequin > ligt aan de constructiewijze, met een stokje in het midden en dan ronddraaien om een heup te verplaatsen en dan uiteindelijk automatisch laten bewegen
+or futurist sculpture (capturing movement)
+exxagerating pose and shape
+if we're not making mannequins for real bodies, why should I? absurdist take
+
+if i'm gonna use a mannequin I need arms and legs and heads and it has to be modular (and movable preferably)
+
+"Character designers learn how to exaggerate a cartoon character's proportions so they're unbelievable enough to have visual appeal but believable enough that audiences will actually care about them.
+
+This exaggerated anatomy has shaped the iconic look of cartoons to the point where we can't imagine toons without noodly limbs, giant heads, ridiculously large shoulders, preposterously tiny waistlines and great big eyes.
+
+But if these same proportions were applied to living people the results would be horrific, as the simple acts of looking, walking, lifting, standing and giving birth ravage bodies too imbalanced to function properly.
+
+Their brains would struggle in vain to process all the information presented by their big eyes, their noodle arms and legs would make movement and muscular exertion of any kind excruciating, and don't even get me started on giant toon heads and childbirth..."
+via - https://www.neatorama.com/neatogeek/2017/04/03/How-Exaggerated-Cartoon-Proportions-Would-Lead-To-Dire-Consequences/
+
+DOCUMENT IT (using slicer, lasercutter, makeHuman, research)
+
+inspiration:
+http://www.movingmannequins.co.uk/
+
+
+painters playing with proportions
+modigliani
+botero
+
+gather references
+
+
+lasercut: 
+ai or dxf export
+same size if it is correct
+
+
+milling machine (shopbot) cannot cut square corners so it cuts a dogbone so the inside is a square
+
+## Review (wk2)
+notes
+- you can also look at existing bodies online (downloadable for free or for money)
+- check student documentation for tutorials on how to use all of the software
+- write down all of the settings you use for every material!!
+- document some process and output of fabricademy on own documentation site
+- smoothing of the mesh only works if the surface is already not very detailed
+- try out sketchFab for different settings and textures for 3d models
+- make the human walk around in blender

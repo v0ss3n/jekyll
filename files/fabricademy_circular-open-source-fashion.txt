@@ -1,0 +1,163 @@
+# Circular Open Source Fashion
+October 8th, 2019
+
+Zoe Romano
+
+In this class the lecture will outline the systems behind fashion and the textile industry, focusing on alternative systems such as circular fashion, agile fashion, open value chains.
+
+https://class.textile-academy.org/classes/week03/ 
+
+NOTES
+
+fashion marketing is old fashioned, governed by greed and by vision > no innovation because of that
+education system very individual > doesn't make sense anymore
+
+fashion system > a few conglomerates 97% of global economic profit
+everything that is connected with fashion (vertical: clothes perfume accessoires)
+fast fashion companies like inditex and h&m > idea of cutting the costs does help, unprecedented speed possible
+
+fashion one of the first ones to be mechanized, but one of the last ones to be robotized
+uniqlo cut 90% of the human staff in the distribution centre? or somewhere else
+
+a t shirt every 22 seconds (chinese company)
+is this the innovation we want?
+
+union of concerned researchers (ucrs)
+
+# growth logic is at the root cause of the fashion-sustainability problematic
+
+linda gross
+kate fletcher
+
+(most favored)
+prevention 
+minimization 
+reuse 
+recycle 
+energy 
+recovery 
+incineration 
+disposal 
+(least favored)
+
+we need to understand that it's important to lower the level of consumption
+>>> makerspaces for on-demand production
+
+easier than ever to turn digital into physical 
+
+openness and collaboration
+>>> empowerment (knowledge sharing) and fragmentation (loss of reference points)
+- accessibility of knowledge, 
+technology and resources; 
+transparency of action; 
+permeability of organisational structures; 
+inclusiveness of participation 
+(like hacker ethics)
+
+opposite of closed systems, authority
+
+# 5 rules of open content (david wiley)
+Retain 
+Reuse
+Revise
+Remix
+Redistribute
+
+if you can't open it, you don't own it
+>>> new tools and magazines and spaces (maker movement)
+maker's bill of rights by make: and 2018 edition by critical making
+
+## programmed obsolescence >>> planning/designing artificially limited lifetimes
+fashion: garment that is unfashionable/old
+tech: device no longer functional
+strategy for more sales in the future
+
+## intellectual property
+not much protection because it's intrinsically utilitarian
+fashion companies use trademarks on logos sometimes to protect themselves (and use it on a print so they cannot be copied like that) (check this slide)
+
+fashion does not have a culture of openness, rather it is based on secrecy and authority (born in historical context of medieval urbanism >> guilds not sharing knowledge)
+
+open design is a design artifact project, see the book
+www.opendesignnow.org READ ONLINE
+
+# alternative models?
+
+"the next big thing will be a lot of small things"
+OpenStructures is an exploration on open modular construction where anyone designs for everyone on the basis of one shared grid
+
+interchangeable objects that allow infinite adaption and repair
+
+what type of innovation do I want to see?
+What are your values? How can we make society more sustainable?
+
+new tools for new garments, new production >>> 3d printed leather stamps
+how robots can be used to knit/weave/etc
+##!!!crafting fashion with robots!!!
+
+open source footwear AotherShoe by Sophia Guggenberger and Eugenia Morpugo
+
+DIY (from scratch, software and hardware, freemium)
+make-it-yourself approach (selling the kit 1, open software, make in makerspace)
+assemble-yourself approach (selling the kit 2, precut materials etc)
+just buying end product
+
+opencouture, PostCouture >>> similar to what I want to do
+
+zero waste fashion design (timo rissanen, holly mcquillan)
+reach a zero waste pattern > requires different kind of communication within a company, talking together, fashion designer with cutter with tailor with manufacturer etc
+
+Make/use: OS system https://makeuse.nz/make/
+
+move from product to platform/community (agile fashion)
+
+##Questions
+how to change desire (what the people want/think they want) in fashion?
+>>> new type of desire can be build 
+tell the story
+how to produce it, the transparency of the production
+openness 
+different way to approach fashion
+open code of design > out of 10 persons that will desire it, maybe 1 or 2 will make it, they're like your ambassadors
+making closer knit communities in cities/places
+
+how can slow fashion compete with fast fashion?
+not neccessary, it's about changing the narrative and the focus
+it is just not possible to compete, it is another option, it is not doing what the big companies do but smaller, the perspective has to completely change
+how you can create a different kind of relationship with customers (last slide of presentation)
+
+# Modular fashion
+approach to the production using vector graphic design of bidimensional lasercut modules
+interlocked to create complex 3d seamless geometries
+we will use soft materials
+tesselation and geometry > inifite patterns without overlapping or gaps (beehives, escher)
+
+## examples
+takeiro ando
+nasia burnet
+mary ann williams
+matjia cop
+eunsuk hur (nice documentation as well)
+de greta https://degretaparamundo.wordpress.com/category/manualidades/
+
+## assignment
+design a module, do a lot of testing, lasercut and create a final piece with this material
+
+start basic and 2D, understand how interlocking works (paper works best)
+small changes > see what happens, different approaches > show that you have been exploring
+1 boolean operations (- + etc) to draw clean complex irregular shapes
+2 laser erodes material
+3 thickness of material should be considered
+4 play with colors
+
+https://oscircularfashion.com/
+
+>>> I can make this a part of my research/experimentation for textilelab project
+try rhino maybe? or just illustrator
+
+YOU CAN DISASSEMBLE IT AND USE THE MODULES FOR ANOTHER PROJECT OR GARMENT!!!!!
+or make it larger/smaller etc
+
+communicate the end of the piece: cuffs and hems
+spacer: foam with fabric glued on top
+scuba knit: no glue it's the way it's knitted

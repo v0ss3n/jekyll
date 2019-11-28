@@ -56,3 +56,12 @@ fr  steganography tests on fabric, nonplanar slicing on fabric
 
 ## WEEK 8
 mo  steganography tests on fabric, 3d printing part for the tevo upgrade, helping Bea with 3d printing, adding lots of images to documentation website
+tu  trying to build the tevo titan extruder, fabricademy lecture on textiles as scaffold
+we  CNC introduction 2D milling, designing a box in Fusion360 to mill
+th  CNC introduction 3D milling, open day, assisting with lasercutting , 3D printing parts
+fr  trying to fix EL wire on graduation collection coat (did not work), 3D printing parts
+
+## WEEK 9
+mo  textilelab 3d print tests and visual cryptography tests, pattern generator
+tu  residency application, finish cnc box model, fabricademy lecture on wearables
+we  prepare cnc machine, textile 3d print and transfer paper tests, 3d print pen experiments

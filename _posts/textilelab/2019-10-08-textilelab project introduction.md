@@ -9,7 +9,7 @@ layout: post
 ### Introduction
 ![concept description]({{ site.baseurl }}/images/research/book3.jpg)
 
-##### Creating a system with open source textures
+##### First concept: creating a system with open source textures
 To 3D-print on and lasercut or press directly into garments (with vinyl-cut patterns or frased molds), to:
 
 - mend 
