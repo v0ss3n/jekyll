@@ -1,0 +1,34 @@
+# Implications and applications
+December 3rd, 2019
+
+Oscar Tomico
+
+Recent developments in electronics, software programming and service design are shaking the current notions of what a textile is. Societal trends like a renewed interest in crafts, the need for a sustainable mass production system and the emergence of personalization are reshaping the way the fashion system works.
+
+## Rethinking:
+- materials:
+we can design material properties, texture, viscosity etc. we can control everything now
+creating shapes, combining, lasercutting, using algorythms (generative scripts in grasshopper, so many iterations necessary and possible) to design new surfaces, change properties and the message the material transmits, DO NOT TAKE THE PROPERTIES FOR GRANTED, you can change them, personalize them, different shapes will change the way temperature is regulated, the materials moves on your skin, all behavior can be altered. hyperpersonalization is possible, grasshopper is great for using multiple data points, 3d bodyscanning (troy's project)
+
+- how accessories fit: 
+experimenting with socio-technical systems of production: prototypes of future production methods (manual > automated). especially with electronics the industry is very polluting but combining them could actually work to improve the industry > changing production methods using machines etc.
+
+- aesthetics: 
+what is a good design? angella mackey's greenscreen dress, AR.
+
+- garment production:
+use/wear it yourself to try if it works, to see if it makes sense 
+
+merging digital fabrication, generative design, end user programming and maker communities
+- craftmanship
+- mass production
+- customisation
+- services
+
+> ultra-personalised product service systems
+
+> personalisation on a product level (digital material production)
+> personalisation on a system level (generative design and fit)
+> personalisation on a service level (end user 'programming')
+
+what are you going to do by yourself and when are you going to collaborate? what will they get out of it?

@@ -14,4 +14,4 @@ Liza Stark
 
 This second class on the topic of wearables and e-textiles will provide a more advanced coverage on soft sensors and actuators and programming interactions.
 
-[https://docs.google.com/presentation/d/1s_StEoFFkxUgGzaQmpCSZWH_IqyVzPo7st1fMzgCEDg/edit#slide=id.g6406fb76bb_0_0]
+<https://docs.google.com/presentation/d/1s_StEoFFkxUgGzaQmpCSZWH_IqyVzPo7st1fMzgCEDg/edit#slide=id.g6406fb76bb_0_0>

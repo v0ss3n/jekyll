@@ -12,6 +12,8 @@ For these experiments I am hiding messages in the 3d prints.
 ## Steganography
 
 ## Visual cryptography
+Legibility tests 
+![]({{ site.baseurl }}/images/textilelab/visual-cryptography-tests2.jpg)
 
 ### Python script
 I am using a python script by LessonStudio (<https://github.com/LessonStudio/VisualCryptography>) to create two separate images that form the original image when placed on top of each other.
@@ -35,7 +37,7 @@ Notes:
 
 ---------------
 
-First I used the Fusion360 plugin Image2Surface to generate a 3D surface out of the black and white images generated with de Python script. That did not really work as I hoped, it doesn't really translate the black and white as well as I need. In the images below you can also see the mess it created on PrusaSlicer; the text was not legible at all. After that I tried <https://imagetostl.com/> which worked better (the series below )
+First I used the Fusion360 plugin Image2Surface to generate a 3D surface out of the black and white images generated with de Python script. That did not really work as I hoped, it doesn't really translate the black and white as well as I need. In the images below you can also see the mess it created on PrusaSlicer; the text was not legible at all. After that I tried <https://imagetostl.com/> which worked better but I had to save the files as obj or again as stl because PrusaSlicer did not read them. After that I downloaded 3D Builder for Windows which worked perfectly when using the stamp setting, so that is what I am using from now on. 
 ![]({{ site.baseurl }}/images/textilelab/visual-cryptography-tests1.jpg)
 
 

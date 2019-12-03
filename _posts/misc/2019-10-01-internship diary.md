@@ -1,7 +1,7 @@
 ---
 title: "Internship diary"
 date: 2019-10-01T13:14:01+02:00
-tags: ["documentation"]
+tags: []
 categories: ["other"]
 layout: post
 ---
@@ -65,3 +65,12 @@ fr  trying to fix EL wire on graduation collection coat (did not work), 3D print
 mo  textilelab 3d print tests and visual cryptography tests, pattern generator
 tu  residency application, finish cnc box model, fabricademy lecture on wearables
 we  prepare cnc machine, textile 3d print and transfer paper tests, 3d print pen experiments
+th  open day, milling the box with the cnc machine
+fr  finishing the box, documenting process, figuring out array lists
+
+## WEEK 10
+mo  3d printing parst for tevo upgrade, talk with cecilia about textilelab project, make cnc model for glove with makehuman and fusion360
+tu  bioplastics project start and first experiments with sarah, cnc glove model 
+we  
+th  
+fr  

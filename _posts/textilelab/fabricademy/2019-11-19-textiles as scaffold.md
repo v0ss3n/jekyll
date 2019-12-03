@@ -7,7 +7,7 @@ layout: post
 ---
 
 # Textiles as scaffold
-November 26th, 2019
+November 19th, 2019
 
 Anastasia Pistofidou
 

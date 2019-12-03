@@ -1,7 +1,7 @@
 ---
 title: "Working with a vinyl cutter"
 date: 2019-10-28T12:10:23+02:00
-tags: ["vinyl cutting", "documentation"]
+tags: ["vinyl cutting"]
 categories: ["other"]
 layout: post
 ---

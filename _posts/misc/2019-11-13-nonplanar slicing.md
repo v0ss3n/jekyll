@@ -1,7 +1,7 @@
 ---
 title: "Nonplanar Slicing"
 date: 2019-11-13T11:10:23+02:00
-tags: ["3d printing", "documentation"]
+tags: ["3d printing", "tevo"]
 categories: ["other"]
 layout: post
 ---

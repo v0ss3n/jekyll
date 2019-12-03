@@ -1,7 +1,7 @@
 ---
 title: "Comparison of static website generators"
 date: 2019-10-24T11:10:23+02:00
-tags: ["research", "documentation"]
+tags: ["research"]
 categories: ["other"]
 layout: post
 ---

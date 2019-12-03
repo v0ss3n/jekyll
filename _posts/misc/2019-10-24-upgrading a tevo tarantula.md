@@ -1,7 +1,7 @@
 ---
 title: "Upgrading a Tevo Tarantula 3d printer"
 date: 2019-10-24T11:10:23+02:00
-tags: ["3d printing", "documentation"]
+tags: ["3d printing", "tevo"]
 categories: ["other"]
 layout: post
 ---
@@ -38,34 +38,6 @@ First I made the hole for the screw bigger, because I thought the measurement wa
 The result of the second test was much better so the issue with the first print was definitely the temperature.
 
 ![reset button]({{ site.baseurl }}/images/misc/reset-button2.jpg)
-
-## Upgrading axes
-The biggest problem with this machine is that it is very shaky, which causes the bed to be unstable and the prints to be of lower resolution when used for a while without levelling the bed. I will work on upgrading the bed to make it more stable. For this I will use these mods:
-
-Tarantula - MGN12 Dual Y Rails
-<https://www.thingiverse.com/thing:2945233>
-
-Tarantula - Z MGN9 Rails Mod
-<https://www.thingiverse.com/thing:2947123>
-
-Ultimate TEVO TARANTULA upgrade.
-<https://www.thingiverse.com/thing:2761136>
-
-For the Y axis I need the 3d printed parts from the first link as well as 
-4x 2040 100mm Aluminum Extrusion and 2x 350mm MGN12 Linear Rail with MGH12H block:
-
-![]({{ site.baseurl }}/images/misc/tevo-parts.jpg)
-
-For the Z axis upgrade I need 2x 350mm MGN9 Rail with MGN9H block:
-![]({{ site.baseurl }}/images/misc/tevo-parts2.jpg)
-
-Finally for the X axis I need 1x MGN9 Rails with MGN9H block as well but 300mm long (could be longer but there is no point as the parts on the rails are too wide and 300mm is long enough and cheaper). Some t-nuts with m3 thread are needed to mount all of the rails. For now I first have to wait for the rails to be ordered but I can start with 3d printing the parts.
-
-In conclusion:
-- 2x 350mm MGN9 Rail with MGN9H block
-- 4x 100mm 2040 Aluminum Extrusion 
-- 2x 350mm MGN12 Linear Rail with MGH12H block
-- 1x 300mm MGN9 Rails with MGN9H block 
 
 ## Updating firmware
 As the bed apparently already moved around too much and I cannot level the bed without encountering the endstop issue again, I first updated the firmware.
@@ -125,7 +97,43 @@ References:
 ## Tevo Titan Extruder
 Because the current filament extruder does not work with flexible filament, I want to replace this with the Tevo Titan Extruder.
 
-## Y-axis
+## Upgrading axes
+The biggest problem with this machine is that it is very shaky, which causes the bed to be unstable and the prints to be of lower resolution when used for a while without levelling the bed. I will work on upgrading the bed to make it more stable. For this I will use these mods:
+
+Tarantula - MGN12 Dual Y Rails
+<https://www.thingiverse.com/thing:2945233>
+
+Tarantula - Z MGN9 Rails Mod
+<https://www.thingiverse.com/thing:2947123>
+
+Ultimate TEVO TARANTULA upgrade.
+<https://www.thingiverse.com/thing:2761136>
+
+For the Y axis I need the 3d printed parts from the first link as well as 
+4x 2040 100mm Aluminum Extrusion and 2x 350mm MGN12 Linear Rail with MGH12H block:
+
+![]({{ site.baseurl }}/images/misc/tevo-parts.jpg)
+
+For the Z axis upgrade I need 2x 350mm MGN9 Rail with MGN9H block:
+![]({{ site.baseurl }}/images/misc/tevo-parts2.jpg)
+
+Finally for the X axis I need 1x MGN9 Rails with MGN9H block as well but 300mm long (could be longer but there is no point as the parts on the rails are too wide and 300mm is long enough and cheaper). Some t-nuts with m3 thread are needed to mount all of the rails. For now I first have to wait for the rails to be ordered but I can start with 3d printing the parts.
+
+In conclusion:
+- 2x 350mm MGN9 Rail with MGN9H block
+- 4x 100mm 2040 Aluminum Extrusion 
+- 2x 350mm MGN12 Linear Rail with MGH12H block
+- 1x 300mm MGN9 Rails with MGN9H block 
+
+
+## Recommended print settings
+
+- 0.2 Layer Height
+- at least 1.6mm Shell to increase overall strength of your machine
+- at least 40% infill
+- no raft
+
+### Y-axis
 Using the Tarantula - MGN12 Dual Y Rails mod, the amount of each part needed:
 
 - 4x bracket
@@ -134,12 +142,16 @@ Using the Tarantula - MGN12 Dual Y Rails mod, the amount of each part needed:
 - 2x carriage
 - 2x hook-on belt bracket
 
-Recommended print settings:
+### X-axis and Z-axis
+Using the Tarantula - Z MGN9 Rails mod, the amount of each part needed:
 
-- 0.2 Layer Height
-- at least 1.6mm Shell to increase overall strength of your machine
-- at least 40% infill
-- no raft
+- 1x X rails belt tensioner 1/2
+- 1x X rails belt tensioner 2/2
+- 1x X rails belt tensioner knob slide spacers
+- 1x X rails motor mount
+- 1x Z rails left motor mount
+- 1x Z rails right motor mount
+- 1x? extended lead screw gantry (not sure what this is or where this should go)
 
 ##### Links
 - <https://help.tevo.cn/knowledge-base/my-axis-does-not-stop-when-homing-my-tevo-tarantula/>
