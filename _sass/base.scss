@@ -164,3 +164,38 @@ video {
     height: auto   !important;
     margin-bottom: 2%;
   }
+
+.row-2 p {
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+
+    img {
+      width: 49%;
+    }
+}
+
+.row-2--video {
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  
+} .video {
+    width: 49%;
+}
+
+.row-3 p {
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+
+    img {
+      width: 32%;
+    }
+}

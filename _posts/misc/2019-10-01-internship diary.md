@@ -42,7 +42,7 @@ fr  printing 3 parts for the tevo upgrade, getting jekyll documentation site to 
 
 ## WEEK 6
 mo  working on upgrading the tevo tarantula, figuring out how to continue a failed print, working on textilelab archive
-tu  shopbot introduction, fabricademy course on open source hardware
+tu  cnc introduction, fabricademy course on open source hardware
 we  working on textilelab prints and archive, 3d printing parts
 th  quiet open day, designing a system to make a print stamping tool, 3d printing tests about visual cryptography
 fr  working on lasercut files for the print stamping tool, went to media technology master open day in Leiden
@@ -57,8 +57,8 @@ fr  steganography tests on fabric, nonplanar slicing on fabric
 ## WEEK 8
 mo  steganography tests on fabric, 3d printing part for the tevo upgrade, helping Bea with 3d printing, adding lots of images to documentation website
 tu  trying to build the tevo titan extruder, fabricademy lecture on textiles as scaffold
-we  CNC introduction 2D milling, designing a box in Fusion360 to mill
-th  CNC introduction 3D milling, open day, assisting with lasercutting , 3D printing parts
+we  cnc introduction 2D milling, designing a box in Fusion360 to mill
+th  cnc introduction 3D milling, open day, assisting with lasercutting , 3D printing parts
 fr  trying to fix EL wire on graduation collection coat (did not work), 3D printing parts
 
 ## WEEK 9
@@ -71,6 +71,17 @@ fr  finishing the box, documenting process, figuring out array lists
 ## WEEK 10
 mo  3d printing parst for tevo upgrade, talk with cecilia about textilelab project, make cnc model for glove with makehuman and fusion360
 tu  bioplastics project start and first experiments with sarah, cnc glove model 
-we  
-th  
-fr  
+we  bioplastics with sarah
+th  open day tours, 3d printing tevo parts, working on residency application
+fr  working on residency application, blog and 3d printing 
+
+## WEEK 11
+mo  prepare cnc machine and file
+tu  tevo upgrade
+we  tevo upgrade on hold since I need specific screws, workshop inflatables, lasercutting bioplastics
+th  cnc glove model changes and prepare file again, update documentation, open day tours
+fr  cnc for 5 hours, documenting
+
+## WEEK 12
+
+mo  documenting

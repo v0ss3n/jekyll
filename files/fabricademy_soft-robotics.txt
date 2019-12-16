@@ -1,0 +1,7 @@
+# Soft robotics
+December 10th, 2019
+
+Lily Chambers & Adriana Cabrera
+
+This class will focus in the study of a specific field in robotics, the soft robotics. Unlike rigid robots we are mostly used to, soft bodied robots have similarities and performance characteristics similar to living organisms or the human body.
+

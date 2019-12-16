@@ -51,7 +51,9 @@ GND	| Ground	| Input	| 0V/common voltage.
 The MMA8452Q has a maximum voltage of 3.6V -- that range applies to both the power supply and the I2C pins. Because I am using an Arduino (5V), some level-shifting is required between devices.
 
 ### Step 1: soldering the headers to the breakout board
-images
+Make sure you follow [these steps](https://www.kitronik.co.uk/blog/how-to-solder-in-ten-easy-steps/) when soldering.
+
+![]({{ site.baseurl }}/images/fablab/accelerometer.jpg)
 
 ### Step 2: setting up the board using the hookup guide
 ![](https://cdn.sparkfun.com/r/600-600/assets/learn_tutorials/2/4/9/mma8452q-hookup_bb.png)
@@ -63,20 +65,22 @@ In the example hookup above, we used a pair of series resistors on the SDA and S
 - Since there were no 330 ohm resistors available I put multiple resistors in series to create the same amount of resistance. Using a multimeter I measured the following resistance: 334.1 ohm on the SCL pin and 333.6 ohm on the SDA pin.
 - I'm using an Arduino Uno, on which the A4 pin corresponds with the SDA pin and the A5 pin with the SCL pin.
 
+![]({{ site.baseurl }}/images/fablab/accelerometer2.jpg)
+
 ### Step 3: test using the example code
-- The output result from the example code can either be in raw x, y and z data, or calculated acceleration values read out of the accelerometer; they'll be in units of g's.
+The output result from the example code can either be in raw x, y and z data, or calculated acceleration values read out of the accelerometer; these are in units of g's.
 
 #### Calculated acceleration values
 <video width="480" height="300" controls>
   <source src="{{ site.baseurl }}/images/fablab/serial_monitor.mp4" type="video/mp4">
 </video>
 
-#### Raw data:
+#### Raw data
 <video width="480" height="300" controls>
   <source src="{{ site.baseurl }}/images/fablab/serial_monitor_raw.mp4" type="video/mp4">
 </video>
 
-However these values are not the kind of x, y and z data that I need; apparently it is very hard to determine position using sensors. What I can do is use this data for other purposes in my tools (or to figure out a new way of illustrating using these values) but that will not fix my current problem.
+However these values are not the kind of x, y and z data that I wanted; apparently it is very hard to determine position using sensors. What I can do is use this data for other purposes in my tools (or to figure out a new way of illustrating using these values) but that will not fix my current problem.
 
 ### Step 4: connecting Arduino to Processing to use the generated data
 To accomplish this, I used the provided example code for the accelerometer provided by Sparkfun. I added some more comments for clarity. <https://github.com/sparkfun/SparkFun_MMA8452Q_Arduino_Library/tree/master/examples/Example2_RawDataReading>

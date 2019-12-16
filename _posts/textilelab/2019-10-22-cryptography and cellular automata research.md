@@ -1,8 +1,8 @@
 ---
-title: "Textilelab project research 1"
+title: "Chaotic notes on cryptography and cellular automata"
 date: 2019-10-22T10:31:30+02:00
-tags: ["concept", "fashion", "textiles"]
-categories: ["textilelab", "research"]
+tags: ["concept", "research", "textiles"]
+categories: ["textilelab"]
 layout: post
 ---
 # Summary
@@ -59,12 +59,10 @@ can I make a gif on a dress? seemingly moving images
 
 The problem is that I am still creating the prints myself with the symbols and I want the computer to do this. I also cannot properly explain what I am doing, it doesn't really make sense. There is also a gap between the prints I am generating and the methods I am using, the methods are not really adding another dimension to the project. So my methods and concept are not strong enough yet.
 
-need more fun: don't forget the chimeras!!!!
-
+- don't forget the chimeras
 - use the text generation tool to write the epic novels of the computer culture
 https://talktotransformer.com/ 
 - using neural networks to write the poetry of the machine and then use that as an inspiration for the prints??? or using it as an oracle >>> creating a fake culture and fake symbols and fake stories (nonsensical stories about archetypes?)
-- using data???
 
 <!-- symbols to start with
 - 118
@@ -110,6 +108,8 @@ A cellular automaton consists of a regular grid of cells, each in one of a finit
 The primary classifications of cellular automata, as outlined by Wolfram, are numbered one to four. They are, in order, automata in which patterns generally stabilize into homogeneity, automata in which patterns evolve into mostly stable or oscillating structures, automata in which patterns evolve in a seemingly chaotic fashion, and automata in which patterns become extremely complex and may last for a long time, with stable local structures. This last class are thought to be computationally universal, or capable of simulating a Turing machine. Special types of cellular automata are reversible, where only a single configuration leads directly to a subsequent one, and totalistic, in which the future value of individual cells only depends on the total value of a group of neighboring cells. Cellular automata can simulate a variety of real-world systems, including biological and chemical ones. [Via wikipedia](https://en.wikipedia.org/wiki/Cellular_automaton)
 
 ![](https://upload.wikimedia.org/wikipedia/commons/e/e5/Gospers_glider_gun.gif)
+
+[I used Golly to do some experiments with cellular automata]({{ site.baseurl }}\other\2019\10\22\golly-experiments.html).
 
 ##### Links
 [Textilelab research Are.na board](https://www.are.na/michelle-vossen/textiles-research-9ixtq9yvsrm)

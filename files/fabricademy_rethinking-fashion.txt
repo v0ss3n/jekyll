@@ -27,8 +27,10 @@ merging digital fabrication, generative design, end user programming and maker c
 
 > ultra-personalised product service systems
 
-> personalisation on a product level (digital material production)
-> personalisation on a system level (generative design and fit)
-> personalisation on a service level (end user 'programming')
+- personalisation on a product level (digital material production)
+- personalisation on a system level (generative design and fit)
+- personalisation on a service level (end user 'programming')
 
 what are you going to do by yourself and when are you going to collaborate? what will they get out of it?
+
+personalization requires skill, an eye for detail, you need a tailor, it is a plus

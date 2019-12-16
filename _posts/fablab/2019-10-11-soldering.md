@@ -6,6 +6,8 @@ categories: ["fablab", "research"]
 layout: post
 ---
 # Soldering
+<https://www.kitronik.co.uk/blog/how-to-solder-in-ten-easy-steps/>
+
 ## Tips and tricks
 ![](https://cdn.instructables.com/F2H/400P/F41RXKV0/F2H400PF41RXKV0.LARGE.gif?auto=webp&fit=bounds)
 

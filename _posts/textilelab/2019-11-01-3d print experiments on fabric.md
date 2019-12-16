@@ -1,5 +1,5 @@
 ---
-title: "3D printing experiments (cryptography)"
+title: "3D printing experiments on fabric (cryptography)"
 date: 2019-10-22T10:31:30+02:00
 tags: ["experiment", "fashion", "textiles", "3d printing", "cryptography"]
 categories: ["textilelab"]
@@ -40,6 +40,10 @@ Notes:
 First I used the Fusion360 plugin Image2Surface to generate a 3D surface out of the black and white images generated with de Python script. That did not really work as I hoped, it doesn't really translate the black and white as well as I need. In the images below you can also see the mess it created on PrusaSlicer; the text was not legible at all. After that I tried <https://imagetostl.com/> which worked better but I had to save the files as obj or again as stl because PrusaSlicer did not read them. After that I downloaded 3D Builder for Windows which worked perfectly when using the stamp setting, so that is what I am using from now on. 
 ![]({{ site.baseurl }}/images/textilelab/visual-cryptography-tests1.jpg)
 
+## Output
+For this test I used red PLA on see-through polyester. It started falling off after a while, most likely because the pieces are too small to properly attach to the fabric.
+
+![]({{ site.baseurl }}/images/textilelab/vsc-textile1.jpg)
 
 
 # 2D image to 3d file

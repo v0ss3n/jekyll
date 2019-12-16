@@ -2,7 +2,7 @@
 title: "Upgrading a Tevo Tarantula 3d printer"
 date: 2019-10-24T11:10:23+02:00
 tags: ["3d printing", "tevo"]
-categories: ["other"]
+categories: ["fablab"]
 layout: post
 ---
 
@@ -117,14 +117,13 @@ For the Y axis I need the 3d printed parts from the first link as well as
 For the Z axis upgrade I need 2x 350mm MGN9 Rail with MGN9H block:
 ![]({{ site.baseurl }}/images/misc/tevo-parts2.jpg)
 
-Finally for the X axis I need 1x MGN9 Rails with MGN9H block as well but 300mm long (could be longer but there is no point as the parts on the rails are too wide and 300mm is long enough and cheaper). Some t-nuts with m3 thread are needed to mount all of the rails. For now I first have to wait for the rails to be ordered but I can start with 3d printing the parts.
+Finally for the X axis I need 1x MGN9 Rails with MGN9H block as well but 300mm long (could be longer but there is no point as the parts on the rails are too wide and 300mm is long enough and cheaper). Some t-nuts with m3 thread are needed to mount all of the rails. For now I  have to wait for the rails to be ordered but I can start with 3d printing the parts.
 
 In conclusion:
 - 2x 350mm MGN9 Rail with MGN9H block
 - 4x 100mm 2040 Aluminum Extrusion 
 - 2x 350mm MGN12 Linear Rail with MGH12H block
 - 1x 300mm MGN9 Rails with MGN9H block 
-
 
 ## Recommended print settings
 
@@ -138,12 +137,36 @@ Using the Tarantula - MGN12 Dual Y Rails mod, the amount of each part needed:
 
 - 4x bracket
 - 4x end cover
-- 2x? support guide bracket
+- 2x support guide bracket
 - 2x carriage
-- 2x hook-on belt bracket
+- 2x hook-on belt bracket or 1x screw-on belt bracket
+
+Furthermore, 4x 2040 100mm Aluminum Extrusion and 2x 350mm MGN12 Linear Rail with MGH12H block are needed as mentioned above, and a bunch of M3 and M5 bolts and nuts. I did not use these as my acrylic bed has loops for the belt. The hook-on type does not fit, the screw-on would be possible. See picture of the bed below.
+
+![tevo tarantula]({{ site.baseurl }}/images/fablab/tevo-y1.jpg)
+
+#### Step 1: attach carriage to bed
+Drill holes into the acrylic bed to attach the carriages. My bed has a different shape so I could only drill 4 holes; it also did not fit 100% so I had to be very precise with the alignment. I used M3 bolts (8x; ideally 10x) and nuts.
+
+![tevo tarantula]({{ site.baseurl }}/images/fablab/tevo-y2.jpg)
+
+#### Step 2: add end covers to 2040 extrusion
+Screw M5 bolts with T-slot hammer head nuts into the end covers; leave some space so it's easier to slide the 2040 extrusion in place. 
+
+![tevo tarantula]({{ site.baseurl }}/images/fablab/tevo-y3.jpg)
+
+#### Step 3: prepare brackets
+First I used a drill (5mm) to make the holes slightly bigger as it was a very tight fit. What I first did was screwing 2x M5 bolts with T-slot hammer head nuts into one side of each of the brackets. On the other side of each bracket I used T-slot M5 bolts. I did this because I did not want to remove the the motor and belt mount on the 2040 Y-axis extrusion; this way I could leave them there and attach the bracket by twisting the nut on the inside. However, that made it very hard to actually secure it and I also had to attach some other parts so I unscrewed the parts on the front and back anyway. Conclusion: don't be lazy, use 4x M5 bolts with T-slot hammer head nuts per bracket.
+
+![tevo tarantula]({{ site.baseurl }}/images/fablab/tevo-y4.jpg)
+
+
+Other possible helpful tools:
+- <https://www.thingiverse.com/thing:2566111>
+
 
 ### X-axis and Z-axis
-Using the Tarantula - Z MGN9 Rails mod, the amount of each part needed:
+Using the Tarantula - Z MGN9 Rails mod, the amount of each part needed according to the description:
 
 - 1x X rails belt tensioner 1/2
 - 1x X rails belt tensioner 2/2
@@ -152,6 +175,8 @@ Using the Tarantula - Z MGN9 Rails mod, the amount of each part needed:
 - 1x Z rails left motor mount
 - 1x Z rails right motor mount
 - 1x? extended lead screw gantry (not sure what this is or where this should go)
+
+However some of the parts in the Tevo can be reused: we already have a right motor mount for the Z-axis, so I don't have to print that. I replaced the left motor mount with [this](https://www.thingiverse.com/thing:3522306) part, as it is the mirrored and edited version of the one we have for the right motor. This way the Z-axis is symmetrical.
 
 ##### Links
 - <https://help.tevo.cn/knowledge-base/my-axis-does-not-stop-when-homing-my-tevo-tarantula/>

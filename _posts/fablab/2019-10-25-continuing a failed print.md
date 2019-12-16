@@ -2,7 +2,7 @@
 title: "Continuing a failed 3D print on a Tevo Tarantula"
 date: 2019-10-30T11:10:23+02:00
 tags: ["3d printing", "tevo"]
-categories: ["other"]
+categories: ["fablab"]
 layout: post
 ---
 
@@ -73,7 +73,7 @@ For my third encounter with continuing a print, I wanted to solve the issue that
 
 ![]({{ site.baseurl }}/images/misc/gcode.jpg)
 
-
+Another thing that should be kept in mind when continuing a print is that when the bed cools down, the temperature drop causes the material to shrink. Because of this the print is not sticking to the bed properly anymore and can be moved easily by the nozzle. By taping the brim to the bed, this can be avoided but it is not a foolproof method. 
 
 ## References: 
 - <http://gcode.ws/>
