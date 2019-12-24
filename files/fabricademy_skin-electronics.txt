@@ -1,0 +1,107 @@
+# Skin Electronics
+December 17th, 2019
+
+Katia Vega
+
+In the same way that the wearables industry is integrating fashion practices in their development, we envision new partnerships between the biotech/tech companies and skin professionals such as makeup artists.
+
+## Notes
+
+Cyborg's fashion
+Looking at what's possible and what could be possible
+Electronics into everyday life
+on your skin > fabrics and temporary tattoos
+Biostamp, l'oreal My UV Patch, Rogers Research Group
+
+## on-body technologies 
+- inside the body
+- carried-on (smartphone)
+- on the body
+  - wearables: clothing, accessories
+  - skin interfaces: direct on skin, skin appendages
+
+beauty technology book 
+wearability: factors for skin interfaces
+
+## Body characteristics 
+are factors that have to be taken into account: skin types (sensitive, dry/oily skin etc.), wrinkles, moisturization, body hair, acne/wounds, cosmetic use
+wearables: size, shape etc
+
+## Body modifications now:
+- prosthetics
+- hair extensions
+- acrylic nails
+- eye lashes
+- tattoos
+- makeup
+
+location, body movements and body characteristics
+attachment methods, weight, insulation, accessibility, communication 
+interaction, aesthetics, conductors, device care and connection, battery life
+
+## Attachment
+belts, watches, clothing, clips
+just the skin: tattoo paper, silicones
+LED lashes etc.
+
+## Conductors
+- conductive ink
+- epidermal electronics
+- conductive cosmetics
+- cPDMS
+- eGaln (liquid metal)
+
+What does it mean to have a skin?
+responsive, tells us information, packaging of the body, senses, touch, warm, biggest organ
+
+## Cosmetics
+didn't change that much over time > red lipstick, black eye makeup
+
+Beauty technology katiavega.com
+skin as interactive platform
+the conscious use of unconscious behaviors: fidgeting, looking at watch, stroking hair/beard etc.
+touch your hair when you're anxious/flirting/etc. > unconscious auto-contact behaviors > can be connected to conscious use
+
+body interface overview image > slide!!
+
+## Hairware 
+Conductive hair extensions as capacitive touch input devices (chemical process)
+examples:
+- send a message
+- recording a conversation (spying)
+- send your location
+- taking a selfie
+
+## Makeup
+Conductive makeup > winking with conductive eyeliner and lashes to detect blinking
+FX e-makeup 
+Winkymote: infrared remote control for individuals with quadriplegic disability
+Kinisi
+Chromoskin: changing makeup automatically > color changing eye shadow
+
+## Fingers
+Twinkle Nails: to play music notes in the air
+Oyster card in nails
+AquaDJing
+
+- Unnoticeable wearable devices that camouflage 
+a new subfield in wearable computing that through 
+okay look at slide
+
+## The skin as a display
+The dermal abyss: when tattoos meet biotechnology
+monitoring diseases, quantify self
+
+skin as an interactive display
+
+## On-skin rapid prototyping
+- skin interface: FX makeup: liquid latex, skin glue, glitter; electronics: LEDs, fine wires, insulation (no insulation and oily skin could short the circuit)
+- nail interface
+- hair interface
+- electronics into a belt
+- water interfaces
+look at the slides for materials needed
+PLAN IT  
+
+
+

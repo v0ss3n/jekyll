@@ -8,6 +8,7 @@ layout: post
 
 # Agar bioplastics experiments
 ![agar]({{ site.baseurl }}/images/wetlab/agar.png)
+
 ![recipes]({{ site.baseurl }}/images/wetlab/agar-recipes.png)
 
 ## Bioplastic

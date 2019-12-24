@@ -85,3 +85,5 @@ fr  cnc for 5 hours, documenting
 ## WEEK 12
 
 mo  documenting
+tu  alginate bioplastic experiments (failed), lasercutting text molds, fabricademy lecture on skin electronics
+we  

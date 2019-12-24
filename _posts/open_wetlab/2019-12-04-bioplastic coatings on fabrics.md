@@ -7,7 +7,7 @@ layout: post
 ---
 
 # Bioplastic coatings on fabrics
-I'm using the [gelatine bioplastics recipes]({{ site.baseurl }}\wetlab\2019\12\03\gelatine-bioplastics-experiments.html) I used before, this time casting directly on top of different fabrics.
+I'm using the [gelatine bioplastics recipes]({{ site.baseurl }}\wetlab\2019\12\03\gelatine-bioplastics-experiments.html) I used before, this time casting directly on top of different fabrics. I used campeche to color the mixtures.
 
 ## Process
 
@@ -15,4 +15,7 @@ I'm using the [gelatine bioplastics recipes]({{ site.baseurl }}\wetlab\2019\12\0
 
 ![gelatine bioplastic cast on fabrics]({{ site.baseurl }}/images/wetlab/bioplastic-fabrics2.jpg)
 
+<div markdown="1" class="row-2">
 ![gelatine bioplastic cast on fabrics]({{ site.baseurl }}/images/wetlab/bioplastic-fabrics3.jpg)
+![gelatine bioplastic cast on fabrics]({{ site.baseurl }}/images/wetlab/bioplastic-fabrics4.jpg)
+</div>

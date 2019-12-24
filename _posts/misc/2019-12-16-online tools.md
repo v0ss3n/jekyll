@@ -18,3 +18,6 @@ Online tools that I like to use for a variety of purposes: documenting, print de
 
 ## DIY
 - [Making soft sensors](https://www.kobakant.at/DIY/)
+
+## Information
+- [Fabricademy classes](https://class.textile-academy.org/classes/)

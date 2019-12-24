@@ -8,6 +8,7 @@ layout: post
 
 # Gelatine bioplastics experiments
 ![gelatine]({{ site.baseurl }}/images/wetlab/gelatine.png)
+
 ![recipes]({{ site.baseurl }}/images/wetlab/gelatine-recipes.png)
 
 ## Bioresin
@@ -56,9 +57,12 @@ Making bioplastic with seaweed:
 Bioplastic and seaweed sheet casting:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/aeJjNk9FiwY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-After 24 hours:
+After 24 hours and fully dried (notice how irregular the material dries):
 
+<div markdown="1" class="row-2">
 ![bioplastic and seaweed process]({{ site.baseurl }}/images/wetlab/bioplastic-seaweed-day2.jpg)
+![bioplastic and seaweed process]({{ site.baseurl }}/images/wetlab/bioplastic-seaweed-dried.jpg)
+</div>
 
 I also made a mixture with 10 grams of glycerine, 48 grams of gelatine and 240 ml of water, and a campeche/copper dye hoping this will turn into a bioplastic/resin resembling amber.
 
