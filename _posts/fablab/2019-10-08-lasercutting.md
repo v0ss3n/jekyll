@@ -26,3 +26,4 @@ layout: post
 
 ## Misc
 - Soft stop error: check if your file is placed outside of the laser bed in the software
+- If you want to use a plywood mold for bioplastic casting, you can use vaseline spray to prevent the bioplastic from sticking to the wood. For alginate specifically it also helps if the material is lightly sprayed with the calcium chloride   

@@ -57,7 +57,7 @@ Compilation failed in require at (eval 82) line 1.
 
 ----------------
 
-Something to keep in mind is that you cannot just open files located on Windows in the subsystem, but you can move them using Bash into Ubuntu. You can access your Windows directory via /mnt/c/ (Windows Sub-System for Linux provides you access to the Windows 10 system drive by mounting the C:\ . On Linux if you go to you root directory and list all directories, then you will notice a /mnt/c/ which is Windows 10 C:\ mounted on Linux. [via](https://ridicurious.com/2018/10/18/2-ways-to-copy-files-from-windows-10-to-windows-sub-system-for-linux/))
+Something to keep in mind is that you cannot just open files located on Windows in the subsystem, but you can move them using Bash into Ubuntu. You can access your Windows directory via /mnt/c/ (Windows Sub-System for Linux provides you access to the Windows 10 system drive by mounting the C:\ . On Linux if you go to you root directory and list all directories, then you will notice a /mnt/c/ which is Windows 10 C:\ mounted on Linux. [source](https://ridicurious.com/2018/10/18/2-ways-to-copy-files-from-windows-10-to-windows-sub-system-for-linux/))
 
 ![]({{ site.baseurl }}/images/misc/ubuntu_movefromwindows.jpg)
 

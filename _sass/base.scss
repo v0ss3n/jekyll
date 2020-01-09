@@ -171,6 +171,7 @@ video {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
+    align-items: flex-start;
 
     img {
       width: 49%;
@@ -194,8 +195,22 @@ video {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
+    align-items: flex-start;
 
     img {
       width: 32%;
     }
+}
+
+.row-4 p {
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  img {
+    width: 23.5%;
+  }
 }

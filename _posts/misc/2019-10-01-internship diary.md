@@ -83,7 +83,27 @@ th  cnc glove model changes and prepare file again, update documentation, open d
 fr  cnc for 5 hours, documenting
 
 ## WEEK 12
-
 mo  documenting
 tu  alginate bioplastic experiments (failed), lasercutting text molds, fabricademy lecture on skin electronics
-we  
+we  more bioplastic experiments, taking microscope pictures
+th  coating mold to cast bioplastic on it, bioplastic experiments
+fr  bioplastic engraving
+
+## WEEK 13
+mo  learning grasshopper, alginate glove casting
+tu  learning grasshopper (pattern generation)
+we  christmas holiday
+th  christmas holiday
+fr  christmas holiday
+
+## WEEK 14
+mo  christmas holiday
+tu  christmas holiday
+we  christmas holiday
+th  christmas holiday
+fr  christmas holiday
+
+## WEEK 15
+mo  documentating, taking photos of alginate bioplastic tests
+tu  documentating, sewing alginate glove
+we  documentating

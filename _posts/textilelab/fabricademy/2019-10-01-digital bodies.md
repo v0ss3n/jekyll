@@ -24,7 +24,7 @@ This exaggerated anatomy has shaped the iconic look of cartoons to the point whe
 But if these same proportions were applied to living people the results would be horrific, as the simple acts of looking, walking, lifting, standing and giving birth ravage bodies too imbalanced to function properly.
 
 Their brains would struggle in vain to process all the information presented by their big eyes, their noodle arms and legs would make movement and muscular exertion of any kind excruciating, and don't even get me started on giant toon heads and childbirth..."
-[via](https://www.neatorama.com/neatogeek/2017/04/03/How-Exaggerated-Cartoon-Proportions-Would-Lead-To-Dire-Consequences/)
+[source](https://www.neatorama.com/neatogeek/2017/04/03/How-Exaggerated-Cartoon-Proportions-Would-Lead-To-Dire-Consequences/)
 
 [Click here for the link to the pinterest board I made as inspiration](https://nl.pinterest.com/michellemvossen/bodies/)
 

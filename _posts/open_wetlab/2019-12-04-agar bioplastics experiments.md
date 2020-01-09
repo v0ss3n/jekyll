@@ -25,5 +25,9 @@ Recipe:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/beiZf8rCAhw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+![agar process]({{ site.baseurl }}/images/wetlab/agar-process2.jpg)
+
+Once fully dried the material is very flexible with a subtle texture that flows like a fabric with a golden hue and transparency that looks beautiful on skin. 
+
 ## Links
 - <https://drive.google.com/file/d/1Lm147nvWkxxmPf5Oh2wU5a8eonpqHCVc/view>
