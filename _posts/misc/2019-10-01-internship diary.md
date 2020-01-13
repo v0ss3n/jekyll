@@ -104,6 +104,11 @@ th  christmas holiday
 fr  christmas holiday
 
 ## WEEK 15
-mo  documentating, taking photos of alginate bioplastic tests
-tu  documentating, sewing alginate glove
-we  documentating
+mo  documenting, taking photos of alginate bioplastic tests
+tu  documenting, sewing alginate glove
+we  documenting
+th  documenting
+fr  documenting, inventarisation of what I still need for Tevo upgrade, cryptography project research
+
+## WEEK 16
+mo  documenting, cryptography project planning and research

@@ -38,13 +38,12 @@ I am using a python script by LessonStudio (<https://github.com/LessonStudio/Vis
 Notes: 
 - This uses an older version of Python (Python 2 instead of Python 3, the current version), so it did not work at first. You need to install Python 2, and use ```py -2``` instead of ```python``` to initialize the script.
 
----------------
-
 ## Legibility tests 
 
 ![]({{ site.baseurl }}/images/textilelab/visual-cryptography-tests2.jpg)
 
 First I used the Fusion360 plugin Image2Surface to generate a 3D surface out of the black and white images generated with de Python script. That did not really work as I hoped, it doesn't really translate the black and white as well as I need. In the images below you can also see the mess it created on PrusaSlicer; the text was not legible at all. After that I tried <https://imagetostl.com/> which worked better but I had to save the files as obj or again as stl because PrusaSlicer did not read them. After that I downloaded 3D Builder for Windows which worked perfectly when using the stamp setting, so that is what I am using from now on. 
+
 ![]({{ site.baseurl }}/images/textilelab/visual-cryptography-tests1.jpg)
 
 ## Output

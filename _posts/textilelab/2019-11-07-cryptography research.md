@@ -24,34 +24,7 @@ This notion of an adversary helps both intuitive and formal reasoning about cryp
 There are several types of adversaries depending on what capabilities or intentions they are presumed to have. Adversaries may be computationally bounded or unbounded (i.e. in terms of time and storage resources), eavesdropping or Byzantine (i.e. passively listening on or actively corrupting data in the channel), static or adaptive (i.e. having fixed or changing behavior), mobile or non-mobile (e.g. in the context of network security) and so on. In actual security practice, the attacks assigned to such adversaries are often seen, so such notional analysis is not merely theoretical.
 
 ## [Characters](https://en.m.wikipedia.org/wiki/Alice_and_Bob)
-Alice and Bob are fictional characters commonly used as placeholder names in cryptology, as well as science and engineering literature. The Alice and Bob characters were invented by Ron Rivest, Adi Shamir, and Leonard Adleman in their 1978 paper "A method for obtaining digital signatures and public-key cryptosystems."[1] Subsequently, they have become common archetypes in many scientific and engineering fields, such as quantum cryptography, game theory and physics.[2] As the use of Alice and Bob became more widespread, additional characters were added, each with a particular meaning. These characters do not have to refer to humans; they refer to generic agents which might be different computers or even different programs running on a single computer.
-
-- Alice and Bob. The original, generic characters. Generally, Alice and Bob want to exchange a message or cryptographic key.
-- Carol, Carlos or Charlie. A generic third participant.
-- Chuck. A third participant, usually of malicious intent.
-- Craig. A password cracker, often encountered in situations with stored passwords.
-- Dan, Dave or David. A generic fourth participant.
-- Erin. A generic fifth participant, but rarely used, as "E" is usually reserved for Eve.
-- Eve. An eavesdropper, who is usually a passive attacker. While they can listen in on messages between Alice and Bob, they cannot modify them. In quantum cryptography, Eve may also represent the environment.
-- Faythe. A trusted advisor, courier or intermediary. Faythe is used infrequently, and is associated with Faith and Faithfulness. Faythe may be a repository of key service or courier of shared secrets.
-- Frank. A generic sixth participant.
-- Grace. A government representative. For example, Grace may try to force Alice or Bob to implement backdoors in their protocols. May also deliberately weaken standards.
-- Heidi. A mischievous designer for cryptographic standards, but rarely used.
-- Ivan. An Issuer, mentioned first by Ian Grigg in the context of Ricardian contracts.
-- Judy. A judge who may be called upon to resolve a potential dispute between participants.
-- Mallory or (less commonly) Mallet A malicious attacker. Associated with Trudy, an intruder. Unlike the passive Eve, Mallory/- Mallet is an active attacker (often used in man-in-the-middle attacks), who can modify messages, substitute messages, or replay old messages. The difficulty of securing a system against Mallory/Mallet is much greater than against Eve.
-- Michael, or Mike. Used as an alternative to the eavesdropper Eve. See Microphone.
-- Niaj. Used as an alternative to the eavesdropper Eve in several South Asian nations.
-- Olivia. An oracle, who provides external data to smart contracts residing on distributed ledger (commonly referred to as blockchain) systems.
-- Oscar. An opponent, similar to Mallory, but not necessarily malicious.
-- Peggy, or Pat. A prover, who interacts with the system to show that the intended transaction has actually taken place. Peggy is often found in zero-knowledge proofs. Similar to Victor or Vanna.
-- Rupert. A repudiator who appears for interactions that desire Non-repudiation.
-- Sybil. A pseudonymous attacker, who usually uses a large number of identities. For example, Sybil may attempt to subvert a reputation system. See Sybil attack.
-- Trent or Ted. A trusted arbitrator, who acts as a neutral third party.
-- Trudy. An intruder.
-- Victor, or Vanna. A verifier, similar to Peggy or Pat.
-- Walter. A warden, who may guard Alice and Bob.
-- Wendy. A whistleblower, who is an insider with privileged access capable of divulging information.
+Alice and Bob are fictional characters commonly used as placeholder names in cryptology, as well as science and engineering literature. The Alice and Bob characters were invented by Ron Rivest, Adi Shamir, and Leonard Adleman in their 1978 paper "A method for obtaining digital signatures and public-key cryptosystems." Subsequently, they have become common archetypes in many scientific and engineering fields, such as quantum cryptography, game theory and physics. As the use of Alice and Bob became more widespread, additional characters were added, each with a particular meaning. These characters do not have to refer to humans; they refer to generic agents which might be different computers or even different programs running on a single computer.
 
 --------
 
@@ -90,37 +63,15 @@ In the history of cryptography, a grille cipher was a technique for encrypting a
 
 https://home.bt.com/news/science-news/can-you-spot-these-hidden-images-in-magic-eye-illusions-11364107993380
 
-## From Code book
+## The Code book
 >The urge to discover secrets is deeply ingrained in human nature; even the least curious mind is roused by the promise of sharing knowledge withheld from others. Some are fortunate enough to find a job which consists in the solution of mysteries, but most of us are driven to sublimate this urge by the solving of artificial puzzles devised for our entertainment. Detective stories or crossword puzzles cater for the majority; the solution of secret codes may be the pursuit of a few.
-John Chadwick (The Decipherment of Linear B)
+>>John Chadwick (The Decipherment of Linear B)
 
-Codebreakers are linguistic alchemists, a mystical tribe attempting to conjure sensible words out of meaningless symbols.
+> Codebreakers are linguistic alchemists, a mystical tribe attempting to conjure sensible words out of meaningless symbols.
 
-The science of secrecy is largely a secret science.
+> The science of secrecy is largely a secret science.
 
-Cryptography itself can be divided into two branches, known as transposition and substitution. In transposition each letter retains its identity but changes its position, whereas in substitution each letter changes its identity but retains its position.
-
-## Translation into concept
->> It’s about slowing down, I’m really done with social media at the moment and only posting stuff for millisecond of anyone’s attention and a like based on an extremely fast impression and judgement. Every detail has a meaning and if you look for it you may actually find it. A garment or fragment of a garment is hyperpersonalized, catered towards the wearer.
-
-- Stenography: layering of monochrome images that al blend together into a different image but are all separate images themselves too > using color filters to look at the messages
-- Visual Cryptography: splitting one image into two or more parts, only visible when placed correctly on top of each other (if this is possible with color images that would be even better, try to figure out how to do that).
-
-- Two outfits that are each others key? Creating dynamic garments hiding messages
-- 2 images in one folded panels > 1 message on 1 side, 1 on the other, visible with the same key? 
-- Grille can be used in a piece of clothing like a simple skirt on top of another skirt/trousers, you have to move around the upper skirt to decode the message; there could be multiple messages hidden.
-
-looking at the piece via filters to see various meanings (RGB filters or pattern filters, think about those coins that you can flip like physical gifs> that would also be really cool to make)
-
-What is the input? 
-input > process > output
-
-input as text or as image? or a combination 
-
->> This research is about finding hidden meaning in layered patterns, creating new meaning in collage and combinations of techniques and looking into the chimaera as a metaphor for image and identity. I study cellular automata to find logic in chaotic systems but to celebrate this chaos simultaneously.
-
->>> Using software and hardware to hide messages from me to the people who take the time to look for meaning beyond a first glance
-They can then wear their personal messages on their body, carrying secrets
+> Cryptography itself can be divided into two branches, known as transposition and substitution. In transposition each letter retains its identity but changes its position, whereas in substitution each letter changes its identity but retains its position.
 
 ## Other references/methods of hiding images
 

@@ -2,13 +2,11 @@
 title: "Lasercutting bioplastic"
 date: 2019-12-12T11:10:23+02:00
 tags: ["bioplastic", "lasercutting"]
-categories: ["wetlab"]
+categories: ["wetlab", "fablab"]
 layout: post
 ---
 
-# Lasercutting bioplastic
-
-## Gelatine bioresin with seaweed powder
+# Lasercutting bioplastic: gelatine bioresin with seaweed powder
 Bioplastics tend to warp because of the water inside that evaporates. To lasercut it, you need a piece that is as flat as possible. Our piece was still a bit curved but we could flatten it with tape and weights in the lasercutter. We calibrated the laser on a part that was slightly elevated hoping that it would be a good average of the height differences; thankfully this worked. The lines were not perfectly straight but that had more to do with the seaweed and bubbles in the material than with the settings.
 
 Settings:

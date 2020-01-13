@@ -1,5 +1,5 @@
 ---
-title: "Introduction of textilelab project"
+title: "Textilelab project concept (old)"
 date: 2019-10-08T22:45:30+02:00
 tags: ["concept", "fashion", "textiles"]
 categories: ["textilelab", "research"]

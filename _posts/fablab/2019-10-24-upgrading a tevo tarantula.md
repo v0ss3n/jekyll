@@ -119,11 +119,37 @@ For the Z axis upgrade I need 2x 350mm MGN9 Rail with MGN9H block:
 
 Finally for the X axis I need 1x MGN9 Rails with MGN9H block as well but 300mm long (could be longer but there is no point as the parts on the rails are too wide and 300mm is long enough and cheaper). Some t-nuts with m3 thread are needed to mount all of the rails. For now I  have to wait for the rails to be ordered but I can start with 3d printing the parts.
 
-In conclusion:
+So:
 - 2x 350mm MGN9 Rail with MGN9H block
 - 4x 100mm 2040 Aluminum Extrusion 
 - 2x 350mm MGN12 Linear Rail with MGH12H block
 - 1x 300mm MGN9 Rails with MGN9H block 
+
+- M5 bolts and nuts
+
+Still needed
+- M3 8mm bolts (https://www.toprc.nl/team-corally-staal-schroeven-cilinderkop-binnenzeskant-c-30001.html) 
+- M3 T-slot hammer head nuts (6mm) (https://www.aluxprofiel.nl/indraaimoer-t-sleuf-6-m3/a3534?c=3489)
+- M3 20mm bolts
+
+
+## Bolts and nuts
+Y axis upgrade:
+
+- 8x M3 18mm/20mm bolts to attach the MGN12H blocks to the bed support
+- 8-10x M3 14mm bolts and M3 nuts to attach bed carriage to bed
+- 32x M5 10mm bolts and M5 T-slot hammer head nuts (size 6) to attach end covers and support guide brackets to extrusions
+- 4x M3 8mm bolts and M3 T-slot hammer head nuts (6mm) to attach rails to extrusions
+
+X axis upgrade:
+
+- 4x (at least) M3 8mm bolts and M3 T-slot hammer head nuts (6mm) to attach rails to extrusion
+
+Z axis upgrade:
+
+- 8x (at least) M3 8mm bolts and M3 T-slot hammer head nuts (6mm) to attach rails to extrusion
+
+
 
 ## Recommended print settings
 
