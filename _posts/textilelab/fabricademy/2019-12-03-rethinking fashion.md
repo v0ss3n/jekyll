@@ -1,7 +1,7 @@
 ---
-title: "Rethinking fashion"
+title: "Fabricademy: rethinking fashion"
 date: 2019-12-03T22:47:46+02:00
-tags: ["fabricademy", "assignment", "electronics"]
+tags: ["fabricademy", "lecture", "assignment", "electronics"]
 categories: ["textilelab", "fabricademy"]
 layout: post
 ---

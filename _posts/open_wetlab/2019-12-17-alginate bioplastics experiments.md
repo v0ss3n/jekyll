@@ -16,6 +16,10 @@ There was a jar filled with alginate mixed with water sitting in the textilelab 
 
 ![tests]({{ site.baseurl }}/images/wetlab/alginate-tests.jpg)
 
+The see-through result is not very sturdy but quite nice: 
+
+![tests]({{ site.baseurl }}/images/wetlab/alginate-firsttest.jpg)
+
 ## Flexible bioplastic
 The recipe I used as a basis is the flexible bioplastic one. I also added some coloring: Sarah made a dye out of alkanet mixed with alcohol and sodium carbonate, which produces a magenta color. 
 
@@ -65,9 +69,13 @@ There is quite a bit of deformation on this bioplastic, especially visible on th
 
 ![]({{ site.baseurl }}/images/wetlab/alginate-text3.jpg)
 
-When fully dried almost all of the color has gone. It also has become slightly translucent. 
+When fully dried almost all of the color has gone. The plastic also has become slightly translucent. 
 
 ![]({{ site.baseurl }}/images/wetlab/alginate-text.gif)
+
+The leftover words are quite legible and didn't shrink very much. They are a bit brown from the burnt lasercut edges from the mold.
+
+![]({{ site.baseurl }}/images/wetlab/alginate-letters.jpg)
 
 The following image is a good indication how much alginate shrinks. The color also transformed from a nice pastel pink into a kind of expired ham color. The other samples changed quite a bit in shape and color as well.
 

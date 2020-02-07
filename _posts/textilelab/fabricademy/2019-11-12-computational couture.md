@@ -1,7 +1,7 @@
 ---
-title: "Computational couture"
+title: "Fabricademy: computational couture"
 date: 2019-11-12T14:53:46+02:00
-tags: ["fabricademy", "assignment"]
+tags: ["fabricademy", "lecture", "assignment"]
 categories: ["textilelab", "fabricademy"]
 layout: post
 ---
@@ -78,7 +78,7 @@ In information visualization and graphic design, Truchet tiles are square tiles 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DIc7a2mectY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-Notes
+## Notes
 - Double click Grasshopper canvas to search for keywords
 - You can send drawings between Grasshopper and Rhino
 - You have to use Bake if you want to change your virtual drawing into something to work with in Rhino

@@ -1,7 +1,7 @@
 ---
-title: "Wearables"
+title: "Fabricademy: wearables"
 date: 2019-11-26T22:47:46+02:00
-tags: ["fabricademy", "assignment", "e-textiles", "electronics"]
+tags: ["fabricademy", "lecture", "assignment", "e-textiles", "electronics"]
 categories: ["textilelab", "fabricademy"]
 layout: post
 ---

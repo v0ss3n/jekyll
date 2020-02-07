@@ -112,3 +112,27 @@ fr  documenting, inventarisation of what I still need for Tevo upgrade, cryptogr
 
 ## WEEK 16
 mo  documenting, cryptography project planning and research
+tu  lasercutting experiments with fabrics (visual cryptography) and 3d printing sequins
+we  lasercutting part 2, shape research, embroidering
+th  open day, helping with lasercutting and 3d printing
+fr  working on nina's portfolio website
+
+## WEEK 17
+mo  portfolio website development and design
+tu  portfolio website development and design
+we  portfolio website development and design
+th  portfolio website development and design
+fr  portfolio website development and design
+
+## WEEK 18
+mo  sick
+tu  print making with processing, textile symbol archive update, giving a tour
+we  3d printing fabric experiments, first fabacademy lecture, helping charlotte with 3d printing
+th  open day tours, glove molding, helping charlotte with 3d printing
+fr  glove molding, 3d printing fabric experiments, preparing glove model file for lasercutting
+
+## WEEK 19
+mo  helping with lasercutting a game, discussing cryptography project with cecilia, lasercutting second glove mold 
+tu  assembling and coating lasercut glove mold, documenting, 3d printing fabric experiments
+we  documenting
+th  fabacademy fusion360 workshop

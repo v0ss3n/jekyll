@@ -149,7 +149,8 @@ iframe {
     margin-bottom: 2%;
 }
 
-ol {
+ol,
+table {
   margin-bottom: 2%;
 }
 
@@ -217,4 +218,9 @@ video {
   img {
     width: 23.5%;
   }
+}
+
+td, 
+th {
+  padding-right: 1rem;
 }

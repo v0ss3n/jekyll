@@ -1,7 +1,7 @@
 ---
-title: "Biochromes"
+title: "Fabricademy: biochromes"
 date: 2019-10-15T14:53:46+02:00
-tags: ["fabricademy", "assignment"]
+tags: ["fabricademy", "lecture", "assignment"]
 categories: ["textilelab", "fabricademy"]
 layout: post
 ---

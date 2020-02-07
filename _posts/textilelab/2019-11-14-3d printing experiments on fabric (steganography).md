@@ -1,7 +1,7 @@
 ---
 title: "3D printing experiments on fabric (steganography)"
 date: 2019-11-14T10:31:30+02:00
-tags: ["experiment", "fashion", "textiles", "3d printing", "steganography"]
+tags: ["experiment", "prusa", "textiles", "3d printing", "tevo", "steganography"]
 categories: ["textilelab"]
 layout: post
 ---

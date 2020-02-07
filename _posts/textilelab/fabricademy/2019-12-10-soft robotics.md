@@ -1,7 +1,7 @@
 ---
-title: "Soft robotics"
+title: "Fabricademy: soft robotics"
 date: 2019-12-10T22:47:46+02:00
-tags: ["fabricademy", "assignment", "inflatables"]
+tags: ["fabricademy", "lecture", "assignment", "inflatables"]
 categories: ["textilelab", "fabricademy"]
 layout: post
 ---

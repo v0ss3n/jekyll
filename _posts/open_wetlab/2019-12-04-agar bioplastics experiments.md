@@ -29,5 +29,11 @@ Recipe:
 
 Once fully dried the material is very flexible with a subtle texture that flows like a fabric with a golden hue and transparency that looks beautiful on skin. 
 
+![agar sheet]({{ site.baseurl }}/images/wetlab/agar-sheet1.jpg)
+
+![agar sheet]({{ site.baseurl }}/images/wetlab/agar-sheet2.jpg)
+
+![agar sheet]({{ site.baseurl }}/images/wetlab/agar-sheet3.jpg)
+
 ## Links
 - <https://drive.google.com/file/d/1Lm147nvWkxxmPf5Oh2wU5a8eonpqHCVc/view>

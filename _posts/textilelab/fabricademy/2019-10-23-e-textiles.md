@@ -1,7 +1,7 @@
 ---
-title: "e-Textiles"
+title: "Fabricademy: e-textiles"
 date: 2019-10-23T14:53:46+02:00
-tags: ["fabricademy", "assignment", "e-textiles", "electronics"]
+tags: ["fabricademy", "lecture", "assignment", "e-textiles", "electronics"]
 categories: ["textilelab", "fabricademy"]
 layout: post
 ---

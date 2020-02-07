@@ -1,7 +1,7 @@
 ---
-title: "Textiles as scaffold"
+title: "Fabricademy: textiles as scaffold"
 date: 2019-11-19T22:47:46+02:00
-tags: ["fabricademy", "assignment", "cnc", "alginate"]
+tags: ["fabricademy", "lecture", "assignment", "cnc", "alginate", "molding", "fusion360"]
 categories: ["textilelab", "fabricademy"]
 layout: post
 ---
@@ -24,7 +24,7 @@ This class focuses on exploring techniques and applications of technical textile
 - Use 3D modeling software to simulate your fabric deformation
 
 ## CNC 3D modeling
-I am going to create a glove mold. I will be using bioplastic as textile hardener and lightweight fabric to create 'soft' shapes. I want to link this assignment to my cryptography project so I want to combine the glove model with lasercut molds with secret messages. I then want to use this to create a double-layered glove with the message on the inside (but can then also be worn inside out). It's about being vulnerable; by hiding a secret here you are literally wearing your heart on your sleeve, and with a reversible glove you have a choice in showing yourself or not.
+I am going to create a glove mold. I will be using bioplastic and Paverpol as textile hardener and lightweight fabric to create 'soft' shapes. I want to link this assignment to my cryptography project, combining the glove model with lasercut molds with secret messages. I then want to use this to create a double-layered glove with the message on the inside (but can then also be worn inside out). It's about being vulnerable; by hiding a secret here you are literally wearing your heart on your sleeve, and with a reversible glove you have a choice in showing yourself or not.
 
 ### Step 1: modeling in Blender MakeHuman and Fusion360
 I started with MakeHuman, so I could easily design a hand and an arm. I didn't want to make a mold of my hand as I have very small hands and I wanted my gloves to be a bit more uniform. I then saved my model as an obj and imported it in Fusion360. I removed the rest of the body using the combine tool (cut function). I started with the right glove, the left one I will do at a later point (so I can use a different technique or improve the design). I forgot to take the maximum length of the milling bit into account so I tried different ways of making the lowest point higher. In the end however I found a milling bit that was quite long that I could use so I ended up changing my model again. I also made it shorter to save time and material and I felt that the glove would not improve from making it that long. After rotating and repositioning the model for way too long I was pretty content but next time I should make sure my design is more fit for what I want to use it for. I will make a 3d scan of my own hand and scale it uniformly, or I will figure out how to change the pose of the hand with Blender. It was cumbersome to position the glove in such a way that both sides of the mold are useable because of the bent fingers. 
@@ -61,6 +61,8 @@ For the setup of the Shopbot, check out my [documentation on the CNC milling mac
 It took about 4,5 hours to mill. Process of milling:
 ![cnc]({{ site.baseurl }}/images/fabricademy/cnc-process.jpg)
 
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/1z1d-Bzi_hg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Final result:
 ![cnc]({{ site.baseurl }}/images/fabricademy/cnc-final.jpg)
 
@@ -69,7 +71,7 @@ I used alginate bioplastic recipes for this, described [here]({{ site.baseurl }}
 
 <div id="alginate"></div>
 
-### Step 5: molding
+### Step 5: molding with bioplastic
 My first attempt failed miserably, because I used cling film to cover the mold. Of course the mixture cannot go between the fingers if there is plastic covering it so that was a bit stupid. Once the alginate started reacting with the calcium chloride sprayed on it, holes started forming because there was not enough of the mixture on the mold. At that point I just removed it from the mold because it didn't look very promising. 
 
 <div markdown="1" class="row-2">
@@ -126,8 +128,27 @@ Once fully dried, this version has a bit more of a three dimensional shape compa
 
 ![]({{ site.baseurl }}/images/fabricademy/glove3-1.jpg)
 
-
 My conclusion is that alginate bioplastic is too flexible and shrinks too much for this to work.
+
+## Molding with textile hardener (Paverpol)
+Since bioplastic didn't work I had to try something else so my next attempt was with Paverpol. This actually worked pretty well (with varying levels of success) since it doesn't shrink and you just need to paint it on top of the fabric, no other preparation needed. 
+
+Cotton twill: 
+
+<div markdown="1" class="row-2">
+![mold]({{ site.baseurl }}/images/fablab/glove1.jpg)
+![mold]({{ site.baseurl }}/images/fablab/glove1-2.jpg)
+</div>
+
+Polyester jersey works very well; coated fabric not so much since the fabric doesn't absorb the textile hardener. It still kept a bit of the shape since the Paverpol dried as a layer on top of the coating.
+
+![mold]({{ site.baseurl }}/images/fablab/glove2.jpg)
+
+![mold]({{ site.baseurl }}/images/fablab/glove3.jpg)
+
+For the tests below I used fabric that I laserengraved and lasercut. The laserengraved fabric was too stretchy and couldn't keep the shape of the mold. The lasercut fabric was too fragile so when I tried taking it off the mold it ripped and parts of it got stuck to the mold.
+
+![]({{ site.baseurl }}/images/fablab/glove4.jpg)
 
 <!-- ## Crystallization
 Growing salt crystals on lasercut lace -->

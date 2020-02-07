@@ -1,7 +1,7 @@
 ---
-title: "Circular Open Source Fashion"
+title: "Fabricademy: circular open source fashion"
 date: 2019-10-08T22:47:46+02:00
-tags: ["fabricademy", "assignment", "cnc"]
+tags: ["fabricademy", "lecture", "assignment", "cnc"]
 categories: ["textilelab", "fabricademy"]
 layout: post
 ---
