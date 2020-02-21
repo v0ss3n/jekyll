@@ -136,3 +136,9 @@ mo  helping with lasercutting a game, discussing cryptography project with cecil
 tu  assembling and coating lasercut glove mold, documenting, 3d printing fabric experiments
 we  documenting
 th  fabacademy fusion360 workshop
+fr  coating lasercut glove mold, concept research
+
+## WEEK 20
+mo  web development, concept research, job application
+tu  concept research, lotte's cocreation interview, glove molding
+we  concept finalization and discussion, planning the realization of the project, job application, circular fashion course
