@@ -142,3 +142,19 @@ fr  coating lasercut glove mold, concept research
 mo  web development, concept research, job application
 tu  concept research, lotte's cocreation interview, glove molding
 we  concept finalization and discussion, planning the realization of the project, job application, circular fashion course
+th  open day tours, glove molding, print and lasercut preparation
+fr  full day lasercutting fabric
+
+## WEEK 21
+mo  lasercutting fabric and tevo tarantula upgrade
+tu  tevo tarantula upgrade and documenting
+we  lasercutting final fabric, tevo tarantula upgrade and documenting
+th  tevo tarantula upgrade, open day tours, giving 3d printing tutorials, assisting with lasercutting
+fr  documenting and planning tevo, preparing 3d print files
+
+## WEEK 22
+mo  tevo upgrade
+tu  mannequin lasercutting and assembling 
+we  mannequin assembling
+th  job interview and open day
+fr  mannequin final assembling and documenting
