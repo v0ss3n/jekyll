@@ -11,7 +11,7 @@ The second batch of gemstones I wanted to make with molds of actual gemstones, t
 ![]({{ site.baseurl }}/images/wetlab/molds.jpg)
 
 ## Recipe
-I made gelatine bioresin with alkanet dye. I used two tablespoons of dye to get a deep purple reminiscent of amethyst.
+I colored the gelatine bioresin with alkanet dye. I used two tablespoons of dye to get a deep purple reminiscent of amethyst.
 
 - 48 gram gelatine
 - 8 gram glycerine
@@ -36,14 +36,14 @@ The fully dried molded gemstones still look similar to the molds but nothing lik
 ![]({{ site.baseurl }}/images/wetlab/molds-4.jpg)
 
 ## Molding with aluminium foil
-I also made some molds with aluminium foil like last time, this time removing all of the plastic while it's still moist.
+I also made some molds with aluminium foil again, this time removing all of the foil while the plastic was still moist so it wouldn't stick. I added 3d printed objects again for the insect-in-amber effect.
 
 <div markdown="1" class="row-2">
 ![]({{ site.baseurl }}/images/wetlab/gems-1.jpg)
 ![]({{ site.baseurl }}/images/wetlab/gems-4.jpg)
 </div>
 
-Fully dried: 
+Fully dried they look like this (the pink gemstones are alginate bioplastic ones from earlier): 
 
 ![]({{ site.baseurl }}/images/wetlab/gems-5.jpg)
 

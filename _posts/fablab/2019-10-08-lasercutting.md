@@ -5,7 +5,22 @@ tags: ["lasercutting", "tips"]
 categories: ["fablab"]
 layout: post
 ---
+
 # Lasercutter
+The lasercutter we have at Waag is a [BRM Original Laser Machine](https://www.brmlasers.com/laser-machines/original-lasers/brm-100160/) with a height-adjustable work surface of 100 cm by 160 cm. 
+
+![]({{ site.baseurl }}/images/fablab/laser.jpg)
+
+To test your material it's easiest to have a material reference library and work from there, like the one we have here.  I don't have the template file that was used to create these examples, but [this one](https://www.thingiverse.com/thing:728579) is a good alternative. It is usually enough to do a few tests with some cubes, ellipses and/or lines (depending on what kind of job you want to do) in the corner of your material.
+
+![]({{ site.baseurl }}/images/fablab/laser2.jpg)
+
+The software for this machine is lasercut5.3, and apart from its weird grammatical structures (originally Chinese software) it's pretty straightforward in use. 
+
+Settings | Power | Speed | Notes
+--- | --- | --- | ---
+Cut | 10-100 | 1-400 | You can set the power below 10 in the software, but there is no output
+Engrave | 10-100 | 1-500 | If you want to engrave paths, use cut but set the speed high and/or power low 
 
 ## Materials
 - No pvc based material (toxic)
@@ -13,21 +28,26 @@ layout: post
 - Put smelly materials in a bag or in a bucket of cold water
 - No MDF because of the glue used
 - Hardwood / plywood is fine, may be post-processed
+- If you want to use a plywood mold for bioplastic casting, you can use vaseline spray to prevent the bioplastic from sticking to the wood. For alginate specifically it also helps if the material is lightly sprayed with the calcium chloride 
 
 ## Fabrics
 - Natural fabrics: only with vlisofix in between (45 degrees direction of thread in two directions) because of fraying of the fabric
 - Leather: vegetable tanned, otherwise do not use chrome 6 will be released if it is chemically tanned
-- Felt: ask if it is lasercuttable (flame test: blue or green do not lasercut; if the smell is burned hair then it's fine)
+- Felt: ask if it is lasercuttable (flame test: blue or green do not lasercut; if the smell is burned hair then it's wool felt so it's fine)
 - Scubaknit is lasercuttable, neoprene not really
 - Spacerfabric: do not use
 - No vinyls, nothing that contains chlorine
 - Organza is nice (synthetic)
-- Use wet paper on fabric so it won't move as much
+- Use wet paper on fabric so it won't move as much (you can also spray the fabric itself but when lasercutting large files this may dry up in the middle of your job)
+- Cutting fabric using engraving for BMP's: 500 speed, 80 power (I used this setting for most medium weight/thickness fabrics like a cotton twill and a polyester jersey)
+- When engraving wool and the 
 
-## Misc
-- Soft stop error: check if your file is placed outside of the laser bed in the software
-- If you want to use a plywood mold for bioplastic casting, you can use vaseline spray to prevent the bioplastic from sticking to the wood. For alginate specifically it also helps if the material is lightly sprayed with the calcium chloride 
+## Acrylic
+- Cutting 10mm thick perspex: 5 speed, 100 power
+- Cutting of 3 layers of 3mm glued together: 6 speed, 100 power
 
-## Settings for specific materials
-- Cutting 10mm thick perspex: 6 speed, 100 power 
-- Cutting fabric using engraving for BMP's: 500 speed, 80 power 
+## Soft stop error troubleshooting
+- Check if your file is placed outside of the laser bed in the software
+- Restart machine, software, computer or all of them
+- Check if your anchor point doesn't make the design fall out of the work surface
+

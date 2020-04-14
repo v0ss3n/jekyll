@@ -1,7 +1,7 @@
 ---
 title: "Fabricademy: textiles as scaffold"
 date: 2019-11-19T22:47:46+02:00
-tags: ["fabricademy", "lecture", "assignment", "cnc", "alginate", "molding", "fusion360"]
+tags: ["fabricademy", "lecture", "assignment", "cnc", "molding", "fusion360"]
 categories: ["textilelab", "fabricademy"]
 layout: post
 ---

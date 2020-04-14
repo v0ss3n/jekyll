@@ -158,3 +158,8 @@ tu  mannequin lasercutting and assembling
 we  mannequin assembling
 th  job interview and open day
 fr  mannequin final assembling and documenting
+
+## WEEK 23
+mo  glove 3d modeling and testing filaflex filament
+tu  glove 3d printing with filaflex and documenting 
+we  second glove 3d printing and lasercutting polygon suit

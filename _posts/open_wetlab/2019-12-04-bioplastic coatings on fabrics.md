@@ -13,7 +13,7 @@ I'm using the [gelatine biosilicone recipe]({{ site.baseurl }}\wetlab\2019\12\03
 
 On the right image below the dried coating with a corner peeled off, and on the bottom a complete sample peeled off.
 
-<div markdown="1" class="row-2">
+<div markdown="1" class="row-3">
 ![gelatine bioplastic cast on fabrics]({{ site.baseurl }}/images/wetlab/bioplastic-fabrics3.jpg)
 ![gelatine bioplastic cast on fabrics]({{ site.baseurl }}/images/wetlab/bioplastic-fabrics4.jpg)
 ![gelatine bioplastic cast on fabrics]({{ site.baseurl }}/images/wetlab/bioplastic-fabrics4-2.jpg)
