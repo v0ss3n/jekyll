@@ -19,7 +19,7 @@ For these experiments I am using the Prusa MK3S (nozzle 215°C, bed 60°C if not
 ![]({{ site.baseurl }}/images/textilelab/secret-button-2.jpg)
 </div>
 
-The first try wasn't succesful as the print wouldn't stick to the fabric, I think because the fabric is too smooth.
+The first try wasn't succesful as the print wouldn't stick to the fabric, I think because the fabric is too smooth. The fabric was also not properly adhered to the print bed, so that the nozzle pulled the fabric underneath, causing it to loosen.
 
 <div markdown="1" class="row-2">
 ![]({{ site.baseurl }}/images/textilelab/steganography1.jpg)
@@ -52,6 +52,17 @@ I also tried nonplanar slicing on the Tevo Taratula. I used 0% infill which is p
 ![]({{ site.baseurl }}/images/textilelab/steganography4-1.jpg)
 </div>
 
+The test below was done on the Prusa. The fabric got loose when I wasn't looking, resulting in the printer to freestyle the file on a moving fabric. I actually really liked this manifestation of 'the ghost in the machine'.
+
+<video width="480" height="300" controls>
+  <source src="{{ site.baseurl }}/images/misc/ghost1.mp4" type="video/mp4">
+</video>
+
+<div markdown="1" class="row-2">
+![]({{ site.baseurl }}/images/textilelab/steganography5-1.jpg)
+![]({{ site.baseurl }}/images/textilelab/steganography5-2.jpg)
+</div>
+
 ## Secret symbol
 Following the same principle of hiding something by extruding an image inward, I made stripes with a symbol hidden in them. I printed it without support so it wouldn't attach fully to the fabric. 
 
@@ -66,8 +77,6 @@ For the second try I used Cura to slice the model instead of Prusaslicer because
 ![]({{ site.baseurl }}/images/textilelab/stripe3.jpg)
 ![]({{ site.baseurl }}/images/textilelab/stripe4.jpg)
 </div>
-
-
 
 ## Conclusion
 - When printing on fabric it works best to set the bed temperature about 10°C higher than usual to improve adhesion to the fabric

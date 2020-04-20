@@ -24,9 +24,15 @@ Glue stick on painter's tape looked promising at first but the print still didn'
 
 ![]({{ site.baseurl }}/images/fablab/printrbot3.jpg)
 
-Finally, using glue stick on painter's tape and lowering the speed (50%) for the first layer as well as adding a brim did the trick.
+Finally, using glue stick on painter's tape and lowering the speed (50%) for the first layer as well as adding a brim did the trick. I also decreased the flow, but I should not have done that as you can clearly see the separate layers.
 
 ![]({{ site.baseurl }}/images/fablab/printrbot4.jpg)
+
+<div markdown="1" class="row-2">
+![]({{ site.baseurl }}/images/fablab/printrbot5.jpg)
+![]({{ site.baseurl }}/images/fablab/printrbot6.jpg)
+</div>
+
 
 ## Links
 - <http://www.printrbottalk.com/wiki/index.php?title=Getting_Started_Guide>

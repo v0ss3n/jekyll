@@ -7,7 +7,9 @@ layout: post
 ---
 
 # Processing Pattern Generator
-To create patterns I wanted to create a tool. I started out making patterns the way I learned at art school using Adobe Illustrator, but then I am still the only designer of the print and I want to have software to co-create with me. I found a [tutorial](https://www.instructables.com/id/Processing-patterns/) on how to use Processing to make a pattern and modified the [provided example code]({{ site.baseurl }}/files/example-pattern-tool.pde).
+To create patterns I wanted to create a tool. I started out making patterns the way I learned at art school using Adobe Illustrator, but then I am still the only designer of the print and I want to have software to co-create with me. I found a [tutorial](https://www.instructables.com/id/Processing-patterns/) on how to use Processing to make a pattern and modified the [provided example code]({{ site.baseurl }}/files/example-pattern-tool.pde). 
+
+The symbolic print archive can be found [here](https://michellevossen.com/textile-archive/index).
 
 ## Start symbol
 Symbol no. 008
@@ -32,9 +34,14 @@ Symbol no. 008
 ![]({{ site.baseurl }}/images/textilelab/pattern3-1.jpg)
 ![]({{ site.baseurl }}/images/textilelab/pattern3-2.jpg)
 
-
 ## Version 4
+[Code]({{ site.baseurl }}/files/pattern4.pde)
 
+![]({{ site.baseurl }}/images/textilelab/pattern4-1.jpg)
+![]({{ site.baseurl }}/images/textilelab/pattern4-2.jpg)
+![]({{ site.baseurl }}/images/textilelab/pattern4-3.jpg)
+![]({{ site.baseurl }}/images/textilelab/pattern4-4.jpg)
+![]({{ site.baseurl }}/images/textilelab/pattern4-5.jpg)
 
 
 ## Links

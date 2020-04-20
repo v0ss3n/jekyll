@@ -1,27 +1,17 @@
 ---
 title: "Fabricademy: e-textiles"
 date: 2019-10-23T14:53:46+02:00
-tags: ["fabricademy", "lecture", "assignment", "e-textiles", "electronics"]
+tags: ["lecture", "e-textiles", "electronics"]
 categories: ["textilelab", "fabricademy"]
 layout: post
 ---
 
 # e-Textiles
-October 22nd, 2019
-
-Liza Stark
+_Liza Stark_
 
 During this week students will be introduced to an overview of the field of electronic textiles, example works in the field as well as materials and technical developments that have made these projects possible. We will go into details on different techniques for making soft/flexible/fabric circuits.
 
 <https://class.textile-academy.org/classes/week05/>
-
-## Assignment
-- Build at least one digital and one analogue soft sensors, using different materials and techniques.
-- Document the sensor project as well as the readings got using the AnalogRead of Arduino
-- Integrate the two soft sensors into one or two textile swatches using hard soft connections
-- Document the circuit and it’s schematic
-- Document your swatches
-- Upload a small video of the swatches functioning
 
 ## Workshop notes
 - Static energy: 2 objects with different electric charges > is limited in space (for example balloon and hair)
@@ -39,6 +29,7 @@ Best practice:
 - black probe = - (COM)
 
 Measuring voltages and resistance using a multimeter:
+
 ![]({{ site.baseurl }}/images/fabricademy/e-textiles.jpg)
 
 An LED has a cathode (-) and an anode (+). The short leg is the negative side, the long leg the positive. The optimal voltage for an LED is 3V (otherwise a risk of burning the LED), so when using a battery with a higher voltage you need to make use of resistors.
@@ -47,9 +38,11 @@ An LED has a cathode (-) and an anode (+). The short leg is the negative side, t
 - When using a 3V battery, you don't need a resistor.
 
 Lighting up an LED with a battery:
+
 ![]({{ site.baseurl }}/images/fabricademy/e-textiles-2.jpg)
 
 A breadboard is used for quick prototyping. You use jumper wires to connect the components. Use the + and - strips for power supply (this is a convention, it's clearer). Connecting a battery to a breadboard:
+
 ![]({{ site.baseurl }}/images/fabricademy/e-textiles-3.jpg)
 
 Arduino is an open source microcontroller that can be used to execute code. For example, to blink an LED:
@@ -68,6 +61,7 @@ Arduino is an open source microcontroller that can be used to execute code. For 
 </div>
 
 A sensor is a device, module, machine, or subsystem whose purpose is to detect events or changes in its environment and send the information to other electronics, frequently a computer processor. 
+
 Digital sensors:
 - on/off
 - high/low voltage
@@ -105,6 +99,7 @@ An LDR (light dependent resistor; or photoresistor) is an analog sensor that dec
 </video>
 
 I used the following code (based on the built-in Blink example code) to let the LED blink when a button (push switch) is pressed:
+
 {% highlight cpp %}
 int digital_sensor_pin = 7;     // where the sensor is connected
 int digital_sensor_value = 0;
@@ -143,7 +138,7 @@ You can also make your own resistors, switches and sensors. The following is an 
 For more examples and tutorials check out [kobakant](https://www.kobakant.at/DIY/).
 
 ## Digital sensor
-My soft digital sensor I integrated into my [first experimental design tool]({{ site.baseurl }}\fablab\2019\10\14\first-experimental-design-tool-test.html).
+I made a soft digital sensor that I integrated into an [experimental design tool]({{ site.baseurl }}\fablab\2019\10\14\first-experimental-design-tool-test.html).
 
 Testing conductive yarn and conductive fabric with an LED:
 

@@ -1,7 +1,7 @@
 ---
 title: "Alginate bioplastics experiments"
 date: 2019-12-17T11:10:23+02:00
-tags: ["bioplastic", "experiment", "alginate"]
+tags: ["bioplastic", "experiment"]
 categories: ["wetlab"]
 layout: post
 ---

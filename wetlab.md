@@ -1,5 +1,5 @@
 ---
-title: "Open Wetlab"
+title: "Wetlab"
 date: 2019-10-10T10:48:31+02:00
 layout: post
 ---

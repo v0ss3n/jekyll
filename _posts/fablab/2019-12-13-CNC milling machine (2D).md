@@ -1,29 +1,17 @@
 ---
-title: "CNC Milling Machine"
-date: 2019-11-20T11:10:23+02:00
-tags: ["cnc", "fusion360", "vcarve pro"]
+title: "CNC Milling Machine (2D tutorial)"
+date: 2019-12-13T11:10:23+02:00
+tags: ["cnc", "vcarve pro", "tutorial"]
 categories: ["fablab"]
 layout: post
 ---
 
-# Working with a CNC milling machine
-Since my 3D printing samples on fabric are just laying around everywhere, I want to make a box for them. I will also include a lid so they won't gather dust. This is about 2D (or 2,5D actually) milling. For my documentation on 3D milling, [click here]({{ site.baseurl }}\textilelab\fabricademy\2019\11\19\textiles-as-scaffold.html). Note: the Shopbot instructions are the same as the ones on this page.
+# CNC Milling Machine (2D tutorial)
+This is about 2D (or 2,5D actually) milling. For my documentation on 3D milling, [click here]({{ site.baseurl }}/fablab/2019/12/16/CNC-milling-machine-(3D).html). Note that the [Shopbot instructions](#shopbot) are the same as the ones on this page.
 
-## Step 1: modeling the box (Fusion360)
-I first started to design this box in Illustrator, but I quickly realized that this required a lot of imagining what the box would look like. I switched to Fusion360 so I could actually see in 3D what I was doing. For this I followed [this tutorial](https://www.youtube.com/watch?v=5JZKSDSyP6g) (this is part one of four). You can skip the third and fourth video if you don't need any rendering and just need to the plans for the CNC machine.
-
-To make a CAM layout I am using the align tool recommended in [this tutorial](https://www.youtube.com/watch?v=ZYj37I88-4g). However exporting the file as a dxf gave me a lot of issues so after that I projected all parts onto separate sketches. 
-
-Tips:
-- Create variables from the beginning. I did not do that but halway through modeling I started to regret that. Then you can let the software calculate all of your distances instead of having to do it yourself.
-- Think about the paths you have to mill, VCarve Pro does not allow you to select separate paths so your vectors will have to be the path you want. I had to add extra outline paths because the paths I created in Fusion would have otherwise cut off my notches.
-
-![Process of using Fusion360 to create a model of a box]({{ site.baseurl }}/images/fablab/cnc/cncbox1.jpg)
-
-## Step 2: create the toolpaths (VCarve Pro)
-Notes
-- Newer version of Partworks
-- Design with Fusion360 (3d modeling software), Illustrator, Inkscape, Rhinoceros et cetera
+## Creating toolpaths (VCarve Pro)
+- VCarve Pro is the newer version of Partworks (2D and 3D)
+- Design with Fusion360 (3d modeling software), Illustrator, Inkscape, Rhinoceros etc.
 - Export designed file(s) as eps, ai, stl, pdf, dxf 
 - Always measure the thickness of your material at different places before you start designing
 - You can also draw directly on the canvas
@@ -70,7 +58,9 @@ Create the cut-out toolpaths. Don't forget to add tabs, these will make sure the
 
 ![]({{ site.baseurl }}/images/fablab/cnc/Capture10.PNG)
 
-## Step 3: Shopbot 
+<div id="shopbot"></div>
+
+## Shopbot instructions
 Important:
 - 18000 rotations per minute > DANGEROUS. Be extremely cautious with the placement of the bolts in the material because when you bump into metal with the mill it will generate sparks. In combination with sawdust there is the risk of fire or even explosion. Check everything you are doing constantly. A safety measure is to add the places for the bolt in the file and run those toolpaths first.
 - NEVER LEAVE THE MACHINE
@@ -117,9 +107,3 @@ Keep your hand on the space bar for the first few minutes of milling to check if
 
 ## Links
 - <https://makezine.com/2012/04/13/cnc-panel-joinery-notebook/>
-
-Tutorial:
-- [Part 1](https://www.youtube.com/watch?v=5JZKSDSyP6g): Modeling the box, bottom, and lid. Covers rabbets, grooves and miters.
-- [Part 2](https://www.youtube.com/watch?v=Y9uqHgfwfIU): Adding splines to reinforce the miters, modeling the thumb grip, and making the lid open and close using joints in Fusion.
-- [Part 3](https://youtu.be/2_egn8hmkss) : Applying wood materials, selecting the best grain, and photorealistic rendering.
-- [Part 4](https://youtu.be/NXVaGgvGfvM): Creating printable plans from the model.

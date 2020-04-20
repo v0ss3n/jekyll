@@ -6,7 +6,7 @@ layout: post
 
 - [fablab](./fablab.html)
 - [textilelab](./textilelab.html)
-- [open wetlab](./wetlab.html)
+- [wetlab](./wetlab.html)
 - [fabricademy](./fabricademy.html)
 - [research](./research.html)
 - [assorted projects](./other.html)

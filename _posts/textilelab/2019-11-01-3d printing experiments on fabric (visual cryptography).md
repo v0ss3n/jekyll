@@ -55,7 +55,7 @@ For the second test I used red PLA on see-through polyester, with standard PLA s
 
 ![]({{ site.baseurl }}/images/textilelab/vsc-textile1.jpg)
 
-For the third test I used flexfill on see-through polyester (nozzle 240°C, bed 60°C). This filament attaches itself properly to the fabric but the text was barely legible.
+For the third test I used Flexfill on see-through polyester (nozzle 240°C, bed 60°C). This filament attaches itself properly to the fabric but the text was barely legible.
 
 <div markdown="1" class="row-2">
 ![]({{ site.baseurl }}/images/textilelab/vsc-textile2-1.jpg)
