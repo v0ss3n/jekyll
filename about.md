@@ -10,6 +10,9 @@ Michelle Vossen is an artist and designer from the Netherlands, who graduated wi
 Her goal is to further experiment with bringing fashion, art and technology closer together, to a level where absurdism sometimes surpasses practicality. Her work is about connecting the physical with the digital, the crafted by hand and the machine made. She combines analog and digital image manipulation to arrive at designs and prints, uses digital fabrication methods and is inspired by all kinds of online phenomena. In addition, fun and humor are of great importance to her: her work does not have to make sense at first (and second) sight. She is constantly searching for meaning, but even more intrigued by simulation of significance: empty symbols, images without deeper content and visual stories without purpose.
 
 ![portrait]({{ site.baseurl }}/images/misc/portrait.jpg)
+<!-- 
+## About this blog
+This blog started out as a documentation of all of my experiments during my internship at Waag. After my internship I continued documenting  -->
 
 ## About Waag
 Waag operates at the intersection of science, technology and the arts. Their work focuses on emergent technologies as instruments of social change, and is guided by the values of fairness, openness and inclusivity. Waag’s dedicated team of sixty thinkers and makers empowers people to become active citizens through technology.
