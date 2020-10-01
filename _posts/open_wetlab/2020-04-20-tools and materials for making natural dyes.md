@@ -24,3 +24,6 @@ Modifiers:
 - [Vinegar](https://www.ah.nl/producten/product/wi462643/ah-natuurazijn-wit)
 - [Alum](https://www.deonlinedrogist.nl/chempropack-aluin-1000gr-p-62657.html) (or [here](https://www.hekserij.nl/shop/educatief/fotografie-en-doka/aluin-kaliumaluminiumsulfaat/))
 - [Citric acid](https://www.bol.com/nl/p/citroenzuur-1kg/9200000128164656/?bltgh=lq7Nszxq0RnlXL1BuOJDPg.vvUG5eMBnWBCh-51sJNC-g_0_29.30.ProductTitle) (or [here](https://www.hekserij.nl/shop/cosmetica/cosmetica-poeders/citroenzuur-watervrij/))
+
+Material to extract colour from:
+- [Madder](https://www.meervilt.nl/winkel/verven/natuurlijk-verven/meekrap/)
