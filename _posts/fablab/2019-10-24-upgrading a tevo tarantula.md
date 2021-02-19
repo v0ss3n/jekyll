@@ -221,7 +221,59 @@ The best would be to replace the glass bed with [an aluminium bed](https://nl.al
 
 ![tevo tarantula]({{ site.baseurl }}/images/fablab/tevo-x8.jpg)
 
-https://www.123-3d.nl/123-3D-Ventilator-12V-50x15mm-radiaal-i1709-t15050.html
+### Continuing where I left off after a few months
+So a whole pandemic happened (and is still happening) and I couldn't finish my internship properly... In november 2020 I was able to return for a few times, but it had been a while since I worked on the machine with Jules so it took me a while before I figured out where we left off. I started with adding the second motor for the Z axis upgrade. I replaced the piece connecting the left Z axis and top X axis extrusions and installed the left motor mount. I had to use a clamp to get the 3d printed part to fit. Since there's now two motors instead of one for the Z axis but only one input for the connector, I had to use a different cable consisting of two cables going to one connector.
+
+![tevo tarantula]({{ site.baseurl }}/images/fablab/IMG_3544.JPEG)
+
+After trying them out carefully (taking .1mm and 1mm steps) I realized they were moving in opposite directions so I had to flip and resolder 2 wires on both motors cables.
+
+<div markdown="1" class="row-3">
+![tevo tarantula]({{ site.baseurl }}/images/fablab/IMG_3548.JPEG)
+![tevo tarantula]({{ site.baseurl }}/images/fablab/IMG_3549.JPEG)
+![tevo tarantula]({{ site.baseurl }}/images/fablab/IMG_3550.JPEG)
+</div>
+<div markdown="1" class="row-3">
+![tevo tarantula]({{ site.baseurl }}/images/fablab/IMG_3551.JPEG)
+![tevo tarantula]({{ site.baseurl }}/images/fablab/IMG_3552.JPEG)
+![tevo tarantula]({{ site.baseurl }}/images/fablab/IMG_3553.JPEG)
+</div>
+
+## Compiling with PlatformIO
+I didn't know exactly what changes Jules had made to the Marlin software to make the endstop move to the right instead of the left (which is standard). It's also impossible to reverse the connection with the board on the Tevo to retrieve the configuration since it's the compiled version on there anyway. So I decided to start over with the standard [Marlin EasyConfig for the Tevo Tarantula by Jim Brown](https://github.com/JimBrown/MarlinTarantula) and work from there so I could learn how it works and why it does what it does. I am using PlatformIO in Visual Studio Code to compile the code, since working in Arduino kept resulting in errors while compiling (fork/exec C:\User\Documents\ArduinoData\packages\arduino\tools\avr-gcc\7.3.0-atmel3.6.1-arduino5/bin/avr-gcc.exe: The filename or extension is too long.) and after troubleshooting for a few hours I figured I would try PlatformIO instead. PlatformIO didn't have any issues whatsoever and I can just compile directly from VSC so it's wonderful. The board is [MKS Base V1.4](https://2020cadillac.com/tevo-tarantula-wiring-diagram/tevo-tarantula-motherboard-mks-base-v1-4-3d-printing-tevo-tarantula-wiring-diagram/) (select arduino MEGA 2560).
+
+<div markdown="1" class="row-2">
+![tevo tarantula]({{ site.baseurl }}/images/fablab/IMG_3557.JPEG)
+![tevo tarantula]({{ site.baseurl }}/images/fablab/tevo-platformio-build-1.jpg)
+</div>
+![tevo tarantula]({{ site.baseurl }}/images/fablab/tevo-platformio-build-2.jpg)
+
+## Z axis homing with the SN04 bed leveling sensor
+Being able to compile the program and to send it to the machine, I could finally get started with tweaking. I defined the Z probe sensor that we installed in march. This is the SN04 sensor. At first Z axis homing was just returning to the zero point, after a [M48 probe accuracy test](https://marlinfw.org/docs/gcode/M048.html) (putting an aluminium bed/piece of aluminium foil as reference on the glass bed; glass bed will have to be replaced) Z axis homing works; 0 is now a few mm's above the bed which can be fixed in the configuration.
+
+![tevo tarantula]({{ site.baseurl }}/images/fablab/IMG_3555.JPEG)
+![tevo tarantula]({{ site.baseurl }}/images/fablab/tevo-zprobe-sn04.jpg)
+
+I need to measure how high the SN04 is placed above the bed, so I can define how low the nozzle can go. Right now, after leveling the nozzle floats above the bed when Z is 0.
+
+![tevo tarantula]({{ site.baseurl }}/images/fablab/tevo-zprobe.jpg)
+
+## Y axis homing
+Y axis homing works fine, moves to the back and then I can move it +200mm; I changed this to +235mm since that was how far I could move the bed.
+
+## X axis homing
+X axis homings has some issues, the machine moves to the right after changing the end stop from MIN to MAX, but then the right is 0 and it thinks it cannot move to the left (minus) so I have to let the printer know that the right X axis end stop is not 0 but +200mm (or move the endstop to the right or to the print head again).
+
+![tevo tarantula]({{ site.baseurl }}/images/fablab/tevo-bedsize.jpg)
+![tevo tarantula]({{ site.baseurl }}/images/fablab/tevo-travel-limits.jpg)
+
+
+<!-- https://www.123-3d.nl/123-3D-Ventilator-12V-50x15mm-radiaal-i1709-t15050.html -->
+
+
+Future plans:
+- A flippable construction for the z probe sensor so non planar slicing would be possible
+- Upgrade Y axis with MGN rails
 
 ##### Links
 - <https://help.tevo.cn/knowledge-base/my-axis-does-not-stop-when-homing-my-tevo-tarantula/>
