@@ -8,6 +8,7 @@ layout: post
 - [textilelab](./textilelab.html)
 - [wetlab](./wetlab.html)
 - [fabricademy](./fabricademy.html)
+- [fabacademy](./fabacademy.html)
 - [research](./research.html)
 - [assorted projects](./other.html)
 - [all](./all.html)

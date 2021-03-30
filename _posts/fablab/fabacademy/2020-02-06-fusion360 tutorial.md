@@ -1,5 +1,5 @@
 ---
-title: "Fabacademy: fusion360"
+title: "Fusion360"
 date: 2020-02-06T9:20:23+02:00
 tags: ["fabacademy", "tutorial", "fusion360"]
 categories: ["fablab", "fabacademy"]

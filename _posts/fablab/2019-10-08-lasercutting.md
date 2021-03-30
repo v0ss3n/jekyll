@@ -7,7 +7,7 @@ layout: post
 ---
 
 # Lasercutter
-The lasercutter we have at Waag is a [BRM Original Laser Machine](https://www.brmlasers.com/laser-machines/original-lasers/brm-100160/) with a height-adjustable work surface of 100 cm by 160 cm. 
+The lasercutter we have at Waag is a [BRM Original Laser Machine](https://www.brmlasers.com/laser-machines/original-lasers/brm-100160/) with a height-adjustable work surface of 100 cm by 160 cm. The fume extractor is a [BOFA AD Oracle](https://bofainternational.com/wp-content/uploads/pdf/datasheet/ad-oracle-1845.pdf).
 
 ![]({{ site.baseurl }}/images/fablab/laser.jpg)
 
@@ -21,6 +21,10 @@ Settings | Power | Speed | Notes
 --- | --- | --- | ---
 Cut | 10-100 | 1-400 | You can set the power below 10 in the software, but there is no output
 Engrave | 10-100 | 1-500 | If you want to engrave paths, use cut but set the speed high and/or power low 
+
+
+## Lightburn
+As of the end of 2020, Henk has upgraded the laser's board. We now use [Lightburn](https://lightburnsoftware.com/) as software to send files to the lasercutter. You can also directly control the laser from the computer which is pretty neat, and there are many more formats you can import into the program (previously only R13/R14 version DXF worked and SVG for engraving).
 
 ## Materials
 - No pvc based material (toxic)

@@ -42,7 +42,7 @@ Flutes:
 Settings:
 - Tool type: end mill (flat) or ball nose mill (rounded)
 - Diameter: diameter of the flute
-- Pass depth: maximum depth of the material removed per pass ('round'). For a two flute this 
+- Pass depth: maximum depth of the material removed per pass ('round'). 
 - Stepover: the distance between each pass of the machines tool head. The larger the stepover the faster the job will be machined, but the rougher the surface finish will be
 - Spindle speed: rotations per minute of the mill. Maximum (and standard) is 18000 RPM. Changing this value here is only for your own information; you have to set this manually on the machine.
 - Feed rate: speed of traveling through the material. For wood 50/60mm per second is a good start (with a two flute end mill); for foam this can be increased to 100/120mm per second (with a two flute end mill).
@@ -75,7 +75,7 @@ Open the Shopbot software before turning on the machine (otherwise there is no c
 
 ![]({{ site.baseurl }}/images/fablab/cnc/cnc-move.png)
 
-First you have to zero the X and Y axes. Move the machine to the preferred spot, take a screenshot of the X and Y position displayed in the menu and press 2. If for some reason the machine has to stop or the software crashes while milling, you can still continue with your file; otherwise the machine does not know where to start. 
+First you have to zero the X and Y axes. Start with zeroing the machine with the 0,0 button (so the machine looks for it's absolute 0,0 point). Then move the machine to the preferred spot, take a screenshot of the X and Y position displayed in the menu and press 2. If for some reason the machine has to stop or the software crashes while milling, you can still continue with your file; otherwise the machine does not know where to start. 
 
 ![]({{ site.baseurl }}/images/fablab/cnc/cnc-zero.jpg)
 

@@ -263,15 +263,21 @@ Y axis homing works fine, moves to the back and then I can move it +200mm; I cha
 
 ## X axis homing
 X axis homings has some issues, the machine moves to the right after changing the end stop from MIN to MAX, but then the right is 0 and it thinks it cannot move to the left (minus) so I have to let the printer know that the right X axis end stop is not 0 but +200mm (or move the endstop to the right or to the print head again).
+I changed the bed size so it could move the X axis to minus -160mm but then later I tried changing X_MAX_ENDSTOP_INVERTING to false but then it would only move to the left again (which makes sense since it was going in the right direction anyway). 
+After not being able to find out how to make the machine understand that X max endstop homing means that that position is the outer boundary and not 0, I decided to move the endstop to the left of the machine (where it usually is located anyway). So still not connected to the print head which was why Jules decided to move it. 
 
 ![tevo tarantula]({{ site.baseurl }}/images/fablab/tevo-bedsize.jpg)
 ![tevo tarantula]({{ site.baseurl }}/images/fablab/tevo-travel-limits.jpg)
 
+## Z axis homing
+<https://github.com/JimBrown/MarlinTarantula/wiki/How-to-determine-your-Z-Probe-offset-(EasyConfig)>
 
 <!-- https://www.123-3d.nl/123-3D-Ventilator-12V-50x15mm-radiaal-i1709-t15050.html -->
 
+## Case 
+<https://www.thingiverse.com/thing:3456767>
 
-Future plans:
+## Future plans
 - A flippable construction for the z probe sensor so non planar slicing would be possible
 - Upgrade Y axis with MGN rails
 
