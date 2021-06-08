@@ -31,6 +31,14 @@ Since the BRM lasercutter in the lab has been updated, a new material tests libr
 ![]({{ site.baseurl }}/images/fablab/laser/IMG_5696.JPEG)
 </div>
 
+## Powerscale
+Powerscale is a method of scaling power on arrays of shapes, so you are not limited to the maximum amount of layers (30) in Lightburn. Power scale is a percent between min and max (so no absolute values), so 10% in your case is 10% of the way from 50% to 95%, or about 54% power.
+
+## Links
+- <https://o2creative.co.nz/laser/>
+
+
+
 ## Materials list
 cardboard | 3 mm
 cardboard (solid) | 3 mm

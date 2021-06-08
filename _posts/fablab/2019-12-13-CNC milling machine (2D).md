@@ -75,7 +75,7 @@ Open the Shopbot software before turning on the machine (otherwise there is no c
 
 ![]({{ site.baseurl }}/images/fablab/cnc/cnc-move.png)
 
-First you have to zero the X and Y axes. Start with zeroing the machine with the 0,0 button (so the machine looks for it's absolute 0,0 point). Then move the machine to the preferred spot, take a screenshot of the X and Y position displayed in the menu and press 2. If for some reason the machine has to stop or the software crashes while milling, you can still continue with your file; otherwise the machine does not know where to start. 
+First you have to zero the X and Y axes. Start with zeroing the machine with the Zero X/Y button (so the machine looks for it's absolute 0,0 point; it's not Jog home, the 0,0 button. That one will make the machine go to the last home position). Then move the machine to the preferred spot, take a screenshot of the X and Y position displayed in the menu and press 2. If for some reason the machine has to stop or the software crashes while milling, you can still continue with your file; otherwise the machine does not know where to start. 
 
 ![]({{ site.baseurl }}/images/fablab/cnc/cnc-zero.jpg)
 

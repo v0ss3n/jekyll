@@ -7,7 +7,7 @@ layout: post
 ---
 
 # Lasercutter
-The lasercutter we have at Waag is a [BRM Original Laser Machine](https://www.brmlasers.com/laser-machines/original-lasers/brm-100160/) with a height-adjustable work surface of 100 cm by 160 cm. The fume extractor is a [BOFA AD Oracle](https://bofainternational.com/wp-content/uploads/pdf/datasheet/ad-oracle-1845.pdf).
+The lasercutter we have at Waag is a [BRM Original Laser Machine](https://www.brmlasers.com/laser-machines/original-lasers/brm-100160/) with a height-adjustable work surface of about 110 cm by 150 cm. The fume extractor is a [BOFA AD Oracle](https://bofainternational.com/wp-content/uploads/pdf/datasheet/ad-oracle-1845.pdf).
 
 ![]({{ site.baseurl }}/images/fablab/laser.jpg)
 
