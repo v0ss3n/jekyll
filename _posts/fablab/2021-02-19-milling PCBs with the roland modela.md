@@ -64,6 +64,7 @@ You gotta program them to use them to program others!!!! Otherwise it’s ‘dea
 - Tighten it snugly, not aggressively
 - Don’t screw the mill in too tightly or you have to replace that screw a lot sooner
 - If you move the origin, you also have to redo the Z axis alignment. This has to do with the imperfections of the board; it does remember where the 0 point was but just to have it as precise as possible you have to redo it
+- After starting mods, go to the program (Milling with the MDX), close WebSocket pyserial, close the pyserial port, then close socket and port for the WebSocket serial, then open socket and open port there. Try moving to the origin to check if there's a connection.
 
 1. Turn it on > machine automatically goes to machine home, it’s in view mode (can turn that off with the view mode button)
 2. Now replace the milling bit if it’s not the correct one. You can’t release it and let it fall out because it will break; put one finger against the milling bit and take it out in a controlled way
