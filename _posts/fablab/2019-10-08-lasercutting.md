@@ -55,3 +55,11 @@ As of the end of 2020, Henk has upgraded the laser's board. We now use [Lightbur
 - Restart machine, software, computer or all of them
 - Check if your anchor point doesn't make the design fall out of the work surface
 
+## Troubleshooting wobbly lines
+- Check if lens is loose
+- Check belt tension
+
+After troubleshooting testing multiple settings and sometimes getting straight lines and sometimes wobbly lines I realized what caused my wobbly lines: it was only happening when the laser had a kerf offset specified. I noticed it before but I didn't think that would be the cause since it hadn't produced this result before. I'm suspecting it's an update gone wrong. I've created a topic on this issue on the Lightburn forum [here](https://forum.lightburnsoftware.com/t/kerf-offset-causes-wobbly-lines/49835). 
+
+- <https://darklylabs.zendesk.com/hc/en-us/articles/213443527-Emblaser-1-Straight-Lines-Appear-Wavy>
+- <https://www.reddit.com/r/lasercutting/comments/8jzodb/whats_with_the_wobbly_lines/>

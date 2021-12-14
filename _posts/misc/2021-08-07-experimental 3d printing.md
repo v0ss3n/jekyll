@@ -1,6 +1,6 @@
 ---
-title: "Experimental 3d printing (future post)"
-date: 2022-08-07T14:58:46+02:00
+title: "Experimental 3d printing"
+date: 2021-08-07T14:58:46+02:00
 tags: ["3d printing", "experimental", "wearables"]
 categories: ["misc", "fablab"]
 layout: post
@@ -39,6 +39,23 @@ Now a voxel object should appear in the settings tab, however for all gcode file
 So with this tutorial I finally figured it out:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HmZ6TyHESMk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+- Remeshing the Fusion generated STL first in a separate program since the saved mesh is pretty shit (very long triangles, terrible for UV mapping). It's also possible in Blender (as explained [here](https://artisticrender.com/remeshing-in-blender/) but my laptop does NOT like that). I'm using Instant Meshes for this.
+- <https://docs.blender.org/manual/en/2.80/modeling/meshes/editing/uv/unwrapping/mapping_types.html>
+- YOUR VIEWPOINT IS TAKEN INTO ACCOUNT WHEN MAPPING
+- Make a vertex group if you only want to map a specific part and select that group in the Displace modifier
+
+Workflow:
+1. Remesh OBJ with Instant Meshes (I used around 100k as target vertex count)
+2. Import OBJ into Blender
+3. Add Displace modifier
+4. New Texture
+5. Set coordinates to UV
+6. Go to texture properties and open the displacement map
+7. Go to UV Editing tab and select the displacement map
+8. In edit mode, go to the correct orthogonal view if needed, click 'face select' and press U for UV mapping options
+9. Scale and position the projected map as needed (for me it's usually extremely stretched)
+10. Add subdivision surface to get the needed detail and place it above the Displace modifier (it's even easier to do this before adding the Displace modifier but my laptop cannot really deal with that)
 
 ## Links
 - <https://diy3dprinting.blogspot.com/2015/05/how-to-convert-g-code-back-into-stl.html>

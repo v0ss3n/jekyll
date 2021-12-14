@@ -38,5 +38,4 @@ convert, resize, adjust | magick convert -quality 75% -resize 60% img.jpg img.pn
 convert all images | magick mogrify -format png *.jpg
 
 - Mogrify overwrites the original image file, whereas, magick writes to a different image file.
-
 - Note to self: cd path-to-directory; magick mogrify -resize "600>" *.JPEG* (or any other image extension) is great

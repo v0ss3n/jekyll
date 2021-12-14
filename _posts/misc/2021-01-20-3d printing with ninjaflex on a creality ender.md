@@ -26,11 +26,11 @@ As you can tell at some point my walls were too high and too thin, so more and m
   <source src="{{ site.baseurl }}/images/fablab/IMG_0382.mp4" type="video/mp4">
 </video>
 
-
 <div markdown="1" class="row-2">
 ![ninjaflex]({{ site.baseurl }}/images/fablab/IMG_5168.JPEG)
 ![ninjaflex]({{ site.baseurl }}/images/fablab/IMG_5169.JPEG)
 </div>
+
 
 
 Sources: 

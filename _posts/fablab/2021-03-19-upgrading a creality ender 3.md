@@ -60,7 +60,7 @@ ABL still didn't work (same issue as [this person](https://3dprinting.stackexcha
 
 After printing a test print I wanted to see if ABL magically worked, and it actually did. For the first time it finished the entire bed leveling procedure, leaving me very confused why it works now suddenly. It also is now possible to move all of the axes. 
 
-For the next test print I changed the Z Probe offset to 3.88, since I had to babystep Z to -.50mm because it was still printing in the air; while printing I babystepped to +0.10mm again for the squares in the back of the bed, but that was too much for the squares in the middle and front, so I'm guessing the printer is not using the ABL data. In [this post](https://www.reddit.com/r/BIGTREETECH/comments/issq6g/trouble_with_skr_mini_e3_v2_and_abl/) it's mentioned that you need a G29 (bed leveling/ABL) right after a G28, since G28 clears the mesh. I'm going to check this by adding a G29 to the gcode of the test squares.
+For the next test print I changed the Z Probe offset to 3.88, since I had to babystep Z to -.50mm because it was still printing in the air; while printing I babystepped to +0.10mm again for the squares in the back of the bed, but that was too much for the squares in the middle and front, so I'm guessing the printer is not using the ABL data. In [this post](https://www.reddit.com/r/BIGTREETECH/comments/issq6g/trouble_with_skr_mini_e3_v2_and_abl/) it's mentioned that you need a G29 (bed leveling/ABL) right after a G28, since G28 clears the mesh. I'm checked this by adding a G29 to the gcode of the test squares.
 
 Startup code from PrusaSlicer:
 
@@ -103,10 +103,24 @@ G92 E0
 
 {% endhighlight %}
 
-I still babystepped immediately +0.1mm and halfway through to +0.2mm so I decided to change the Z offset to -3.68mm. My conclusion is that the G29 is actually necessary. At first I thought that would be another issue to fix but luckily, there is a PrusaSlicer for an Ender 3 with BLTouch installed specifically which does precisely that so for now the BLTouch install is complete.
+I still babystepped immediately +0.1mm and halfway through to +0.2mm so I decided to change the Z offset to -3.68mm. It did print now so my conclusion is that the G29 is actually necessary. At first I thought that would be another issue to fix but luckily, there is a PrusaSlicer for an Ender 3 with BLTouch installed specifically which does precisely that so for now the BLTouch install is complete.
+
+## Update
+So after months of using and struggling with the Ender and babystepping and offsetting the Z axis constantly, it's time for another go at upgrading and troubleshooting. Again I tried updating the firmware with the on-board SD card but again no flashing blue screen; also no change of the name to FIRMWARE.CUR. This time I decided to try it with USB cable using VSC and PlatformIO following [this](https://www.youtube.com/watch?v=GQlAN88ebNM) tutorial.
+
+As a future note to self: in PlatformIO the blue bar has the buttons you need to build!
+
+![skr]({{ site.baseurl }}/images/fablab/ender/build_platformio.jpg)
+
+<!-- to do: add pictures of wiring etc -->
+
+<https://github.com/bigtreetech/BIGTREETECH-SKR-mini-E3/issues/413>
+
+## Another update
+So I've removed the BLTouch and returned to regular bed leveling and now everything is fine. I don't think our BLTouch properly functions.
 
 ## Links
 - <https://github.com/bigtreetech/BIGTREETECH-SKR-mini-E3/blob/master/hardware/BTT%20SKR%20MINI%20E3%20V2.0/Hardware/BTT%20SKR%20MINI%20E3%20V2.0%20Instruction%20Manual.pdf>
 - <https://linsomniac.gitlab.io/post/2020-06-20-ender3-pro-skr-v2_0-bltouch-upgrade/>
 - <https://3dprinting.stackexchange.com/questions/10345/bltouch-probing-fails-intermittently>
-- <<https://kay3d.com/pages/the-correct-way-to-configure-a-bltouch>
+- <https://kay3d.com/pages/the-correct-way-to-configure-a-bltouch>
