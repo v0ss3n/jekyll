@@ -316,7 +316,7 @@ While making the project schematic I realized I was one pin short on the ATTiny8
 ![]({{ site.baseurl }}/images/fablab/attiny84.jpg)
 </div>
 
-### Board
+### KiCad: Schematic Editor
 Pinout of the ATtiny84:
 ![attiny84 pinout](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcamo.githubusercontent.com%2Fd46f3f004aaf977040d933ae5eaf25d22d33eac1%2F687474703a2f2f6472617a7a792e636f6d2f652f696d672f50696e6f7574543834612e6a7067&f=1&nofb=1)
 
@@ -347,7 +347,10 @@ The last time I added wire connectors all names were different so I picked the o
 ![]({{ site.baseurl }}/images/fablab/footprintassignment.jpg)
 
 
+### KiCad: PCB Editor
 To quote [Nadieh](https://fabacademy.org/2021/labs/waag/students/nadieh-bremer/blog/week-6/) so I won't forget: "Make sure that the VCC and GND of the microcontroller is connected to the point of power through the capacitor. In this case that meant placing the capacitor in between the lines going from the FTDI to the ATTiny." 
+
+![]({{ site.baseurl }}/images/fablab/ultrasonic_ratsnest.jpg)
 
 
 ## Sources
