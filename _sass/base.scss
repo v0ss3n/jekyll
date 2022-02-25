@@ -452,7 +452,8 @@ video {
   margin-bottom: 2%;
 }
 
-.row-2 p {
+.row-2,
+.row-2--divs {
   width: 100%;
   max-width: 800px;
   display: flex;
@@ -463,6 +464,10 @@ video {
   img {
     width: 49%;
   }
+}
+
+.row-2--divs div {
+  width: 49%;
 }
 
 .row-2--video {

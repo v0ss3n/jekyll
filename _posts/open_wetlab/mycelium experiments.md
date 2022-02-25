@@ -22,6 +22,9 @@ Tools:
 
 Also check out Maud Bausier's (previous fablab intern) [documentation](https://maudb.gitlab.io/dok/projects/grow-mycelium/) on growing mycelium.
 
+## Grey oyster starter
+I bought grey oyster starter from [fryslan fungies](https://www.fryslanfungies.nl/winkel/broed-nieuw-opstartmateriaal/?attribute_pa_kleur=grijs).
+
 ## Books
 - [Growing gourmet and medicinal mushrooms](https://b-ok.cc/book/2090042/16f7df) by Paul Stametz
 

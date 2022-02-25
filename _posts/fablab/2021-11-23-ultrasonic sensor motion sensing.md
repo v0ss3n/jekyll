@@ -14,15 +14,341 @@ For the Fabcharter in the lab I am using various fablab techniques to make the s
 - Breadboard & jumper cables (also for prototyping)
 - Ultrasonic sensor HC-SR04
 - Neopixels
+- 300 to 500 Ohm resistor
 
 "Ultrasonic Sensor HC-SR04 is a sensor that can measure distance. It emits an ultrasound at 40 000 Hz (40kHz) which travels through the air and if there is an object or obstacle on its path It will bounce back to the module. Considering the travel time and the speed of the sound you can calculate the distance.
 
 The configuration pin of HC-SR04 is VCC (1), TRIG (2), ECHO (3), and GND (4). The supply voltage of VCC is +5V and you can attach TRIG and ECHO pin to any Digital I/O in your Arduino Board." ([source](https://create.arduino.cc/projecthub/abdularbi17/ultrasonic-sensor-hc-sr04-with-arduino-tutorial-327ff6))
 
-## Testing
+## Testing with Arduino and NeoPixels
 I'm following [this tutorial](https://www.tutorialspoint.com/arduino/arduino_ultrasonic_sensor.htm) to get started with the sensor, with the schematic below as a reference; since I'm using an Arduino Pro Mini the pin-out is different for me.
 
 ![schematic](https://www.tutorialspoint.com/arduino/images/ultrasonic_circuit_connection.jpg)
+
+The following code is what I wrote, combining the example code from the tutorial above with a NeoPixel color wipe every time there's movement within 50 cm of the sensor. 
+
+{% highlight cpp %}
+const int pingPin = 7; // Trigger Pin of Ultrasonic Sensor
+const int echoPin = 6; // Echo Pin of Ultrasonic Sensor
+int lights_duration = 5000;
+unsigned long previousMillis = 0;
+unsigned long currentMillis = millis();
+
+
+#include <Adafruit_NeoPixel.h>
+#ifdef __AVR__
+#include <avr/power.h> // Required for 16 MHz Adafruit Trinket
+#endif
+
+// Which pin on the Arduino is connected to the NeoPixels?
+// On a Trinket or Gemma we suggest changing this to 1:
+#define LED_PIN    5
+
+// How many NeoPixels are attached to the Arduino?
+#define LED_COUNT 58
+
+// Declare our NeoPixel strip object:
+Adafruit_NeoPixel strip(LED_COUNT, LED_PIN, NEO_GRB + NEO_KHZ800);
+
+void setup() {
+  Serial.begin(9600); // Starting Serial Terminal
+#if defined(__AVR_ATtiny85__) && (F_CPU == 16000000)
+  clock_prescale_set(clock_div_1);
+#endif
+  // END of Trinket-specific code.
+
+  strip.begin();           // INITIALIZE NeoPixel strip object (REQUIRED)
+  strip.show();            // Turn OFF all pixels ASAP
+  strip.setBrightness(50); // Set BRIGHTNESS to about 1/5 (max = 255)
+}
+
+void loop() {
+  long duration, cm;
+  pinMode(pingPin, OUTPUT);
+  digitalWrite(pingPin, LOW);
+  delayMicroseconds(2);
+  digitalWrite(pingPin, HIGH);
+  delayMicroseconds(10);
+  digitalWrite(pingPin, LOW);
+  pinMode(echoPin, INPUT);
+  duration = pulseIn(echoPin, HIGH);
+  cm = microsecondsToCentimeters(duration);
+  Serial.print(cm);
+  Serial.print("cm");
+  Serial.println();
+  delay(100);
+  if (cm < 50) {
+    Serial.println("Neopixels will turn on");
+    colorWipe(strip.Color(255, 0, 0), 50);
+    colorWipe(strip.Color(0, 0, 0), 50);        
+  }
+}
+
+long microsecondsToCentimeters(long microseconds) {
+  return microseconds / 29 / 2;
+}
+
+void colorWipe(uint32_t color, int wait) {
+  for (int i = 0; i < strip.numPixels(); i++) { // For each pixel in strip...
+    strip.setPixelColor(i, color);         //  Set pixel's color (in RAM)
+    strip.show();                          //  Update strip to match
+    delay(wait);                           //  Pause for a moment
+  }
+}
+
+{% endhighlight %}
+
+## Lighting up individual words
+I want the individual words in the phrase I'm using to light up sequentially. For this I'm using arrays:
+
+{% highlight cpp %}
+
+const int pingPin = 7; // Trigger Pin of Ultrasonic Sensor
+const int echoPin = 6; // Echo Pin of Ultrasonic Sensor
+int lights_duration = 5000;
+unsigned long previousMillis = 0;
+unsigned long currentMillis = millis();
+
+
+#include <Adafruit_NeoPixel.h>
+#ifdef __AVR__
+#include <avr/power.h> // Required for 16 MHz Adafruit Trinket
+#endif
+
+// Which pin on the Arduino is connected to the NeoPixels?
+// On a Trinket or Gemma we suggest changing this to 1:
+#define LED_PIN    5
+
+// How many NeoPixels are attached to the Arduino?
+#define LED_COUNT 58
+
+// Declare our NeoPixel strip object:
+Adafruit_NeoPixel strip(LED_COUNT, LED_PIN, NEO_GRB + NEO_KHZ800);
+
+uint8_t can[] = {15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27};
+int canCount = 13;
+
+uint8_t use[] = {8, 9, 10, 11, 12, 13, 14, 28, 29, 30, 31, 32, 33};
+int useCount = 13;
+
+uint8_t a[] = {6, 7, 34, 35, 36};
+int aCount = 5;
+
+uint8_t fab[] = {0, 1, 2, 3, 4, 5, 37, 38, 39, 40, 41, 42};
+int fabCount = 12;
+
+uint8_t lab[] = {43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53};
+int labCount = 11;
+
+uint8_t questionmark[] = {54, 55, 56, 57};
+int questionmarkCount = 4;
+
+void setup() {
+  Serial.begin(9600); // Starting Serial Terminal
+#if defined(__AVR_ATtiny85__) && (F_CPU == 16000000)
+  clock_prescale_set(clock_div_1);
+#endif
+  // END of Trinket-specific code.
+
+  strip.begin();           // INITIALIZE NeoPixel strip object (REQUIRED)
+  strip.show();            // Turn OFF all pixels ASAP
+  strip.setBrightness(50); // Set BRIGHTNESS to about 1/5 (max = 255)
+}
+
+void loop() {
+  long duration, cm;
+  pinMode(pingPin, OUTPUT);
+  digitalWrite(pingPin, LOW);
+  delayMicroseconds(2);
+  digitalWrite(pingPin, HIGH);
+  delayMicroseconds(10);
+  digitalWrite(pingPin, LOW);
+  pinMode(echoPin, INPUT);
+  duration = pulseIn(echoPin, HIGH);
+  cm = microsecondsToCentimeters(duration);
+  Serial.print(cm);
+  Serial.print("cm");
+  Serial.println();
+  delay(100);
+  if (cm < 50 && cm > 10) {
+    Serial.println("Neopixels will turn on");
+    colorWipe(strip.Color(255, 0, 0), 50);
+    colorWipe(strip.Color(0, 0, 0), 50);
+  }
+
+  if (cm < 10) {
+    for (int i = 0; i < canCount; i++) {
+      strip.setPixelColor(can[i], 0, 255, 0);
+      strip.show();
+      delay(50);
+    }
+    for (int i = 0; i < useCount; i++) {
+      strip.setPixelColor(use[i], 0, 255, 255);
+      strip.show();
+      delay(50);
+    }
+    for (int i = 0; i < aCount; i++) {
+      strip.setPixelColor(a[i], 255, 255, 0);
+      strip.show();
+      delay(50);
+    }
+    for (int i = 0; i < fabCount; i++) {
+      strip.setPixelColor(fab[i], 0, 0, 255);
+      strip.show();
+      delay(50);
+    }
+    for (int i = 0; i < labCount; i++) {
+      strip.setPixelColor(lab[i], 255, 0, 255);
+      strip.show();
+      delay(50);
+    }
+    for (int i = 0; i < questionmarkCount; i++) {
+      strip.setPixelColor(questionmark[i], 255, 0, 0);
+      strip.show();
+      delay(50);
+    }
+    colorWipe(strip.Color(0, 0, 0), 50);
+    Serial.println("done");
+  }
+}
+
+long microsecondsToCentimeters(long microseconds) {
+  return microseconds / 29 / 2;
+}
+
+void colorWipe(uint32_t color, int wait) {
+  for (int i = 0; i < strip.numPixels(); i++) { // For each pixel in strip...
+    strip.setPixelColor(i, color);         //  Set pixel's color (in RAM)
+    strip.show();                          //  Update strip to match
+    delay(wait);                           //  Pause for a moment
+  }
+}
+
+{% endhighlight %}
+
+After this I wanted to use nicer colors to create more of a gradient. First I just changed the RGB values accordingly but the lights turned out way too bright, so I figured I should try HSV colors instead (also to change the hue of the gradient faster). After some trial and error with the color values my if loop ended up like this:
+
+{% highlight cpp %}
+
+if (cm < 50) {
+    Serial.println("Neopixels will turn on");
+
+    int gradientHue = cm * 1310;            // Color wheel has a range of 65536, mapped over a distance from 0-50 cm here so 0-50cm is 0-65536 > 65536/50=approx 1310
+    for (int i = 0; i < canCount; i++) {
+      strip.setPixelColor(can[i], strip.gamma32(strip.ColorHSV(gradientHue)));
+      strip.show();
+      delay(50);
+    }
+    for (int i = 0; i < useCount; i++) {
+      strip.setPixelColor(use[i], strip.gamma32(strip.ColorHSV(gradientHue + 4000)));
+      strip.show();
+      delay(50);
+    }
+    for (int i = 0; i < aCount; i++) {
+      strip.setPixelColor(a[i], strip.gamma32(strip.ColorHSV(gradientHue + 8000)));
+      strip.show();
+      delay(50);
+    }
+    for (int i = 0; i < fabCount; i++) {
+      strip.setPixelColor(fab[i], strip.gamma32(strip.ColorHSV(gradientHue + 12000)));
+      strip.show();
+      delay(50);
+    }
+    for (int i = 0; i < labCount; i++) {
+      strip.setPixelColor(lab[i], strip.gamma32(strip.ColorHSV(gradientHue + 16000)));
+      strip.show();
+      delay(50);
+    }
+    for (int i = 0; i < questionmarkCount; i++) {
+      strip.setPixelColor(questionmark[i], strip.gamma32(strip.ColorHSV(gradientHue + 20000)));
+      strip.show();
+      delay(50);
+    }
+    colorWipe(strip.Color(0, 0, 0), 50);
+    Serial.println("done");
+  }
+{% endhighlight %}
+
+## FabTinyISP
+Before I started my own board I made a FabTinyISP. Since I'm using an ATTiny85 I have to make it to program this older chip. This board is documented [here](http://fab.cba.mit.edu/classes/863.16/doc/projects/ftsmin/index.html). Also check out [Henk's documentation](https://fabacademy.org/2018/labs/fablabamsterdam/students/henk-buursen/week07.html). 
+
+![]({{ site.baseurl }}/images/fablab/fabisp.jpg)
+
+All components of the board together:
+
+![]({{ site.baseurl }}/images/fablab/fabisp2.jpeg)
+
+Programming the soldered ISP with Henk's ISP:
+![]({{ site.baseurl }}/images/fablab/fabisp3.jpg)
+
+## KiCad designing
+Initially I planned on using an ATTiny412 for my board but since my sketch is over 4kb that won't work. I'm going to be using an ATTiny85 instead since it has 8kb of memory. I need 3 pins: 2 for the motion sensor and 1 for the neopixel strip.
+
+![]({{ site.baseurl }}/images/fablab/ultrasonic_sketch.jpg)
+
+Components on the board:
+- ATTiny85 ([datasheet](https://pdf1.alldatasheet.com/datasheet-pdf/view/174761/ATMEL/ATTINY85.html))
+- HC-SR04
+- Neopixel strip
+- 330 Ohm resistor for neopixels
+- capacitor neopixels: 1000 µF
+- capacitor across power supply (to protect the chip against the initial onflow of electricity): 1uF
+- FTDI pins (for programming the board)
+
+Steps
+1. Open a new project in KiCad (Ctrl+N)
+2. Open schematic layout editor
+3. Place components (use Place > symbol or shift+A). Here I encountered the following error:
+![]({{ site.baseurl }}/images/fablab/ultrasonic_kicad_error.jpg)
+I think I accidentally deleted my kicad libraries when I was cleaning up my computer, so I'm reinstalling the fabacademy library first following the steps [here](https://gitlab.fabcloud.org/pub/libraries/electronics/kicad). Following the steps didn't work properly so instead of adding fab.kicad_sym to the symbol library in step 4 I added fab.lib which worked how it was supposed to.
+
+Next problem: I don't have the footprint for the ATTiny85 so I first had to find it; the one I'm using is the 20SU. I downloaded it from [ultralibrarian](https://app.ultralibrarian.com/details/98483307-109C-11E9-AB3A-0A3560A4CCCC/Microchip/ATTINY85-20SUR?exports=KiCAD&open=exports).
+The footprint in the schematic looked pretty stretched but it should be OK if the actual footprint is correct.
+
+![]({{ site.baseurl }}/images/fablab/attiny85_footprint.jpg)
+
+After this struggle Henk told me the footprint for the ATTiny45 is the same as the ATTiny85 so I could just use the one from the fab library.
+
+While making the project schematic I realized I was one pin short on the ATTiny85 because I didn't take the pins necessary for programming the board into account. So I changed from a ATTiny85 to ATTiny84A because I can also program this with my newly made ISP. In KiCad I'm using the footprint of the ATTiny44 because it's the same as for the chip I'm using now. Below on the left the ATTiny85 (with the footprint of the 45) and on the right the ATTiny84 (with the footprint of the 44).
+
+<div markdown="1" class="row-2">
+![]({{ site.baseurl }}/images/fablab/attiny45.jpg)
+![]({{ site.baseurl }}/images/fablab/attiny84.jpg)
+</div>
+
+### Board
+Pinout of the ATtiny84:
+![attiny84 pinout](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcamo.githubusercontent.com%2Fd46f3f004aaf977040d933ae5eaf25d22d33eac1%2F687474703a2f2f6472617a7a792e636f6d2f652f696d672f50696e6f7574543834612e6a7067&f=1&nofb=1)
+
+Components in EEschema:
+![]({{ site.baseurl }}/images/fablab/us1.jpg)
+
+Annotate schematic:
+![]({{ site.baseurl }}/images/fablab/us2.jpg)
+
+Perform electrical rules check:
+![]({{ site.baseurl }}/images/fablab/us3.jpg)
+We can ignore these errors since I'm going to be powering the board with a 5V power supply. 
+
+Assign footprints encountering the following error:
+![]({{ site.baseurl }}/images/fablab/us4.jpg)
+Since I wasn't quite sure what to do I went back to the documentation for the kicad fab library to check if I did anything wrong, and I saw that I missed that I had to make sure that I had KiCad 6 installed; I'm still running KiCad 5 so i'm first updating KiCad.
+
+In the new version I'm walking through the steps above again where I get this electrical rules warning; I've replaced it now with the polarized capacitor from the fab library but I wasn't not sure if it's the correct one. I checked the 3d view of the pad and then I vaguely remembered that last time I connected the capacitor directly between the wires or with a through hole capacitor instead of on the board because we don't have the polarized SMD capacitors that I need.   
+
+![]({{ site.baseurl }}/images/fablab/us5.jpg)
+
+This time no errors with assigning the footprints, just some footprints that I have to assign manually:
+
+![]({{ site.baseurl }}/images/fablab/us6.jpg)
+
+The last time I added wire connectors all names were different so I picked the ones I thought would still work fine (I was looking for connectors with 0.8mm diameter holes but I could only find 0.9mm so that should also work I guess).
+
+![]({{ site.baseurl }}/images/fablab/footprintassignment.jpg)
+
+
+To quote [Nadieh](https://fabacademy.org/2021/labs/waag/students/nadieh-bremer/blog/week-6/) so I won't forget: "Make sure that the VCC and GND of the microcontroller is connected to the point of power through the capacitor. In this case that meant placing the capacitor in between the lines going from the FTDI to the ATTiny." 
+
 
 ## Sources
 - <https://fabacademy.org/2018/labs/fablabamsterdam/students/henk-buursen/week11.html>

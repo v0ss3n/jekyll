@@ -88,7 +88,7 @@ You gotta program them to use them to program others!!!! Otherwise it’s ‘dea
     ![process of pcb milling and soldering with the Roland Modela]({{ site.baseurl }}/images/fablab/modela/IMG_5872.JPEG)
     </div>
 
-8. Now you start with the traces in mods (PNG); one png at the time. White is the area you want to keep. Put PCB defaults in mm. Cut depth and max depth is 0.003 INCH (numbers from experience); this will cut through the top copper layer.
+8. Now you start with the traces in mods (PNG); one png at the time. White is the area you want to keep. Put PCB defaults in mm. Cut depth and max depth is 0.003 INCH (numbers from experience); this will cut through the top copper layer. UPDATE 15/02/22: NOW IT'S O.OO2 INCH FOR CUT DEPTH AND MAX DEPTH AND THE SPEED IS 4MM/S FOR A 1 FLUTE 0.4MM MILL.
 
     <div markdown="1" class="row-2">
     ![process of pcb milling and soldering with the Roland Modela]({{ site.baseurl }}/images/fablab/modela/IMG_5866.JPEG)
