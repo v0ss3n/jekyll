@@ -119,6 +119,35 @@ As a future note to self: in PlatformIO the blue bar has the buttons you need to
 ## Another update
 So I've removed the BLTouch and returned to regular bed leveling and now everything is fine. I don't think our BLTouch properly functions.
 
+## Heating issues
+After I broke the fan (don't try to put a hex key in a running fan) and replaced it with a brand new one, a new issue arose: "Heating Failed: E1 Printer Halted Please Reset"
+
+difference of about 30 degrees celsius in measuring hot end
+
+removed fan:
+measuring 150 > 180 on screen
+measuring 120 > 150 on screen
+measuring 170 > 200 on screen
+measuring 180 > 210 on screen
+measuring 185 > 220 on screen
+measuring 198 > 230 on screen
+measuring 206 > 240 on screen
+
+
+heated bed:
+measuring 67 > 60 on screen
+
+only error when fans are connected
+
+https://forums.creality3dofficial.com/community/troubleshootingprinting-help/heating-failed-e1-printer-halted-please-reset/
+https://reprap.org/forum/read.php?262,866341
+
+Checked:
+- Thermistor not making good contact with heater block.
+- Heating element not firmly attached to control board (loose screws)
+
+- Everything works fine until 220 degrees
+
 ## Links
 - <https://github.com/bigtreetech/BIGTREETECH-SKR-mini-E3/blob/master/hardware/BTT%20SKR%20MINI%20E3%20V2.0/Hardware/BTT%20SKR%20MINI%20E3%20V2.0%20Instruction%20Manual.pdf>
 - <https://linsomniac.gitlab.io/post/2020-06-20-ender3-pro-skr-v2_0-bltouch-upgrade/>

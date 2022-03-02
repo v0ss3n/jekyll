@@ -352,6 +352,12 @@ To quote [Nadieh](https://fabacademy.org/2021/labs/waag/students/nadieh-bremer/b
 
 ![]({{ site.baseurl }}/images/fablab/ultrasonic_ratsnest.jpg)
 
+Net Classes (board setup)
+![]({{ site.baseurl }}/images/fablab/us_netclasses.jpg)
+
+Tries:
+![]({{ site.baseurl }}/images/fablab/us7.jpg)
+
 
 ## Sources
 - <https://fabacademy.org/2018/labs/fablabamsterdam/students/henk-buursen/week11.html>
