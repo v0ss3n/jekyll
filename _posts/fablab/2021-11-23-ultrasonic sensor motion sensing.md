@@ -291,7 +291,7 @@ Components on the board:
 - HC-SR04
 - Neopixel strip
 - 330 Ohm resistor for neopixels
-- capacitor neopixels: 1000 µF
+- capacitor neopixels: 1000 uF (uF is the same as µF, microfarad)
 - capacitor across power supply (to protect the chip against the initial onflow of electricity): 1uF
 - FTDI pins (for programming the board)
 
@@ -356,7 +356,19 @@ Net Classes (board setup)
 ![]({{ site.baseurl }}/images/fablab/us_netclasses.jpg)
 
 Tries:
+<div markdown="1" class="row-2">
 ![]({{ site.baseurl }}/images/fablab/us7.jpg)
+![]({{ site.baseurl }}/images/fablab/us7-1.jpg)
+</div>
+
+After this Henk told me I could use an electrolytic capacitor of 100uF for the neopixel (that we have in stock), so I replaced the footprint of the capacitor with that one and started over again. I couldn't find the footprint in the fab library so I picked this one:
+
+![]({{ site.baseurl }}/images/fablab/us8.jpg)
+
+At this point I've started over many times already with manual routing, so I want to try autorouting to save me time.
+Download Layout Editor [here](https://layouteditor.com/download), then localize the freerouting.jar file in the installed folder.
+
+![]({{ site.baseurl }}/images/fablab/freerouting.jpg)
 
 
 ## Sources
