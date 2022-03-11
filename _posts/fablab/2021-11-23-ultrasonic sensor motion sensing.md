@@ -366,9 +366,15 @@ After this Henk told me I could use an electrolytic capacitor of 100uF for the n
 ![]({{ site.baseurl }}/images/fablab/us8.jpg)
 
 At this point I've started over many times already with manual routing, so I want to try autorouting to save me time.
-Download Layout Editor [here](https://layouteditor.com/download), then localize the freerouting.jar file in the installed folder.
+I'm following [these](https://freerouting.org/freerouting/using-with-kicad) steps. Download Layout Editor [here](https://layouteditor.com/download), then localize the freerouting.jar file in the installed folder and start it ([download Java Runtime Environment first](https://www.oracle.com/java/technologies/downloads/)). Make sure you exported your PCB layout to a DSN file so you can import it here.
 
 ![]({{ site.baseurl }}/images/fablab/freerouting.jpg)
+
+![]({{ site.baseurl }}/images/fablab/us9.jpg)
+
+Doesn't seem to load right:
+![]({{ site.baseurl }}/images/fablab/us10.jpg)
+
 
 
 ## Sources
