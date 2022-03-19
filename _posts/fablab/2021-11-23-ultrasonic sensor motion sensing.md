@@ -270,6 +270,8 @@ if (cm < 50) {
 {% endhighlight %}
 
 ## FabTinyISP
+
+![fabtinyisp](http://fab.cba.mit.edu/classes/863.16/doc/projects/ftsmin/pcb.png)
 Before I started my own board I made a FabTinyISP. Since I'm using an ATTiny85 I have to make it to program this older chip. This board is documented [here](http://fab.cba.mit.edu/classes/863.16/doc/projects/ftsmin/index.html). Also check out [Henk's documentation](https://fabacademy.org/2018/labs/fablabamsterdam/students/henk-buursen/week07.html). 
 
 ![]({{ site.baseurl }}/images/fablab/fabisp.jpg)
@@ -375,8 +377,44 @@ I'm following [these](https://freerouting.org/freerouting/using-with-kicad) step
 Doesn't seem to load right:
 ![]({{ site.baseurl }}/images/fablab/us10.jpg)
 
+I couldn't find out what was going wrong here after restarting and looking online, so I parked it and went back to manual routing. I got the advice to use a ground pour (make a shape, right click, create zone from selection and set it to GND), you can update it with Shift + B. In the end I managed to get everything connected but the GND in one place so I added a 0 Ohm resistor in the schematic so I could make a bridge.
+
+![]({{ site.baseurl }}/images/fablab/us11.jpg)
+
+## Milling and soldering
+- First time failed because I didn't put resolution as 1000 DPI so it ended up being a mess. Second time went smoothly. In the meantime I changed my code slightly because I added some neopixels at the start of the strip, which meant that I had to change all of my arrays. Luckily I added 10 neopixels so changing the numbers was easy. 
+
+## Programming the ATtiny84
+I've never programmed with a ISP programmer before, so I need to figure out how to do that first. My windows computer is also not great with discovering my programmer to begin with so I'll just have to see as I go. 
 
 
+First I have to download the correct boards to ATTiny in the Arduino IDE: Preferences > Additional Boards Manager URLs and paste https://raw.githubusercontent.com/damellis/attiny/ide-1.6.x-boards-manager/package_damellis_attiny_index.json. Then go to Tools > Board > Boards Manager and type attiny, then install. You can then select the correct attiny from the boards list. I selected the ATtiny84 with an internal 8MHz clock because I found that value in the datasheet. Set programmer to USBtinyISP.
+
+First error:
+“Serial was not declared in this scope”
+Serial like this doesn't exist on the attiny84/85, so I need to use the correct equivalent which is SoftwareSerial or not use it at all. I decided to just get rid of it because I don't need it for my actual board.
+
+Second error:
+avrdude: initialization failed, rc=-1
+         Double check connections and try again, or use -F to override
+         this check.
+
+![]({{ site.baseurl }}/images/fablab/us12.jpg)
+![]({{ site.baseurl }}/images/fablab/us13.jpg)
+
+Henk told me to check my circuits for shorts, which I found; something went wrong with milling, causing my vcc and ground to be connected in the corner; and the big capacitor I accidentally over-soldered the vcc side to the ground as well.
+
+
+<http://fab.cba.mit.edu/classes/863.18/Harvard/people/david/week7_programming.html>
+
+5 volt adapter amperage needs:
+
+To estimate power supply needs, multiply the number of pixels by 20, then divide the result by 1,000 for the “rule of thumb” power supply rating in Amps. Or use 60 (instead of 20) if you want to guarantee an absolute margin of safety for all situations. For example:
+
+60 NeoPixels × 20 mA ÷ 1,000 = 1.2 Amps minimum
+60 NeoPixels × 60 mA ÷ 1,000 = 3.6 Amps minimum
+
+[source](https://learn.adafruit.com/adafruit-neopixel-uberguide/powering-neopixels)
 ## Sources
 - <https://fabacademy.org/2018/labs/fablabamsterdam/students/henk-buursen/week11.html>
 - <https://www.tutorialspoint.com/arduino/arduino_ultrasonic_sensor.htm>
