@@ -415,6 +415,22 @@ To estimate power supply needs, multiply the number of pixels by 20, then divide
 60 NeoPixels × 60 mA ÷ 1,000 = 3.6 Amps minimum
 
 [source](https://learn.adafruit.com/adafruit-neopixel-uberguide/powering-neopixels)
+
+
+Internal clock: http://highlowtech.org/?p=1695
+
+## Notes on programming the attiny84
+- kept getting the error 'initialization failed, check connections', so I couldn't program the board; I kept checking my connections but everything was fine, but of course in the end it was my connections.
+- after that I could program the board with my programmer, but now my board that was soldered and checked thoroughly again still didn't work; the chip was programmed with the program and with a regular strandtest but nothing worked (except that sometimes the first neopixel would light up green)
+- I replaced the power adapter, removed the neopixel capacitor (the electrolyted one), removed the ultrasonic sensor again, replaced the 470 ohm resistor with a 390 ohm one (and checked connection after every move), but it didn't help
+- Then I added a regular LED (with some wires hanging around) and uploaded the blink test, which did work just fine, also with the power supply, so the problem isn't that
+
+- <https://www.avrfreaks.net/forum/help-controlling-neopixel-ws2812b-attiny84>
+> adding a 16mhz crystal oscillator
+IT  WORKS FINALLY SO THAT WAS THE ISSUE
+
+Then the next problem was that the neopixels would just all turn on bright white no matter the input; when connected to the power supply at least it would be less bright and only the selected neopixels would turn on (so if I said there were 60 instead of 68 they turn all on connected to my programmer, but when only powered by my power supply of 5 volt it would be fine). I found online (<https://blog.adafruit.com/2016/10/28/tips-for-troubleshooting-neopixel-glitches/>) that it's probably because my power supply is too close to 4,7V (even higher) and my chip works better with 3.3V (but it's 5.5V tolerant). However this wasn't the issue according to Henk and it didn't really make a lot of sense anyway since I hadn't had issues with the previous Neopixel project like this. A bit more googling brought me to [this](https://arduino.stackexchange.com/questions/77165/ws2812b-are-only-white-on-custom-board#:~:text=It%20is%20common%20if%20the,running%20at%20half%20the%20speed.) stackexchange answer which turned out to be exactly what I was looking for. All I had to do was burn bootloader again with the new clock speed of 16Mhz and then upload. Then it works as expected!
+
 ## Sources
 - <https://fabacademy.org/2018/labs/fablabamsterdam/students/henk-buursen/week11.html>
 - <https://www.tutorialspoint.com/arduino/arduino_ultrasonic_sensor.htm>

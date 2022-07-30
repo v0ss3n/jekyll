@@ -44,7 +44,6 @@ As of the end of 2020, Henk has upgraded the laser's board. We now use [Lightbur
 - Organza is nice (synthetic)
 - Use wet paper on fabric so it won't move as much (you can also spray the fabric itself but when lasercutting large files this may dry up in the middle of your job)
 - Cutting fabric using engraving for BMP's: 500 speed, 80 power (I used this setting for most medium weight/thickness fabrics like a cotton twill and a polyester jersey)
-- When engraving wool and the 
 
 ## Acrylic
 - Cutting 10mm thick perspex: 5 speed, 100 power

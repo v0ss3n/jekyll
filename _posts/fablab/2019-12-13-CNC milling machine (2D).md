@@ -67,11 +67,11 @@ Important:
 
 Before turning on the machine you have to prepare your material. Clean the bed, sand if necessary (otherwise it may not be level), align and screw the material to the underlying board (taking your file into account with the placement of the screws). When using foam, add double sided tape to the bottom of the material and stick it to the bed. Use two boards of wood to create a perpendicular angle, place the foam and use two more boards to surround the foam. This is because when it's just taped the foam may come loose, ruining the whole model. 
 
-Lower the skirt by loosening the butterfly nut at the back of the machine head, Then grab the collet, nut and milling bit. First put the nut in the collet (you have to feel a click), then screw them in place using the wrench and plier. Then put in the milling bit and tighten everything very well and put the skirt back. 
+Lower the skirt by loosening the butterfly nut at the back of the machine head, Then grab the collet, nut and milling bit. First put the collet in the nut (you have to feel a click), then the milling bit in the collet. Then tighten using the wrench and plier and put the skirt back. 
 
 ![]({{ site.baseurl }}/images/fablab/cnc/cnc-prepare2.jpg)
 
-Open the Shopbot software before turning on the machine (otherwise there is no connection). After entering the keypad you can move the mill with the arrows in the keypad or the left arrow, right arrow, pgDown and pgUp. 
+Turn on the machine before opening the Shopbot software (otherwise there is no connection). After entering the keypad you can move the mill with the arrows in the keypad or the left arrow, right arrow, pgDown and pgUp. 
 
 ![]({{ site.baseurl }}/images/fablab/cnc/cnc-move.png)
 

@@ -16,3 +16,7 @@ A list of open source software that I like to use.
 
 ## Web Development
 - [Jekyll](https://jekyllrb.com/): in combination with markdown, this website is generated with Jekyll
+
+- [Zint Barcode Studio](https://www.zint.org.uk/): to create QR codes and other codes
+
+- [Box generators](https://www.festi.info/boxes.py/)

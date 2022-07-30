@@ -46,7 +46,7 @@ How to set up the machine:
     <video width="480" height="300" controls>
     <source src="{{ site.baseurl }}/images/fablab/resin_printing/setting_up_machine.MP4" type="video/mp4">
     </video>
-
+    
 6. For the first couple of layers you can't see anything since the print is still submerged in the resin. You can see on the screen what layer is being printed. If you want to check on your model you can pause the print, which will lift the build plate so you can see what's been printed so far.
 7. Once the print is done, you can take off the entire build plate including your print and submerge it in alcohol isopropyl in a container for the Mercury Plus. This is to wash everything; the tutorial I'm following says to take off the model before doing this to wash it separately, but submerging everything is the way Henk showed me. With bigger models it's probably best to take the model off first. Place the entire container on the plate of the Mercury, set mode to water rotation (the icon with the two rotating droplets) and set the time to 5 minutes. 
     <div markdown="1" class="row-2">

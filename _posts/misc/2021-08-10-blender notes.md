@@ -116,6 +116,17 @@ Multiresolution: great for sculpting
 
 Sculpt: click and drag, remove: ctrl + click and drag. Smooth brush is a great one.
 
+## Extruding SVGs
+1. Import SVG
+2. Select all > CTRL + J (join) so separate curve objects become one
+3. Scale if necessary
+4. Convert to mesh
+5. Go to edit mode (tab) > modifiers and select solidify, then apply
+6. Then add remesh modifier, I used the following settings:
+
+![]({{ site.baseurl }}/images/misc/blender/blender_remesh.jpg)
+
 
 ## Links
 - <http://feadi.de/>: Blender tutorial section
+- <https://www.youtube.com/watch?v=7ZDwMzjVBi0>

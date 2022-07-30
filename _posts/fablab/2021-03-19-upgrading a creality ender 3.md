@@ -148,8 +148,13 @@ Checked:
 
 - Everything works fine until 220 degrees
 
+## More troubleshooting
+- Keep this in mind: in normal print conditions wall thickness should be directly related to the nozzle size, so if you have a 0.4mm nozzle the wall thickness should be a multiple of this: 0.4, 0.8, 1.2 and so forth.
+
+
 ## Links
 - <https://github.com/bigtreetech/BIGTREETECH-SKR-mini-E3/blob/master/hardware/BTT%20SKR%20MINI%20E3%20V2.0/Hardware/BTT%20SKR%20MINI%20E3%20V2.0%20Instruction%20Manual.pdf>
 - <https://linsomniac.gitlab.io/post/2020-06-20-ender3-pro-skr-v2_0-bltouch-upgrade/>
 - <https://3dprinting.stackexchange.com/questions/10345/bltouch-probing-fails-intermittently>
 - <https://kay3d.com/pages/the-correct-way-to-configure-a-bltouch>
+- <https://all3dp.com/1/common-3d-printing-problems-troubleshooting-3d-printer-issues>
